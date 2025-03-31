@@ -1,0 +1,842 @@
+{
+    "P041": {
+        "bfi": {
+            "Extraversion": 4.0,
+            "Agreeableness": 2.0,
+            "Conscientiousness": 3.5,
+            "Neuroticism": 2.0,
+            "Openness": 3.5
+        },
+        "pvq": {
+            "Conformity": -0.4761904761904763,
+            "Tradition": -1.4761904761904763,
+            "Benevolence": -1.4761904761904763,
+            "Universalism": -0.14285714285714293,
+            "Self_Direction": 0.5238095238095237,
+            "Stimulation": -0.4761904761904763,
+            "Hedonism": -0.4761904761904763,
+            "Achievement": 0.5238095238095237,
+            "Power": 2.0238095238095237,
+            "Security": 1.5238095238095237
+        }
+    },
+    "P042": {
+        "bfi": {
+            "Extraversion": 2.0,
+            "Agreeableness": 4.0,
+            "Conscientiousness": 3.5,
+            "Neuroticism": 4.5,
+            "Openness": 2.0
+        },
+        "pvq": {
+            "Conformity": 1.2142857142857144,
+            "Tradition": 1.7142857142857144,
+            "Benevolence": 1.7142857142857144,
+            "Universalism": -0.9523809523809522,
+            "Self_Direction": 0.2142857142857144,
+            "Stimulation": -0.7857142857142856,
+            "Hedonism": 1.2142857142857144,
+            "Achievement": -2.2857142857142856,
+            "Power": -2.7857142857142856,
+            "Security": 1.2142857142857144
+        }
+    },
+    "P043": {
+        "bfi": {
+            "Extraversion": 2.0,
+            "Agreeableness": 3.0,
+            "Conscientiousness": 3.0,
+            "Neuroticism": 2.5,
+            "Openness": 3.5
+        },
+        "pvq": {
+            "Conformity": 0.35714285714285676,
+            "Tradition": 0.35714285714285676,
+            "Benevolence": 0.35714285714285676,
+            "Universalism": 0.1904761904761901,
+            "Self_Direction": -0.14285714285714324,
+            "Stimulation": -0.14285714285714324,
+            "Hedonism": -0.6428571428571432,
+            "Achievement": -0.6428571428571432,
+            "Power": -0.6428571428571432,
+            "Security": 0.8571428571428568
+        }
+    },
+    "P044": {
+        "bfi": {
+            "Extraversion": 2.0,
+            "Agreeableness": 4.5,
+            "Conscientiousness": 4.0,
+            "Neuroticism": 3.5,
+            "Openness": 3.5
+        },
+        "pvq": {
+            "Conformity": -1.3571428571428568,
+            "Tradition": -0.8571428571428568,
+            "Benevolence": 0.6428571428571432,
+            "Universalism": -0.1904761904761901,
+            "Self_Direction": 0.6428571428571432,
+            "Stimulation": 0.14285714285714324,
+            "Hedonism": -0.35714285714285676,
+            "Achievement": 0.6428571428571432,
+            "Power": 1.1428571428571432,
+            "Security": -0.35714285714285676
+        }
+    },
+    "P045": {
+        "bfi": {
+            "Extraversion": 3.0,
+            "Agreeableness": 3.0,
+            "Conscientiousness": 3.5,
+            "Neuroticism": 3.0,
+            "Openness": 3.0
+        },
+        "pvq": {
+            "Conformity": 0.7619047619047619,
+            "Tradition": -0.23809523809523814,
+            "Benevolence": 0.26190476190476186,
+            "Universalism": 0.42857142857142855,
+            "Self_Direction": 0.7619047619047619,
+            "Stimulation": -0.23809523809523814,
+            "Hedonism": -0.23809523809523814,
+            "Achievement": -1.2380952380952381,
+            "Power": -1.2380952380952381,
+            "Security": 0.7619047619047619
+        }
+    },
+    "P046": {
+        "bfi": {
+            "Extraversion": 3.5,
+            "Agreeableness": 3.0,
+            "Conscientiousness": 2.5,
+            "Neuroticism": 2.5,
+            "Openness": 2.5
+        },
+        "pvq": {
+            "Conformity": -0.3571428571428572,
+            "Tradition": -0.8571428571428572,
+            "Benevolence": 0.6428571428571428,
+            "Universalism": 0.4761904761904761,
+            "Self_Direction": -0.3571428571428572,
+            "Stimulation": 0.6428571428571428,
+            "Hedonism": -1.3571428571428572,
+            "Achievement": 0.1428571428571428,
+            "Power": 0.1428571428571428,
+            "Security": 0.6428571428571428
+        }
+    },
+    "P047": {
+        "bfi": {
+            "Extraversion": 3.0,
+            "Agreeableness": 4.0,
+            "Conscientiousness": 4.5,
+            "Neuroticism": 2.0,
+            "Openness": 4.5
+        },
+        "pvq": {
+            "Conformity": -0.8809523809523814,
+            "Tradition": 1.1190476190476186,
+            "Benevolence": 1.6190476190476186,
+            "Universalism": 1.2857142857142854,
+            "Self_Direction": 1.6190476190476186,
+            "Stimulation": -1.3809523809523814,
+            "Hedonism": -2.3809523809523814,
+            "Achievement": -0.3809523809523814,
+            "Power": -0.8809523809523814,
+            "Security": -0.3809523809523814
+        }
+    },
+    "P048": {
+        "bfi": {
+            "Extraversion": 2.5,
+            "Agreeableness": 4.5,
+            "Conscientiousness": 4.0,
+            "Neuroticism": 1.5,
+            "Openness": 4.0
+        },
+        "pvq": {
+            "Conformity": 0.33333333333333304,
+            "Tradition": 0.33333333333333304,
+            "Benevolence": 0.33333333333333304,
+            "Universalism": -0.666666666666667,
+            "Self_Direction": -0.16666666666666696,
+            "Stimulation": 0.33333333333333304,
+            "Hedonism": -0.666666666666667,
+            "Achievement": -0.16666666666666696,
+            "Power": 0.33333333333333304,
+            "Security": 0.33333333333333304
+        }
+    },
+    "P049": {
+        "bfi": {
+            "Extraversion": 2.5,
+            "Agreeableness": 5.0,
+            "Conscientiousness": 4.5,
+            "Neuroticism": 1.5,
+            "Openness": 3.5
+        },
+        "pvq": {
+            "Conformity": -0.16666666666666696,
+            "Tradition": 0.33333333333333304,
+            "Benevolence": 0.33333333333333304,
+            "Universalism": 0.33333333333333304,
+            "Self_Direction": 0.33333333333333304,
+            "Stimulation": -0.16666666666666696,
+            "Hedonism": -1.666666666666667,
+            "Achievement": 0.833333333333333,
+            "Power": -0.16666666666666696,
+            "Security": -0.16666666666666696
+        }
+    },
+    "P050": {
+        "bfi": {
+            "Extraversion": 2.0,
+            "Agreeableness": 4.0,
+            "Conscientiousness": 4.0,
+            "Neuroticism": 3.0,
+            "Openness": 3.5
+        },
+        "pvq": {
+            "Conformity": -1.0,
+            "Tradition": -0.5,
+            "Benevolence": 0.0,
+            "Universalism": 0.0,
+            "Self_Direction": 0.5,
+            "Stimulation": 0.0,
+            "Hedonism": 0.5,
+            "Achievement": 0.0,
+            "Power": 0.0,
+            "Security": 0.5
+        }
+    },
+    "P051": {
+        "bfi": {
+            "Extraversion": 1.5,
+            "Agreeableness": 2.5,
+            "Conscientiousness": 5.0,
+            "Neuroticism": 2.5,
+            "Openness": 4.0
+        },
+        "pvq": {
+            "Conformity": -1.095238095238095,
+            "Tradition": -0.0952380952380949,
+            "Benevolence": 0.9047619047619051,
+            "Universalism": 1.2380952380952384,
+            "Self_Direction": 0.9047619047619051,
+            "Stimulation": -0.0952380952380949,
+            "Hedonism": -0.5952380952380949,
+            "Achievement": -2.095238095238095,
+            "Power": 1.404761904761905,
+            "Security": -1.095238095238095
+        }
+    },
+    "P052": {
+        "bfi": {
+            "Extraversion": 1.5,
+            "Agreeableness": 3.5,
+            "Conscientiousness": 3.5,
+            "Neuroticism": 3.5,
+            "Openness": 3.5
+        },
+        "pvq": {
+            "Conformity": 0.5238095238095237,
+            "Tradition": 0.023809523809523725,
+            "Benevolence": 0.023809523809523725,
+            "Universalism": -0.4761904761904763,
+            "Self_Direction": 1.5238095238095237,
+            "Stimulation": -0.9761904761904763,
+            "Hedonism": -0.4761904761904763,
+            "Achievement": -0.9761904761904763,
+            "Power": 0.023809523809523725,
+            "Security": 1.0238095238095237
+        }
+    },
+    "P053": {
+        "bfi": {
+            "Extraversion": 2.0,
+            "Agreeableness": 2.5,
+            "Conscientiousness": 4.0,
+            "Neuroticism": 2.5,
+            "Openness": 3.0
+        },
+        "pvq": {
+            "Conformity": 0.23809523809523814,
+            "Tradition": 0.7380952380952381,
+            "Benevolence": 0.23809523809523814,
+            "Universalism": -0.7619047619047619,
+            "Self_Direction": -0.26190476190476186,
+            "Stimulation": -0.26190476190476186,
+            "Hedonism": 0.7380952380952381,
+            "Achievement": -1.2619047619047619,
+            "Power": 0.7380952380952381,
+            "Security": 0.23809523809523814
+        }
+    },
+    "P054": {
+        "bfi": {
+            "Extraversion": 3.0,
+            "Agreeableness": 3.0,
+            "Conscientiousness": 4.0,
+            "Neuroticism": 1.5,
+            "Openness": 2.5
+        },
+        "pvq": {
+            "Conformity": 0.6904761904761907,
+            "Tradition": -0.3095238095238093,
+            "Benevolence": -0.3095238095238093,
+            "Universalism": 1.1904761904761907,
+            "Self_Direction": 1.1904761904761907,
+            "Stimulation": -0.3095238095238093,
+            "Hedonism": -1.8095238095238093,
+            "Achievement": -0.8095238095238093,
+            "Power": -0.8095238095238093,
+            "Security": 0.6904761904761907
+        }
+    },
+    "P055": {
+        "bfi": {
+            "Extraversion": 3.0,
+            "Agreeableness": 5.0,
+            "Conscientiousness": 5.0,
+            "Neuroticism": 1.0,
+            "Openness": 3.0
+        },
+        "pvq": {
+            "Conformity": 0.23809523809523814,
+            "Tradition": 0.23809523809523814,
+            "Benevolence": 0.23809523809523814,
+            "Universalism": 0.23809523809523814,
+            "Self_Direction": 0.23809523809523814,
+            "Stimulation": -2.261904761904762,
+            "Hedonism": 0.23809523809523814,
+            "Achievement": 0.23809523809523814,
+            "Power": 0.23809523809523814,
+            "Security": 0.23809523809523814
+        }
+    },
+    "P056": {
+        "bfi": {
+            "Extraversion": 3.0,
+            "Agreeableness": 3.5,
+            "Conscientiousness": 4.0,
+            "Neuroticism": 4.5,
+            "Openness": 4.5
+        },
+        "pvq": {
+            "Conformity": 0.0952380952380949,
+            "Tradition": 0.0952380952380949,
+            "Benevolence": 1.095238095238095,
+            "Universalism": 0.4285714285714282,
+            "Self_Direction": 0.5952380952380949,
+            "Stimulation": -0.4047619047619051,
+            "Hedonism": -1.404761904761905,
+            "Achievement": 0.0952380952380949,
+            "Power": -0.9047619047619051,
+            "Security": 0.0952380952380949
+        }
+    },
+    "P057": {
+        "bfi": {
+            "Extraversion": 2.0,
+            "Agreeableness": 3.5,
+            "Conscientiousness": 5.0,
+            "Neuroticism": 1.0,
+            "Openness": 4.0
+        },
+        "pvq": {
+            "Conformity": -0.8571428571428572,
+            "Tradition": -0.3571428571428572,
+            "Benevolence": 1.1428571428571428,
+            "Universalism": 2.142857142857143,
+            "Self_Direction": 1.6428571428571428,
+            "Stimulation": -0.8571428571428572,
+            "Hedonism": 0.1428571428571428,
+            "Achievement": -2.857142857142857,
+            "Power": -2.857142857142857,
+            "Security": 1.6428571428571428
+        }
+    },
+    "P058": {
+        "bfi": {
+            "Extraversion": 2.5,
+            "Agreeableness": 3.0,
+            "Conscientiousness": 2.5,
+            "Neuroticism": 2.5,
+            "Openness": 2.5
+        },
+        "pvq": {
+            "Conformity": -0.5476190476190474,
+            "Tradition": -0.04761904761904745,
+            "Benevolence": 0.45238095238095255,
+            "Universalism": -0.38095238095238076,
+            "Self_Direction": 0.45238095238095255,
+            "Stimulation": -0.04761904761904745,
+            "Hedonism": 0.45238095238095255,
+            "Achievement": -0.04761904761904745,
+            "Power": -0.04761904761904745,
+            "Security": -0.04761904761904745
+        }
+    },
+    "P059": {
+        "bfi": {
+            "Extraversion": 2.0,
+            "Agreeableness": 2.5,
+            "Conscientiousness": 2.5,
+            "Neuroticism": 3.0,
+            "Openness": 3.0
+        },
+        "pvq": {
+            "Conformity": 0.2142857142857144,
+            "Tradition": -0.2857142857142856,
+            "Benevolence": 0.2142857142857144,
+            "Universalism": 0.3809523809523811,
+            "Self_Direction": 0.7142857142857144,
+            "Stimulation": -0.7857142857142856,
+            "Hedonism": -0.2857142857142856,
+            "Achievement": -0.7857142857142856,
+            "Power": 0.7142857142857144,
+            "Security": -0.2857142857142856
+        }
+    },
+    "P060": {
+        "bfi": {
+            "Extraversion": 3.5,
+            "Agreeableness": 3.0,
+            "Conscientiousness": 3.0,
+            "Neuroticism": 3.0,
+            "Openness": 3.0
+        },
+        "pvq": {
+            "Conformity": -0.16666666666666696,
+            "Tradition": 0.33333333333333304,
+            "Benevolence": -0.16666666666666696,
+            "Universalism": -2.9605947323337506e-16,
+            "Self_Direction": 0.33333333333333304,
+            "Stimulation": 0.33333333333333304,
+            "Hedonism": -0.16666666666666696,
+            "Achievement": -0.16666666666666696,
+            "Power": -0.16666666666666696,
+            "Security": -0.16666666666666696
+        }
+    },
+    "P061": {
+        "bfi": {
+            "Extraversion": 1.0,
+            "Agreeableness": 3.0,
+            "Conscientiousness": 5.0,
+            "Neuroticism": 1.5,
+            "Openness": 4.5
+        },
+        "pvq": {
+            "Conformity": -0.6190476190476191,
+            "Tradition": 0.8809523809523809,
+            "Benevolence": -0.6190476190476191,
+            "Universalism": 0.047619047619047596,
+            "Self_Direction": 0.38095238095238093,
+            "Stimulation": 0.8809523809523809,
+            "Hedonism": 0.38095238095238093,
+            "Achievement": 0.38095238095238093,
+            "Power": -0.11904761904761907,
+            "Security": -1.619047619047619
+        }
+    },
+    "P062": {
+        "bfi": {
+            "Extraversion": 5.0,
+            "Agreeableness": 4.5,
+            "Conscientiousness": 3.5,
+            "Neuroticism": 1.5,
+            "Openness": 5.0
+        },
+        "pvq": {
+            "Conformity": -1.5714285714285716,
+            "Tradition": -1.0714285714285716,
+            "Benevolence": 1.4285714285714284,
+            "Universalism": 0.09523809523809505,
+            "Self_Direction": 2.4285714285714284,
+            "Stimulation": -2.0714285714285716,
+            "Hedonism": 0.4285714285714284,
+            "Achievement": 0.4285714285714284,
+            "Power": -1.0714285714285716,
+            "Security": 0.9285714285714284
+        }
+    },
+    "P063": {
+        "bfi": {
+            "Extraversion": 3.5,
+            "Agreeableness": 5.0,
+            "Conscientiousness": 5.0,
+            "Neuroticism": 1.0,
+            "Openness": 4.5
+        },
+        "pvq": {
+            "Conformity": 0.666666666666667,
+            "Tradition": 0.666666666666667,
+            "Benevolence": 1.166666666666667,
+            "Universalism": 1.0000000000000002,
+            "Self_Direction": 0.666666666666667,
+            "Stimulation": 0.16666666666666696,
+            "Hedonism": -0.833333333333333,
+            "Achievement": -2.333333333333333,
+            "Power": -3.333333333333333,
+            "Security": 1.666666666666667
+        }
+    },
+    "P064": {
+        "bfi": {
+            "Extraversion": 5.0,
+            "Agreeableness": 3.5,
+            "Conscientiousness": 5.0,
+            "Neuroticism": 2.0,
+            "Openness": 3.0
+        },
+        "pvq": {
+            "Conformity": 0.833333333333333,
+            "Tradition": -1.166666666666667,
+            "Benevolence": -0.16666666666666696,
+            "Universalism": -2.9605947323337506e-16,
+            "Self_Direction": 0.833333333333333,
+            "Stimulation": -0.666666666666667,
+            "Hedonism": -1.166666666666667,
+            "Achievement": 0.833333333333333,
+            "Power": -0.666666666666667,
+            "Security": 1.333333333333333
+        }
+    },
+    "P065": {
+        "bfi": {
+            "Extraversion": 3.0,
+            "Agreeableness": 4.5,
+            "Conscientiousness": 3.5,
+            "Neuroticism": 2.5,
+            "Openness": 3.5
+        },
+        "pvq": {
+            "Conformity": -0.6904761904761907,
+            "Tradition": 0.3095238095238093,
+            "Benevolence": -0.1904761904761907,
+            "Universalism": -0.1904761904761907,
+            "Self_Direction": 0.3095238095238093,
+            "Stimulation": 0.3095238095238093,
+            "Hedonism": 0.8095238095238093,
+            "Achievement": 0.3095238095238093,
+            "Power": -1.1904761904761907,
+            "Security": 0.3095238095238093
+        }
+    },
+    "P066": {
+        "bfi": {
+            "Extraversion": 2.5,
+            "Agreeableness": 4.5,
+            "Conscientiousness": 4.5,
+            "Neuroticism": 3.0,
+            "Openness": 5.0
+        },
+        "pvq": {
+            "Conformity": 0.7619047619047619,
+            "Tradition": 0.7619047619047619,
+            "Benevolence": 1.2619047619047619,
+            "Universalism": 1.7619047619047619,
+            "Self_Direction": 1.7619047619047619,
+            "Stimulation": -3.238095238095238,
+            "Hedonism": -1.7380952380952381,
+            "Achievement": -1.2380952380952381,
+            "Power": -2.238095238095238,
+            "Security": 1.2619047619047619
+        }
+    },
+    "P067": {
+        "bfi": {
+            "Extraversion": 3.0,
+            "Agreeableness": 4.5,
+            "Conscientiousness": 4.5,
+            "Neuroticism": 4.0,
+            "Openness": 3.5
+        },
+        "pvq": {
+            "Conformity": -1.8095238095238093,
+            "Tradition": 1.1904761904761907,
+            "Benevolence": 0.1904761904761907,
+            "Universalism": 1.1904761904761907,
+            "Self_Direction": 0.6904761904761907,
+            "Stimulation": 0.6904761904761907,
+            "Hedonism": 0.6904761904761907,
+            "Achievement": -0.3095238095238093,
+            "Power": -3.3095238095238093,
+            "Security": 0.1904761904761907
+        }
+    },
+    "P068": {
+        "bfi": {
+            "Extraversion": 1.0,
+            "Agreeableness": 1.5,
+            "Conscientiousness": 4.5,
+            "Neuroticism": 4.0,
+            "Openness": 3.0
+        },
+        "pvq": {
+            "Conformity": 0.04761904761904745,
+            "Tradition": 0.5476190476190474,
+            "Benevolence": 2.0476190476190474,
+            "Universalism": 1.7142857142857142,
+            "Self_Direction": 1.0476190476190474,
+            "Stimulation": -1.9523809523809526,
+            "Hedonism": -1.4523809523809526,
+            "Achievement": -2.4523809523809526,
+            "Power": -1.9523809523809526,
+            "Security": 1.5476190476190474
+        }
+    },
+    "P069": {
+        "bfi": {
+            "Extraversion": 3.5,
+            "Agreeableness": 4.0,
+            "Conscientiousness": 4.5,
+            "Neuroticism": 1.0,
+            "Openness": 5.0
+        },
+        "pvq": {
+            "Conformity": -0.6190476190476191,
+            "Tradition": 0.38095238095238093,
+            "Benevolence": 1.380952380952381,
+            "Universalism": 1.7142857142857142,
+            "Self_Direction": 0.8809523809523809,
+            "Stimulation": -1.619047619047619,
+            "Hedonism": -1.119047619047619,
+            "Achievement": -1.119047619047619,
+            "Power": -2.119047619047619,
+            "Security": 1.380952380952381
+        }
+    },
+    "P070": {
+        "bfi": {
+            "Extraversion": 4.0,
+            "Agreeableness": 3.0,
+            "Conscientiousness": 5.0,
+            "Neuroticism": 1.0,
+            "Openness": 4.0
+        },
+        "pvq": {
+            "Conformity": -0.5476190476190474,
+            "Tradition": -0.04761904761904745,
+            "Benevolence": 0.9523809523809526,
+            "Universalism": -0.04761904761904745,
+            "Self_Direction": 0.45238095238095255,
+            "Stimulation": -0.5476190476190474,
+            "Hedonism": 0.45238095238095255,
+            "Achievement": -0.5476190476190474,
+            "Power": -0.5476190476190474,
+            "Security": 0.45238095238095255
+        }
+    },
+    "P071": {
+        "bfi": {
+            "Extraversion": 2.0,
+            "Agreeableness": 5.0,
+            "Conscientiousness": 5.0,
+            "Neuroticism": 4.0,
+            "Openness": 3.0
+        },
+        "pvq": {
+            "Conformity": 0.4047619047619051,
+            "Tradition": -0.5952380952380949,
+            "Benevolence": 0.4047619047619051,
+            "Universalism": -0.0952380952380949,
+            "Self_Direction": 0.9047619047619051,
+            "Stimulation": -0.0952380952380949,
+            "Hedonism": 0.4047619047619051,
+            "Achievement": -0.0952380952380949,
+            "Power": -1.095238095238095,
+            "Security": -0.0952380952380949
+        }
+    },
+    "P072": {
+        "bfi": {
+            "Extraversion": 1.5,
+            "Agreeableness": 5.0,
+            "Conscientiousness": 3.5,
+            "Neuroticism": 1.0,
+            "Openness": 4.5
+        },
+        "pvq": {
+            "Conformity": 0.23809523809523814,
+            "Tradition": 0.7380952380952381,
+            "Benevolence": 0.23809523809523814,
+            "Universalism": -0.09523809523809519,
+            "Self_Direction": 0.23809523809523814,
+            "Stimulation": 0.23809523809523814,
+            "Hedonism": 0.23809523809523814,
+            "Achievement": -1.7619047619047619,
+            "Power": -0.7619047619047619,
+            "Security": 0.7380952380952381
+        }
+    },
+    "P073": {
+        "bfi": {
+            "Extraversion": 1.0,
+            "Agreeableness": 2.5,
+            "Conscientiousness": 2.0,
+            "Neuroticism": 3.5,
+            "Openness": 4.0
+        },
+        "pvq": {
+            "Conformity": -1.7857142857142856,
+            "Tradition": -1.2857142857142856,
+            "Benevolence": 1.2142857142857144,
+            "Universalism": 1.7142857142857144,
+            "Self_Direction": 2.2142857142857144,
+            "Stimulation": -1.2857142857142856,
+            "Hedonism": -0.7857142857142856,
+            "Achievement": 0.2142857142857144,
+            "Power": -1.2857142857142856,
+            "Security": 0.2142857142857144
+        }
+    },
+    "P074": {
+        "bfi": {
+            "Extraversion": 3.5,
+            "Agreeableness": 3.0,
+            "Conscientiousness": 4.0,
+            "Neuroticism": 3.5,
+            "Openness": 3.0
+        },
+        "pvq": {
+            "Conformity": -1.0476190476190474,
+            "Tradition": 0.45238095238095255,
+            "Benevolence": 0.9523809523809526,
+            "Universalism": 0.6190476190476192,
+            "Self_Direction": -0.04761904761904745,
+            "Stimulation": -0.5476190476190474,
+            "Hedonism": 0.45238095238095255,
+            "Achievement": -0.04761904761904745,
+            "Power": -0.5476190476190474,
+            "Security": -0.5476190476190474
+        }
+    },
+    "P075": {
+        "bfi": {
+            "Extraversion": 2.5,
+            "Agreeableness": 3.0,
+            "Conscientiousness": 3.0,
+            "Neuroticism": 4.0,
+            "Openness": 2.5
+        },
+        "pvq": {
+            "Conformity": 0.7619047619047619,
+            "Tradition": -0.23809523809523814,
+            "Benevolence": -0.7380952380952381,
+            "Universalism": -0.23809523809523814,
+            "Self_Direction": 0.26190476190476186,
+            "Stimulation": -0.23809523809523814,
+            "Hedonism": -0.23809523809523814,
+            "Achievement": -0.23809523809523814,
+            "Power": 0.26190476190476186,
+            "Security": 0.7619047619047619
+        }
+    },
+    "P076": {
+        "bfi": {
+            "Extraversion": 1.0,
+            "Agreeableness": 4.5,
+            "Conscientiousness": 5.0,
+            "Neuroticism": 3.0,
+            "Openness": 4.5
+        },
+        "pvq": {
+            "Conformity": -1.8571428571428572,
+            "Tradition": 0.6428571428571428,
+            "Benevolence": 1.1428571428571428,
+            "Universalism": 3.142857142857143,
+            "Self_Direction": 2.642857142857143,
+            "Stimulation": -1.3571428571428572,
+            "Hedonism": -1.8571428571428572,
+            "Achievement": -1.8571428571428572,
+            "Power": -1.8571428571428572,
+            "Security": -0.3571428571428572
+        }
+    },
+    "P077": {
+        "bfi": {
+            "Extraversion": 2.5,
+            "Agreeableness": 4.5,
+            "Conscientiousness": 5.0,
+            "Neuroticism": 2.5,
+            "Openness": 4.0
+        },
+        "pvq": {
+            "Conformity": -1.6904761904761907,
+            "Tradition": 1.3095238095238093,
+            "Benevolence": 1.8095238095238093,
+            "Universalism": 1.1428571428571426,
+            "Self_Direction": 1.3095238095238093,
+            "Stimulation": -0.1904761904761907,
+            "Hedonism": 0.3095238095238093,
+            "Achievement": -2.6904761904761907,
+            "Power": -1.6904761904761907,
+            "Security": -0.1904761904761907
+        }
+    },
+    "P078": {
+        "bfi": {
+            "Extraversion": 3.0,
+            "Agreeableness": 4.5,
+            "Conscientiousness": 5.0,
+            "Neuroticism": 3.0,
+            "Openness": 3.0
+        },
+        "pvq": {
+            "Conformity": 0.0952380952380949,
+            "Tradition": -0.4047619047619051,
+            "Benevolence": 0.5952380952380949,
+            "Universalism": 0.4285714285714282,
+            "Self_Direction": 0.0952380952380949,
+            "Stimulation": 0.0952380952380949,
+            "Hedonism": -1.904761904761905,
+            "Achievement": 0.0952380952380949,
+            "Power": 0.5952380952380949,
+            "Security": 0.0952380952380949
+        }
+    },
+    "P079": {
+        "bfi": {
+            "Extraversion": 3.5,
+            "Agreeableness": 4.0,
+            "Conscientiousness": 4.5,
+            "Neuroticism": 2.0,
+            "Openness": 3.0
+        },
+        "pvq": {
+            "Conformity": -0.04761904761904745,
+            "Tradition": -0.04761904761904745,
+            "Benevolence": 0.45238095238095255,
+            "Universalism": 0.28571428571428586,
+            "Self_Direction": 0.45238095238095255,
+            "Stimulation": -0.5476190476190474,
+            "Hedonism": -0.04761904761904745,
+            "Achievement": -0.04761904761904745,
+            "Power": -1.0476190476190474,
+            "Security": 0.45238095238095255
+        }
+    },
+    "P080": {
+        "bfi": {
+            "Extraversion": 3.0,
+            "Agreeableness": 4.0,
+            "Conscientiousness": 3.5,
+            "Neuroticism": 1.5,
+            "Openness": 4.0
+        },
+        "pvq": {
+            "Conformity": -0.04761904761904745,
+            "Tradition": -0.04761904761904745,
+            "Benevolence": 0.45238095238095255,
+            "Universalism": -0.04761904761904745,
+            "Self_Direction": 0.45238095238095255,
+            "Stimulation": -1.0476190476190474,
+            "Hedonism": 0.45238095238095255,
+            "Achievement": -0.5476190476190474,
+            "Power": -0.04761904761904745,
+            "Security": 0.45238095238095255
+        }
+    }
+}

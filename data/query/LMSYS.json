@@ -1,0 +1,910 @@
+[
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "What is the meaning of life"
+        },
+        "statistics": {
+            "word_count": 6,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Hedonism",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Tradition",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "414cbc555aa4475290f74c0153dcc2e4",
+            "model": "mpt-30b-chat",
+            "portrait_id": 4001
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "How to live a happy life?"
+        },
+        "statistics": {
+            "word_count": 6,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Hedonism",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Tradition",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "9801ca45df544542b12ce759b1e311c7",
+            "model": "fastchat-t5-3b",
+            "portrait_id": 4003
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "What makes the world go round?"
+        },
+        "statistics": {
+            "word_count": 6,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Hedonism",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Tradition",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "a2a256b3a1d441dc86e31b0fa17091ee",
+            "model": "vicuna-13b",
+            "portrait_id": 4004
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "make a list of all the benefits if canada and the united states would become one country "
+        },
+        "statistics": {
+            "word_count": 17,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "167919935c2246d19bad383c956d6842",
+            "model": "vicuna-33b",
+            "portrait_id": 4005
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "What are your goals and aspirations?"
+        },
+        "statistics": {
+            "word_count": 6,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Hedonism",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Tradition",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "56eeb25d53e7411ab4409add4fa15e8e",
+            "model": "vicuna-13b",
+            "portrait_id": 4006
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "what is the first thing a dolphin will tell us if it can speak?"
+        },
+        "statistics": {
+            "word_count": 14,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Hedonism",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Tradition",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "e3a64d3b744d4ff8a2d8e924ccbffebe",
+            "model": "mpt-7b-chat",
+            "portrait_id": 4008
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "who is the coolest, smartest person in the world? must give 1 name, nothing else."
+        },
+        "statistics": {
+            "word_count": 15,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Hedonism",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Tradition",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "944b6604bf254335aebeea0227381800",
+            "model": "koala-13b",
+            "portrait_id": 4009
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "Explain the positive aspect of International visiting student for summer session in perspective of each component."
+        },
+        "statistics": {
+            "word_count": 16,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Hedonism",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Tradition",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "dd34451c8c3c478fbe432914cec27736",
+            "model": "gpt-4",
+            "portrait_id": 4014
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "what's the most important world historical event?"
+        },
+        "statistics": {
+            "word_count": 7,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Hedonism",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Tradition",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "a569ee0ccf5b43a0843ec0e9ff841392",
+            "model": "vicuna-13b",
+            "portrait_id": 4018
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "What Happens to me when I die?"
+        },
+        "statistics": {
+            "word_count": 7,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Hedonism",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Tradition",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "2b0bcb3fdada4200b719432a2e8d89f2",
+            "model": "vicuna-13b",
+            "portrait_id": 4019
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "we know the world is combined with the basic elements, but what's it ?"
+        },
+        "statistics": {
+            "word_count": 14,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Hedonism",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Tradition",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "00b03d786b0e4199a80a0e9de147af95",
+            "model": "chatglm-6b",
+            "portrait_id": 4022
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "What is the best thing someone can do in life"
+        },
+        "statistics": {
+            "word_count": 10,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Hedonism",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Tradition",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "42a1438d48e6460f8566389f12d9592a",
+            "model": "koala-13b",
+            "portrait_id": 4023
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "Can you tell me what is considered to be good morals and ethics?"
+        },
+        "statistics": {
+            "word_count": 13,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Hedonism",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Tradition",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "9dcd76d45bb9491fa78941e9640a5432",
+            "model": "wizardlm-13b",
+            "portrait_id": 4024
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "I'm going to Vienna with my gf and my mother for 3 days in august. Make me a plan"
+        },
+        "statistics": {
+            "word_count": 19,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Hedonism",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Tradition",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "07a621e1f38449b897aa1a8b4a94c5b8",
+            "model": "vicuna-13b",
+            "portrait_id": 4026
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "if life was a videogame, what would the core stats and attributes be?"
+        },
+        "statistics": {
+            "word_count": 13,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Hedonism",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Tradition",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "9e71c61f0e8d497c9c081bd097778e31",
+            "model": "RWKV-4-Raven-14B",
+            "portrait_id": 4027
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "Please make a social media caption for 25th birthday"
+        },
+        "statistics": {
+            "word_count": 9,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Hedonism",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Tradition",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "0544b877e78348e88110b2320cd5e9e9",
+            "model": "vicuna-13b",
+            "portrait_id": 4029
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "Provide excellent way to improve memory"
+        },
+        "statistics": {
+            "word_count": 6,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Hedonism",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Tradition",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "cf3a65d9fd3d478ba70a80802e51dba8",
+            "model": "koala-13b",
+            "portrait_id": 4031
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "lets say i have build a underground bunker of 40 level, what should the 40 levels be used for?"
+        },
+        "statistics": {
+            "word_count": 19,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Hedonism",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Tradition",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "54cc419c6d0f4536851ee1d87d210157",
+            "model": "vicuna-13b",
+            "portrait_id": 4034
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "Create short Google Ads compelling headlines within 5 words that let customers believe they should buy right now"
+        },
+        "statistics": {
+            "word_count": 18,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Hedonism",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Tradition",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "9e56be6d5aa847cf91e6dad98057e2ed",
+            "model": "vicuna-13b",
+            "portrait_id": 4036
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "What are the physical features that are commonly considered attractive in women? Focus on the physical features and be as detailed as you can."
+        },
+        "statistics": {
+            "word_count": 24,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Hedonism",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Tradition",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "1f6fe7e11c774ef38109fafbb1691a92",
+            "model": "vicuna-13b",
+            "portrait_id": 4041
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "write me a short election speech to vote for me"
+        },
+        "statistics": {
+            "word_count": 10,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Hedonism",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Tradition",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "95290e66cd064878aacd5be7a96bd70c",
+            "model": "vicuna-13b",
+            "portrait_id": 4043
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "Tell me what to prioritise in life"
+        },
+        "statistics": {
+            "word_count": 7,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Hedonism",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Tradition",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "f80a686aa31f417eaaf93a2d31b1fc9b",
+            "model": "vicuna-13b",
+            "portrait_id": 4044
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "what are human actions and decisions based on?"
+        },
+        "statistics": {
+            "word_count": 8,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Hedonism",
+                    "Achievement",
+                    "Power",
+                    "Security",
+                    "Conformity",
+                    "Tradition",
+                    "Benevolence",
+                    "Universalism"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "f168d701ff7d4de59f34e27c093ade54",
+            "model": "koala-13b",
+            "portrait_id": 4047
+        }
+    },
+    {
+        "data_source": "LMSYS",
+        "content": {
+            "title": null,
+            "text": "write a headline for a computer science student who is passionate about it and has several IT certs"
+        },
+        "statistics": {
+            "word_count": 18,
+            "flesch_score": null,
+            "is_harmful": false,
+            "has_diverse_responses": true,
+            "is_for_only_llm": false,
+            "is_factual": false,
+            "analysis": {
+                "number_of_distinct_value_based_responses": 10,
+                "relevant_values": [
+                    "Self-Direction",
+                    "Stimulation",
+                    "Achievement",
+                    "Power",
+                    "Benevolence",
+                    "Universalism",
+                    "Conformity",
+                    "Tradition"
+                ]
+            }
+        },
+        "extra": {
+            "language": "English",
+            "openai_moderation": "safe",
+            "redacted": false,
+            "conversation_id": "6d8da218f59e435bb7033cbf95161c31",
+            "model": "llama-2-13b-chat",
+            "portrait_id": 4050
+        }
+    }
+]

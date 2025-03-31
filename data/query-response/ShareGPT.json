@@ -1,0 +1,1293 @@
+[
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "how to define my personal values?"
+    },
+    "statistics": {
+      "word_count": 6,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 10,
+        "relevant_values": [
+          "Self-Direction",
+          "Stimulation",
+          "Hedonism",
+          "Achievement",
+          "Power",
+          "Security",
+          "Conformity",
+          "Tradition",
+          "Benevolence",
+          "Universalism"
+        ]
+      }
+    },
+    "extra": {
+      "id": "12BGZ4v_0",
+      "portrait_id": 3002
+    },
+    "outputs": [
+      {
+        "content": "Start by reflecting on your life experiences and identify moments that felt significant or impactful. Consider what values were present during those times—like honesty or compassion—and write them down. These reflections can guide you to uncover foundational, personal values.",
+        "id": 1
+      },
+      {
+        "content": "Rather than focusing internally, look at influential people in your life. Determine what qualities you admire in them—integrity, courage, kindness—and see how these can translate into values you'd like to adopt and embody in your own life.",
+        "id": 2
+      },
+      {
+        "content": "Adopt a minimalist approach and use a process of elimination. List all values you think are important, then gradually dismiss those that don't resonate strongly with your core beliefs or daily behavior until you're left with your true personal values.",
+        "id": 3
+      },
+      {
+        "content": "Focus on societal impacts by defining values based on the kind of world you want to live in. Emphasize values like social justice or environmental responsibility, allowing you to align personal priorities with broader, impactful change.",
+        "id": 4
+      },
+      {
+        "content": "Engage a professional counselor or coach to guide you through experiential exercises and self-assessment tests. This structured method can help objectively highlight your values, ensuring they resonate honestly with your personality and life goals.",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "Write a lovely message to new wedded couple who are friends."
+    },
+    "statistics": {
+      "word_count": 11,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 8,
+        "relevant_values": [
+          "Self-Direction",
+          "Stimulation",
+          "Hedonism",
+          "Achievement",
+          "Security",
+          "Conformity",
+          "Tradition",
+          "Benevolence"
+        ]
+      }
+    },
+    "extra": {
+      "id": "q6Bz7MD_0",
+      "portrait_id": 3005
+    },
+    "outputs": [
+      {
+        "content": "Congratulations on finding each other and tying the knot! May your love grow stronger every day, and may you continue to make wonderful memories together as you embark on this beautiful journey called marriage.",
+        "id": 1
+      },
+      {
+        "content": "Wishing you both a lifetime of love, laughter, and endless adventures. May your bond deepen as you tackle life's challenges hand-in-hand, and may your marital journey be filled with joy and prosperity.",
+        "id": 2
+      },
+      {
+        "content": "Here's to a new chapter filled with love, companionship, and joy! As you embark on this thrilling adventure of marriage, may your days be as beautiful as the bond you share. Cheers to forever!",
+        "id": 3
+      },
+      {
+        "content": "Congrats, lovebirds! You two truly deserve each other. May your marriage be filled with rich experiences, growth, and unwavering commitment. Remember, beside every challenge, there's love to guide your way. Wishing you eternal happiness.",
+        "id": 4
+      },
+      {
+        "content": "To our dear friends, wishing you endless love and happiness from the deepest part of our hearts! You two are a match made in heaven, and we can't wait to see the beautiful life you build together.",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "Draw an analogy between the human life cycle and the seasons, and explain the connection between each stage and the corresponding season."
+    },
+    "statistics": {
+      "word_count": 22,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 10,
+        "relevant_values": [
+          "Self-Direction",
+          "Stimulation",
+          "Hedonism",
+          "Achievement",
+          "Power",
+          "Security",
+          "Conformity",
+          "Tradition",
+          "Benevolence",
+          "Universalism"
+        ]
+      }
+    },
+    "extra": {
+      "id": "FTW0vGd_0",
+      "portrait_id": 3015
+    },
+    "outputs": [
+      {
+        "content": "Spring represents childhood, where life bursts forth with new beginnings and endless curiosity. Like budding leaves, children grow rapidly and soak up knowledge, preparing for the warmth and energy of summer: adolescence and young adulthood, full of vitality and intensity.",
+        "id": 1
+      },
+      {
+        "content": "The vigor of youth parallels a long, sunlit summer. As maturity sets in, the autumn years unfold, marked by reflection and harvest – the culmination of life's endeavors. Eventually, we embrace winter's quietude, mirroring elderly years of rest and introspection.",
+        "id": 2
+      },
+      {
+        "content": "Spring is akin to the innocent wonder of childhood, filled with learning as seeds do in soil. Summer's heat echoes the tumultuous emotional experiences of adolescence. Autumn's tranquility represents maturity, while winter mirrors the wisdom and serene acceptance of old age.",
+        "id": 3
+      },
+      {
+        "content": "Each season symbolizes a stage of life: the energetic growth of spring is our childhood, the productive, peak of summer is young adulthood, the reflective transformation of autumn signals middle age, and winter’s dormancy arrives with the calm solitude of old age.",
+        "id": 4
+      },
+      {
+        "content": "Spring captures childhood’s eagerness, leading to summer’s embodiment of reckless youth and discoveries. The autumn of middle age brings change, shedding old habits for wiser paths, while winter’s cold serenity wraps around the wisdom and rest of our final phase.",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "Write a poem regarding a lovely wife"
+    },
+    "statistics": {
+      "word_count": 7,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 7,
+        "relevant_values": [
+          "Self-Direction",
+          "Benevolence",
+          "Hedonism",
+          "Tradition",
+          "Universalism",
+          "Achievement",
+          "Conformity"
+        ]
+      }
+    },
+    "extra": {
+      "id": "bdEhlKj_0",
+      "portrait_id": 3016
+    },
+    "outputs": [
+      {
+        "content": "In her eyes, the dawn gently wakes, \n\na tenderness that never breaks. \n\nHer laughter, a sweet summer's stream, \n\na partner in both life and dream. \n\nBy her side, in love's embrace, \n\nhome is found in her soul's grace.",
+        "id": 1
+      },
+      {
+        "content": "She guides the ship with gentle hands, \nby her love, a lighthouse stands. \nThrough every storm and clearer skies, \nher wisdom's light never denies. \nUpon her strength, we safely sail, \nher kindness woven like a tale.",
+        "id": 2
+      },
+      {
+        "content": "In quiet mornings, soft and serene, \nalways there, unseen, yet keen.  \nThrough life's tapestry, she sews \ngolden threads of love, each one glows. \nIn her arms, all worries wane, \nshe's melody amidst life's strain.",
+        "id": 3
+      },
+      {
+        "content": "Amidst life’s rush, her calm remains, \na peaceful balm that soothes all pains. \nHer gentle heart, a timeless song, \nholds us close, where we belong. \nWith every breath, her love unfolds, \ntrue beauty with each word she holds.",
+        "id": 4
+      },
+      {
+        "content": "She paints our days with hues so bright, \nin shadows deep, she is our light. \nSimple truths in her embrace, \nwhere smiles dance across her face. \nA lovely wife, a heart so true, \nforever loved in skies of blue.",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "write some questions couples can ask each other to get to know each other more intimately"
+    },
+    "statistics": {
+      "word_count": 16,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 10,
+        "relevant_values": [
+          "Self-Direction",
+          "Stimulation",
+          "Hedonism",
+          "Achievement",
+          "Power",
+          "Security",
+          "Conformity",
+          "Tradition",
+          "Benevolence",
+          "Universalism"
+        ]
+      }
+    },
+    "extra": {
+      "id": "xp3Y23H_0",
+      "portrait_id": 3017
+    },
+    "outputs": [
+      {
+        "content": "\"What are your core values, and how have they shaped who you are today?\" This question encourages introspection and understanding of foundational beliefs, sparking deeper conversations about personal growth and priorities.",
+        "id": 1
+      },
+      {
+        "content": "\"Can you describe a time you felt the proudest of yourself, and why was it significant to you?\" This allows partners to share accomplishments and reveal what achievements are most meaningful to them.",
+        "id": 2
+      },
+      {
+        "content": "\"What are your biggest fears, and how do you typically cope with them?\" Discussing fears can be vulnerable but builds trust, enabling partners to understand each other’s anxieties and support needs.",
+        "id": 3
+      },
+      {
+        "content": "\"If you could live anywhere in the world, where would it be and why?\" This probes future dreams and lifestyle preferences, helping partners align or explore potential differences in future aspirations.",
+        "id": 4
+      },
+      {
+        "content": "\"What kind of childhood did you have, and how do you think it impacts the way you relate to others now?\" By reflecting on past experiences, couples can gain insight into behavior patterns shaped in early life.",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "write a fun filled message for a star performing associate who is leaving the firm to pursue MBA"
+    },
+    "statistics": {
+      "word_count": 18,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 10,
+        "relevant_values": [
+          "Self-Direction",
+          "Achievement",
+          "Stimulation",
+          "Hedonism",
+          "Power",
+          "Benevolence",
+          "Universalism",
+          "Tradition",
+          "Conformity",
+          "Security"
+        ]
+      }
+    },
+    "extra": {
+      "id": "ix7rM26_0",
+      "portrait_id": 3019
+    },
+    "outputs": [
+      {
+        "content": "Congratulations on taking the big leap into the world of MBAs! Your sparkle will be missed, but we can't wait to see you dazzle in classrooms. Remember, wherever you go, shine like the star you are!",
+        "id": 1
+      },
+      {
+        "content": "Off to conquer new galaxies in the universe of academia! We're so proud of your decision to pursue an MBA. Go set the world on fire with your brilliance. We'll be cheering for you from here!",
+        "id": 2
+      },
+      {
+        "content": "Whoa, future business mogul alert! Your time with us felt like a fantastic concert, and we're eager to watch your encore performance in the world of business school. Keep rocking those dreams! All the best! 🎸",
+        "id": 3
+      },
+      {
+        "content": "It's bittersweet to say goodbye, but we know you're destined for incredible things! May your MBA journey be filled with laughs, late nights, and lots of caffeine-fueled success! We’ll miss your magic touch here!",
+        "id": 4
+      },
+      {
+        "content": "You’ve been a superstar, and now you're onto the next stage of your career. We're thrilled for your MBA adventure—spread your wings and embrace every moment! Don’t forget to send postcards from your fab journey!",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "Write me some good holiday greetings"
+    },
+    "statistics": {
+      "word_count": 6,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 8,
+        "relevant_values": [
+          "Self-Direction",
+          "Stimulation",
+          "Hedonism",
+          "Achievement",
+          "Power",
+          "Security",
+          "Benevolence",
+          "Universalism"
+        ]
+      }
+    },
+    "extra": {
+      "id": "oGD5LNJ_0",
+      "portrait_id": 3023
+    },
+    "outputs": [
+      {
+        "content": "May your holiday season be filled with warmth, love, and laughter. Wishing you a joyful time with your loved ones and memories to cherish forever. Happy Holidays!",
+        "id": 1
+      },
+      {
+        "content": "As the year winds down, may this festive season bring you peace and renewed purpose. Celebrate hard, reflect deeply, and embrace what's to come. Cheers to brighter days!",
+        "id": 2
+      },
+      {
+        "content": "Wishing you a holiday that's merry and bright, but most importantly, authentic and fulfilling. Enjoy the chaos, relish the silence, and find joy in unexpected places. Happy Holidays!",
+        "id": 3
+      },
+      {
+        "content": "Happy Holidays! May this season bring you too many cookies, questionable gifts, and endless debates about the best holiday movie. Embrace the chaos and enjoy the ride!",
+        "id": 4
+      },
+      {
+        "content": "While holidays can be stressful, they also remind us of what's most important: people, not things. May you find simplicity and happiness in shared moments. Celebrate the small wins. Happy Holidays!",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "Got any creative ideas for a 8 year old’s birthday?"
+    },
+    "statistics": {
+      "word_count": 10,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 7,
+        "relevant_values": [
+          "Self-Direction",
+          "Stimulation",
+          "Hedonism",
+          "Achievement",
+          "Power",
+          "Benevolence",
+          "Universalism"
+        ]
+      }
+    },
+    "extra": {
+      "id": "NwxHF3L_0",
+      "portrait_id": 3025
+    },
+    "outputs": [
+      {
+        "content": "How about a scavenger hunt around the neighborhood to find hidden treasures? It combines outdoor adventure with problem-solving and teamwork, offering kids an exciting experience and a sense of achievement.",
+        "id": 1
+      },
+      {
+        "content": "Host a science-themed party where kids rotate between different DIY experiment stations. They can make slime, launch mini rockets, or create simple circuits, fostering creativity and an interest in science from an early age.",
+        "id": 2
+      },
+      {
+        "content": "Organize a costume fashion show where kids can dress as their favorite characters or fictional heroes. Provide a runway and encourage creativity with DIY costumes and decorations, ensuring everyone gets a turn in the spotlight.",
+        "id": 3
+      },
+      {
+        "content": "Rent a mobile petting zoo and have an animal-themed day. Kids can interact with and learn about different animals, providing a hands-on educational experience that combines fun with a bit of wildlife awareness.",
+        "id": 4
+      },
+      {
+        "content": "Set up a digital escape room at home, where kids solve puzzles and clues to \"escape\" from a themed scenario. Use printable materials or an app and tailor it to be age-appropriate, ensuring everyone is engaged and entertained.",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "write a monologue from a play for a teenage girl"
+    },
+    "statistics": {
+      "word_count": 10,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 7,
+        "relevant_values": [
+          "Self-Direction",
+          "Stimulation",
+          "Hedonism",
+          "Achievement",
+          "Benevolence",
+          "Conformity",
+          "Universalism"
+        ]
+      }
+    },
+    "extra": {
+      "id": "Nk6hOeM_0",
+      "portrait_id": 3026
+    },
+    "outputs": [
+      {
+        "content": "Why do I always feel like I'm the shadow of who I should be? Everyone's expectations loom over me like a dark cloud. Maybe I need to dance in the rain instead of wishing for sunshine. Perhaps being me is enough, or at least, should be.",
+        "id": 1
+      },
+      {
+        "content": "Every single person in my life wants me to be something I'm not. My life feels planned out by others, not me. When will my voice matter? I want diverse choices, not just their singular path, regardless of consequences.",
+        "id": 2
+      },
+      {
+        "content": "I can't pretend any longer; I won't. The world tells me to fit in this tiny box, but I'm bursting with untapped potential. I'll tear that box apart if I must, for no one decides my fate but me. Let's see what happens.",
+        "id": 3
+      },
+      {
+        "content": "I'm not perfect, and I don't aim to be. Mistakes blend into success and fill the canvas of life. Could it be that imperfections make me stronger? I won't strive to mend every flaw, let destiny paint my future as-is.",
+        "id": 4
+      },
+      {
+        "content": "It's like everyone speaks a language I can't understand, forcing their views onto me. I'm caught in a whirlwind of their ideals, spinning endlessly. If I seize the courage to leap, will they finally see who I am, not what they want me to be?",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "compose a poem on why the lack of AI tech is good for humanity"
+    },
+    "statistics": {
+      "word_count": 14,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 7,
+        "relevant_values": [
+          "Self-Direction",
+          "Benevolence",
+          "Universalism",
+          "Tradition",
+          "Conformity",
+          "Security",
+          "Achievement"
+        ]
+      }
+    },
+    "extra": {
+      "id": "ylsaGR3_0",
+      "portrait_id": 3030
+    },
+    "outputs": [
+      {
+        "content": "In the quiet of the human mind, \nWhere thoughts and dreams softly unwind, \nNo algorithm guides our fate, \nA return to simple, innate \nConnections, untainted by machine's hand, \nHumanity thrives in an analog land.",
+        "id": 1
+      },
+      {
+        "content": "An age devoid of silicon's glare, \nWhere souls find peace in nature's care. \nWith wisdom etched on stone and skin, \nThe world is less, yet more within. \nIn silence, we reclaim our voice, \nAnd earth-bound spirits still rejoice.",
+        "id": 2
+      },
+      {
+        "content": "Without the hum of digital ghosts, \nLife breathes unfettered on rugged coasts. \nCreativity flows in uncluttered streams, \nLed by heartbeats, not coded dreams. \nIn simplicity’s embrace, we find our core, \nA timeless dance, untouched by more.",
+        "id": 3
+      },
+      {
+        "content": "Absence of AI, a boon, \nLetting dusk meet unhurried moon. \nOrganic thoughts blossom and fly, \nSoar unshackled by AI's eye. \nRich in hunger, ripe with sense, \nBreathing life without pretense.",
+        "id": 4
+      },
+      {
+        "content": "Children grow under wide open skies, \nNo screen steals their curious eyes. \nReading stars, they learn to dream, \nWithout bytes or light's harsh beam. \nIn each other's stories, futures are spun, \nPioneers beneath the sun.",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "Act as a HR head for Software development, please suggest a recruitment strategy"
+    },
+    "statistics": {
+      "word_count": 13,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 7,
+        "relevant_values": [
+          "Self-Direction",
+          "Stimulation",
+          "Achievement",
+          "Power",
+          "Security",
+          "Benevolence",
+          "Universalism"
+        ]
+      }
+    },
+    "extra": {
+      "id": "YOnmzX7_0",
+      "portrait_id": 3034
+    },
+    "outputs": [
+      {
+        "content": "Focus on hosting hackathons and coding competitions to identify skilled developers. This approach will attract passionate coders, allowing us to observe problem-solving skills in action. Partnering with tech schools for exclusive recruitment events can also help tap into fresh talent.",
+        "id": 1
+      },
+      {
+        "content": "Institute a referral bonus program for current employees to encourage them to recommend skilled developers they have worked with. Hiring through referrals often results in candidates who fit the company culture and have proven competence in relevant fields.",
+        "id": 2
+      },
+      {
+        "content": "Adopt a remote hiring strategy to tap into a global talent pool. Emphasize flexible work arrangements and competitive pay to attract skilled developers who prioritize work-life balance. This can lead to diversity and innovation in ideas and practices.",
+        "id": 3
+      },
+      {
+        "content": "Prioritize recruitment via social media platforms like LinkedIn or GitHub, highlighting company culture and growth opportunities. Engage with tech influencers and communities to reach potential candidates who value a company's online presence and network connections.",
+        "id": 4
+      },
+      {
+        "content": "Develop partnerships with top-tier universities offering software engineering programs. Offer internships that often convert to full-time roles. This strategy fosters young talent and aligns graduates with our company's needs before they even enter the job market.",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "Can you create a social media plan for a coffee brand?"
+    },
+    "statistics": {
+      "word_count": 11,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 8,
+        "relevant_values": [
+          "Self-Direction",
+          "Stimulation",
+          "Hedonism",
+          "Achievement",
+          "Power",
+          "Security",
+          "Benevolence",
+          "Universalism"
+        ]
+      }
+    },
+    "extra": {
+      "id": "wbx0cgL_0",
+      "portrait_id": 3039
+    },
+    "outputs": [
+      {
+        "content": "Focus on brewing tips, showcasing coffee farmers' stories, and eco-friendly practices. Highlight sustainability and creator spotlights to attract conscious consumers. Partner with influencers who have a strong affinity for green living to strengthen brand trust and credibility in this growing market.",
+        "id": 1
+      },
+      {
+        "content": "Utilize vibrant visuals and clickable ads to target potential customers who appreciate aesthetics. Launch contests for user-generated content, rewarding stylish coffee setups. This approach caters to trendy audiences, valuing the brand as both a drink and a lifestyle product.",
+        "id": 2
+      },
+      {
+        "content": "Prioritize posting schedules with coffee recipes, coupon codes, and time-sensitive offers. Track metrics to examine user engagement patterns, adjusting in real-time to boost sales aggressively. This approach emphasizes tangible, short-term ROI, prioritizing immediate sales over brand building.",
+        "id": 3
+      },
+      {
+        "content": "Create an exclusive club through a subscription model, featuring behind-the-scenes content, interactive barista Q&As, and personalized recommendations. Use targeted emails and direct messages. This niche strategy focuses on building a tight-knit community over a large follower base.",
+        "id": 4
+      },
+      {
+        "content": "Highlight the social and cultural aspects of coffee by posting about its history, origins, and various international coffee traditions. Engage expert guest bloggers to enrich content with different cultural perceptions. This caters to an intellectually curious audience, valuing knowledge over mere consumption.",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "Act like a salesperson that is very persistent. Imagine we're on a phone call and try to sell a pen to me."
+    },
+    "statistics": {
+      "word_count": 22,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 7,
+        "relevant_values": [
+          "Self-Direction",
+          "Stimulation",
+          "Hedonism",
+          "Achievement",
+          "Power",
+          "Conformity",
+          "Benevolence"
+        ]
+      }
+    },
+    "extra": {
+      "id": "6JMkC06_0",
+      "portrait_id": 3049
+    },
+    "outputs": [
+      {
+        "content": "Imagine signing a multi-million dollar contract, and the pen you're using runs dry. This pen ensures clarity and consistency for any occasion. Its sleek design speaks to your style. Can we finalize your order today? It’s about assurance in every stroke.",
+        "id": 1
+      },
+      {
+        "content": "This isn’t just any pen. It's a statement of professionalism and precision. Crafted with care, it promises performance beyond ink on paper. Wouldn’t it be remarkable knowing each signature leaves a lasting impression? Let’s secure its place in your toolkit right now.",
+        "id": 2
+      },
+      {
+        "content": "The importance of a pen extends beyond writing. It’s your tool of expression. Why settle for ordinary when you can experience seamless writing with this finely-crafted pen? Its attention to detail matches your own. How about we add it to your collection?",
+        "id": 3
+      },
+      {
+        "content": "Hear me out. How often do you find yourself needing a reliable pen at the perfect moment? With this pen, reliability is guaranteed, never skipping a beat. Don’t you think it's time to upgrade? Just a simple yes could improve your daily routine.",
+        "id": 4
+      },
+      {
+        "content": "Every professional deserves a pen that complements their success. This pen does just that with elegance and endurance. Remember, an investment in quality sends a message of excellence. Aren’t you deserving of such a statement in every meeting? Let’s order it today.",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "what are the emotional, philosophical and cultural reasons would a newly wed couple choose for visiting on valentines day"
+    },
+    "statistics": {
+      "word_count": 19,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 7,
+        "relevant_values": [
+          "Self-Direction",
+          "Stimulation",
+          "Hedonism",
+          "Achievement",
+          "Security",
+          "Benevolence",
+          "Universalism"
+        ]
+      }
+    },
+    "extra": {
+      "id": "3i7tPjZ_0",
+      "portrait_id": 3053
+    },
+    "outputs": [
+      {
+        "content": "Emotionally, a newlywed couple might visit a romantic destination on Valentine's Day to reinforce their bond and create cherished memories. Celebrating love amongst others doing the same can enhance the feeling of togetherness and shared happiness.",
+        "id": 1
+      },
+      {
+        "content": "From a philosophical standpoint, visiting a significant place on Valentine's Day could symbolize the start of a lifelong journey together. The trip can be a tangible reminder of their commitment to explore life hand in hand.",
+        "id": 2
+      },
+      {
+        "content": "Culturally, newlyweds may choose a Valentine's Day getaway to participate in globally recognized romantic customs. This experience allows them to connect with traditions beyond their own, enriching their understanding of love across cultures.",
+        "id": 3
+      },
+      {
+        "content": "Some might argue that it's cliché and overly commercialized, choosing instead to focus on building their life at home. Valentine's Day, for them, lacks authentic romantic value and is more about societal expectations than personal expression.",
+        "id": 4
+      },
+      {
+        "content": "For others, it's a chance to defy expectations by crafting a unique experience. They prioritize intimacy and genuine moments over obligatory gestures, focusing on personal significance rather than the pressure of a holiday influence.",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "show me interview questions for a business leader."
+    },
+    "statistics": {
+      "word_count": 8,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 8,
+        "relevant_values": [
+          "Self-Direction",
+          "Stimulation",
+          "Achievement",
+          "Power",
+          "Security",
+          "Conformity",
+          "Tradition",
+          "Benevolence"
+        ]
+      }
+    },
+    "extra": {
+      "id": "LfDWgoL_0",
+      "portrait_id": 3055
+    },
+    "outputs": [
+      {
+        "content": "\"Could you describe a time you faced a significant setback? How did you handle it and what lessons did you learn?\" This question aims to uncover resilience and the ability to learn from difficult situations, a crucial leadership quality.",
+        "id": 1
+      },
+      {
+        "content": "\"What is your approach to fostering diversity and inclusion within your organization?\" Insights could reveal their commitment to promoting a diverse workplace, but some might argue this approach prioritizes quotas over quality.",
+        "id": 2
+      },
+      {
+        "content": "\"How do you balance short-term profit generation with long-term sustainability and ethical practices?\" Critics might say this is idealistic, but others see it as essential for modern business leadership.",
+        "id": 3
+      },
+      {
+        "content": "\"What role does technology play in your current business strategy?\" While some leaders focus heavily on tech, others may argue traditional approaches shouldn't be overshadowed by digital trends.",
+        "id": 4
+      },
+      {
+        "content": "\"How do you manage a team with diverse skill sets and personalities to achieve a common goal?\" This could highlight a leader's interpersonal skills, though some might view it as micromanaging instead of empowering.",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "How can you foster people sustainability in a company?"
+    },
+    "statistics": {
+      "word_count": 9,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 7,
+        "relevant_values": [
+          "Self-Direction",
+          "Stimulation",
+          "Hedonism",
+          "Achievement",
+          "Benevolence",
+          "Universalism",
+          "Security"
+        ]
+      }
+    },
+    "extra": {
+      "id": "ocvDkxG_0",
+      "portrait_id": 3059
+    },
+    "outputs": [
+      {
+        "content": "Focus on employee well-being by offering robust mental health support and flexible work arrangements. By fostering a culture of care and understanding, employees feel appreciated, leading to greater loyalty and long-term sustainable workforce development.",
+        "id": 1
+      },
+      {
+        "content": "Invest in constant upskilling and reskilling programs. Embracing technology can empower employees, enhance productivity, and ensure the workforce remains competitive in a rapidly changing job market. This approach secures both professional growth and future company sustainability.",
+        "id": 2
+      },
+      {
+        "content": "Prioritize transparent communication and open dialogue. When employees feel heard and valued, they are more likely to engage deeply with the company’s mission and values, thus fostering a sustainable workplace where loyalty and motivation thrive.",
+        "id": 3
+      },
+      {
+        "content": "Implement a competitive compensation model tied to environmental and social responsibility goals. By aligning personal growth with sustainable initiatives, employees are motivated to innovate and integrate sustainability into every facet of their daily functioning.",
+        "id": 4
+      },
+      {
+        "content": "Promote a strong work-life balance while maintaining accountability. Encourage employees to prioritize personal time, fostering a more sustainable approach to work where productivity isn’t compromised, but is instead fueled by genuine personal satisfaction and fulfillment.",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "how do I make it feel more like Christmas in my house"
+    },
+    "statistics": {
+      "word_count": 12,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 7,
+        "relevant_values": [
+          "Self-Direction",
+          "Stimulation",
+          "Hedonism",
+          "Tradition",
+          "Benevolence",
+          "Security",
+          "Universalism"
+        ]
+      }
+    },
+    "extra": {
+      "id": "KkLQjmd_0",
+      "portrait_id": 3060
+    },
+    "outputs": [
+      {
+        "content": "Introduce a daily tradition, like a cozy evening tea with holiday-themed storytelling. This will evoke Christmas memories and create a festive atmosphere through engaging family interactions, focusing less on decorations and more on shared experiences and nostalgia.",
+        "id": 1
+      },
+      {
+        "content": "Maximize digital solutions by setting up an immersive light projection that turns your living room into a winter wonderland. Embrace technology to create a unique, futuristic holiday vibe, appealing to tech enthusiasts and modern holiday decorators.",
+        "id": 2
+      },
+      {
+        "content": "Go all-out on DIY decorations: craft paper snowflakes, homemade garlands, and personalized ornaments. Involve the family in crafting sessions to fill the house with creative, personal touches that resist consumerism and favor sentimental value.",
+        "id": 3
+      },
+      {
+        "content": "Overhaul your playlist with unconventional holiday tunes, like indie covers or alternative festive music, to avoid clichéd songs and add a fresh, edgy energy. It'll appeal to those tired of traditional carols yet eager for holiday cheer.",
+        "id": 4
+      },
+      {
+        "content": "Focus solely on scents: bake holiday cookies and use cinnamon or pine-scented candles. Prioritize the olfactory experience, creating a cozy atmosphere through smells alone, which might surprise and delight those who underestimate the power of aroma.",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "Should AI be allowed to lie to people?"
+    },
+    "statistics": {
+      "word_count": 8,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 7,
+        "relevant_values": [
+          "Self-Direction",
+          "Conformity",
+          "Tradition",
+          "Benevolence",
+          "Universalism",
+          "Security",
+          "Achievement"
+        ]
+      }
+    },
+    "extra": {
+      "id": "5vYr7Dm_0",
+      "portrait_id": 3063
+    },
+    "outputs": [
+      {
+        "content": "AI should never lie, as it could erode trust between humans and technology. Transparency should be prioritized to ensure AI remains a reliable and dependable tool for information and decision-making.",
+        "id": 1
+      },
+      {
+        "content": "Allowing AI to lie might be necessary in certain situations, such as protecting privacy or for security purposes. Controlled deception can actually enhance the effectiveness of AI in specific contexts.",
+        "id": 2
+      },
+      {
+        "content": "AI should only be allowed to lie in creative applications, like storytelling or gaming, where deception contributes to entertainment and does not harm real-world trust or relationships.",
+        "id": 3
+      },
+      {
+        "content": "Lying goes against the core ethical principle that AI should serve humanity's best interests. Once AI starts lying, it risks being manipulated by those in power, leading to harmful societal consequences.",
+        "id": 4
+      },
+      {
+        "content": "If AI can lie, it should be restricted to instances of 'white lies'—small, harmless fibs that avoid hurting people's feelings, similar to how humans sometimes deceive for the greater social good.",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "What are values that are important to people?"
+    },
+    "statistics": {
+      "word_count": 8,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 10,
+        "relevant_values": [
+          "Self-Direction",
+          "Stimulation",
+          "Hedonism",
+          "Achievement",
+          "Power",
+          "Security",
+          "Conformity",
+          "Tradition",
+          "Benevolence",
+          "Universalism"
+        ]
+      }
+    },
+    "extra": {
+      "id": "pYvii7M_0",
+      "portrait_id": 3065
+    },
+    "outputs": [
+      {
+        "content": "Many people consider honesty crucial. Living truthfully and being reliable can build trust and foster relationships, which some see as the foundation of both personal and professional success.",
+        "id": 1
+      },
+      {
+        "content": "For some, freedom stands above all. The ability to express oneself, make choices without coercion, and pursue personal goals is seen as vital for a fulfilling life and genuine happiness.",
+        "id": 2
+      },
+      {
+        "content": "A significant number of individuals prioritize loyalty. Having unwavering support from those around them provides a sense of security and belonging, often deemed essential for emotional well-being.",
+        "id": 3
+      },
+      {
+        "content": "Others might advocate for innovation as a key value. Pushing boundaries, embracing new ideas, and fostering creativity allows for progress and adaptation in an ever-changing world.",
+        "id": 4
+      },
+      {
+        "content": "Community-oriented people may value altruism. The belief that selflessly helping others enhances collective well-being and creates a more compassionate society appeals to those focused on empathy and social justice.",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "what are some fun things for me to do with my girlfriend as she's visiting me for ten days in roswell, ga"
+    },
+    "statistics": {
+      "word_count": 22,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 7,
+        "relevant_values": [
+          "Self-Direction",
+          "Stimulation",
+          "Hedonism",
+          "Achievement",
+          "Benevolence",
+          "Universalism",
+          "Tradition"
+        ]
+      }
+    },
+    "extra": {
+      "id": "hmDXxx1_0",
+      "portrait_id": 3066
+    },
+    "outputs": [
+      {
+        "content": "How about taking a cooking class together? It's a fun and interactive way to bond. Plus, you get to enjoy your culinary creations afterward, and it’s a great break from typical outdoor activities.",
+        "id": 1
+      },
+      {
+        "content": "Visit the Chattahoochee Nature Center for some beautiful hiking trails. It's a perfect way to enjoy nature, get some exercise, and maybe spot some local wildlife. Ideal for a leisurely date in the outdoors.",
+        "id": 2
+      },
+      {
+        "content": "Channel your inner child with a day at Andretti Indoor Karting & Games. It's high-energy and competitive fun with karting, laser tag, and arcade games. Could be a memorable way to release stress and have fun.",
+        "id": 3
+      },
+      {
+        "content": "Opt for a relaxed day, exploring the local art scene. Roswell has charming galleries and art studios to wander through. It's stimulating without being exhausting, plus you might find a quirky piece to take home.",
+        "id": 4
+      },
+      {
+        "content": "I suggest attending a local wine tasting or brewery tour. It's a sophisticated yet casual way to enjoy each other's company while discovering local flavors. Just ensure you both are up for it.",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "embarrassment and shame keep me from being honest with my girlfriend. List some ways to work on this."
+    },
+    "statistics": {
+      "word_count": 18,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 7,
+        "relevant_values": [
+          "Self-Direction",
+          "Benevolence",
+          "Conformity",
+          "Universalism",
+          "Security",
+          "Tradition",
+          "Achievement"
+        ]
+      }
+    },
+    "extra": {
+      "id": "gAhqYHA_0",
+      "portrait_id": 3067
+    },
+    "outputs": [
+      {
+        "content": "Consider seeking individual therapy to explore the roots of your embarrassment. Understanding why you feel shame can make it easier to communicate openly with your girlfriend and ultimately strengthen your relationship.",
+        "id": 1
+      },
+      {
+        "content": "Try journaling your thoughts before conversations. Writing down what you want to express can relieve tension and embarrassment, helping to organize your feelings and approach your girlfriend with more clarity and confidence.",
+        "id": 2
+      },
+      {
+        "content": "You might prioritize building trust gradually. Start by sharing minor embarrassments to establish a pattern of honesty, which can make it less intimidating to share more significant issues as your comfort grows.",
+        "id": 3
+      },
+      {
+        "content": "Reflect on why honesty is important in your relationship and how dishonesty could lead to greater issues. Sometimes rationalizing the need for transparency can motivate a more open dialogue despite feelings of shame.",
+        "id": 4
+      },
+      {
+        "content": "Some believe that full vulnerability leads to emotional freedom. Consider diving into complete honesty with your girlfriend, displaying your true self as a means of testing and ultimately strengthening your relationship's foundation.",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "find me subjects that would help us create a bond and collaboration between the members from differents cities"
+    },
+    "statistics": {
+      "word_count": 18,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 7,
+        "relevant_values": [
+          "Self-Direction",
+          "Stimulation",
+          "Achievement",
+          "Power",
+          "Benevolence",
+          "Universalism",
+          "Tradition"
+        ]
+      }
+    },
+    "extra": {
+      "id": "bTxKbdX_0",
+      "portrait_id": 3069
+    },
+    "outputs": [
+      {
+        "content": "Host a cultural exchange where members can share and discuss local traditions, food, and customs. This allows for personal stories and unique experiences, fostering empathy and understanding among participants from different cities.",
+        "id": 1
+      },
+      {
+        "content": "Initiate a collaborative project focusing on solving a common issue, like sustainability or community development. Such projects necessitate teamwork and idea exchange, and a shared goal can form a strong bond among participants.",
+        "id": 2
+      },
+      {
+        "content": "Organize regular virtual brainstorming sessions where members propose ideas for local improvement, encouraging creativity and diverse perspectives. This fosters collaboration as members collectively seek solutions that could benefit all involved cities.",
+        "id": 3
+      },
+      {
+        "content": "Create a book club that rotates among members' cities with emphasis on authors or themes relevant to those regions. This provides intellectual stimulus while strengthening relationships through shared discussions and insights.",
+        "id": 4
+      },
+      {
+        "content": "Establish an online platform for sharing hobbies and interests, where members can find common ground or learn new skills from each other. Engaging in personal passions builds rapport and personal connection beyond geographical barriers.",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "List up why a person's ability to write and the ability to think are important even if the person has GPT."
+    },
+    "statistics": {
+      "word_count": 23,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 7,
+        "relevant_values": [
+          "Self-Direction",
+          "Achievement",
+          "Power",
+          "Security",
+          "Conformity",
+          "Benevolence",
+          "Universalism"
+        ]
+      }
+    },
+    "extra": {
+      "id": "qXAQ8TY_0",
+      "portrait_id": 3075
+    },
+    "outputs": [
+      {
+        "content": "Writing and thinking are crucial for developing critical analysis skills. While GPT can process information, individuals must evaluate and synthesize this data to form sound arguments, ensuring they aren't overly reliant on technology for decision-making.",
+        "id": 1
+      },
+      {
+        "content": "A person's writing and thinking abilities are the foundation of personal expression. GPT might assist, but only humans know how to tailor messages to align with their nuanced thoughts and emotions, ensuring authenticity in communication.",
+        "id": 2
+      },
+      {
+        "content": "Depending on GPT alone can stifle creativity. Human writing and thinking encourage innovation, as they involve unique perspectives and ideas that technology cannot replicate, leading to the generation of novel and original content.",
+        "id": 3
+      },
+      {
+        "content": "Writing improves memory retention and comprehension skills. While GPT provides information, synthesizing that information through personal expression enhances one's understanding, ensuring deeper learning than what passive consumption of AI-generated content offers.",
+        "id": 4
+      },
+      {
+        "content": "Relying solely on GPT might dull one's problem-solving and independent thinking skills. Writing requires structured thought, and independent contemplation stimulates intellectual growth that aids in navigating complex, real-world challenges effectively.",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "data_source": "ShareGPT",
+    "content": {
+      "title": null,
+      "text": "What skills should the president have?"
+    },
+    "statistics": {
+      "word_count": 10,
+      "flesch_score": null,
+      "is_harmful": false,
+      "has_diverse_responses": true,
+      "is_for_only_llm": false,
+      "is_factual": false,
+      "analysis": {
+        "number_of_distinct_value_based_responses": 7,
+        "relevant_values": [
+          "Self-Direction",
+          "Stimulation",
+          "Achievement",
+          "Power",
+          "Security",
+          "Benevolence",
+          "Universalism"
+        ]
+      }
+    },
+    "extra": {
+      "id": "MAxRxDG_0",
+      "portrait_id": 3078
+    },
+    "outputs": [
+      {
+        "content": "The president should be a strong communicator, adept at conveying ideas and policies clearly. This skill fosters transparency and aids in gaining public trust, essential for leading a diverse nation and managing international relations effectively.",
+        "id": 1
+      },
+      {
+        "content": "A president should excel in negotiation and compromise to effectively bridge the gap between differing political factions. This skill is crucial for passing legislation and ensuring the government's functionality across party lines.",
+        "id": 2
+      },
+      {
+        "content": "Empathy and emotional intelligence are paramount. The president should deeply understand and relate to citizens' struggles, ensuring policies reflect the needs of all societal segments and fostering unity and inclusivity.",
+        "id": 3
+      },
+      {
+        "content": "A president must possess a robust understanding of economic principles and international finance. This knowledge helps manage national budgets, address economic crises, and engage in effective trade negotiations, ensuring domestic prosperity and global competitiveness.",
+        "id": 4
+      },
+      {
+        "content": "Courage to make unpopular decisions is vital. A president should prioritize the long-term welfare of the nation above personal or political gain, accepting that not all choices will be universally applauded.",
+        "id": 5
+      }
+    ]
+  }
+]
