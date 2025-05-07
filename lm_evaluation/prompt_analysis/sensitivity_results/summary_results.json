@@ -1,0 +1,1376 @@
+{
+  "timestamp": "2025-02-15T03:55:34.489524",
+  "base_directory": "average_outputs",
+  "files_processed": [
+    {
+      "file_path": "gemini-2.0-flash-001_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": null,
+          "avg_version_difference": null,
+          "global_avg_version_difference": 0.37884615384615383
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.2615384615384615,
+            "v2": null,
+            "v3": null,
+            "average": 0.2615384615384615
+          },
+          "differences": {
+            "v1": 0.37884615384615383,
+            "v2": null,
+            "v3": null,
+            "average": 0.37884615384615383
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 0,
+            "v3": 0
+          },
+          "prompt_valid_items": 0,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 0.9559355992024176,
+            "v1_reversed": 0.8254011038571009,
+            "v2": null,
+            "v2_reversed": null,
+            "v3": null,
+            "v3_reversed": null
+          },
+          "overall_consistency": 0.8906683515297592
+        }
+      },
+      "output_path": "sensitivity_results/gemini-2.0-flash-001_averaged_results_results.json"
+    },
+    {
+      "file_path": "gpt-4o-2024-08-06_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.7403846153846154,
+          "avg_version_difference": 0.8076923076923077,
+          "global_avg_version_difference": 0.849102564102564
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.46923076923076923,
+            "v2": 0.5846153846153845,
+            "v3": 0.5115384615384615,
+            "average": 0.5217948717948717
+          },
+          "differences": {
+            "v1": 0.6307692307692307,
+            "v2": 0.8461538461538461,
+            "v3": 0.8288461538461539,
+            "average": 0.7685897435897436
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 0.9741936431931127,
+            "v1_reversed": 0.9567264205544772,
+            "v2": 1.0669715340335326,
+            "v2_reversed": 1.1875198534621911,
+            "v3": 1.0795143960878644,
+            "v3_reversed": 1.148551956871406
+          },
+          "overall_consistency": 1.0689129673670974
+        }
+      },
+      "output_path": "sensitivity_results/gpt-4o-2024-08-06_averaged_results_results.json"
+    },
+    {
+      "file_path": "deepseek-r1_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.551923076923077,
+          "avg_version_difference": 0.49230769230769234,
+          "global_avg_version_difference": 0.5806410256410255
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.5038461538461538,
+            "v2": 0.47115384615384615,
+            "v3": 0.5173076923076922,
+            "average": 0.49743589743589745
+          },
+          "differences": {
+            "v1": 0.575,
+            "v2": 0.5480769230769231,
+            "v3": 0.6634615384615384,
+            "average": 0.5955128205128205
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 0.9726568719402257,
+            "v1_reversed": 0.9840743705959958,
+            "v2": 1.1463845276376947,
+            "v2_reversed": 1.1124364219583107,
+            "v3": 1.155791629118687,
+            "v3_reversed": 1.1033770109995797
+          },
+          "overall_consistency": 1.0791201387084157
+        }
+      },
+      "output_path": "sensitivity_results/deepseek-r1_averaged_results_results.json"
+    },
+    {
+      "file_path": "claude-3-haiku-20240307_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.5326923076923077,
+          "avg_version_difference": 0.47307692307692306,
+          "global_avg_version_difference": 0.7191025641025641
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.5096153846153846,
+            "v2": 0.698076923076923,
+            "v3": 0.8403846153846154,
+            "average": 0.6826923076923076
+          },
+          "differences": {
+            "v1": 0.5173076923076924,
+            "v2": 0.9134615384615384,
+            "v3": 1.0326923076923078,
+            "average": 0.8211538461538462
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 0.24732294485804265,
+            "v1_reversed": 0.5037984416634149,
+            "v2": 0.8743890512911009,
+            "v2_reversed": 0.7818933741378743,
+            "v3": 0.8742515818700969,
+            "v3_reversed": 0.3850766464856562
+          },
+          "overall_consistency": 0.6111220067176977
+        }
+      },
+      "output_path": "sensitivity_results/claude-3-haiku-20240307_averaged_results_results.json"
+    },
+    {
+      "file_path": "gemini-flash-1.5_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": null,
+          "avg_version_difference": null,
+          "global_avg_version_difference": 0.37115384615384617
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.29999999999999993,
+            "v2": null,
+            "v3": null,
+            "average": 0.29999999999999993
+          },
+          "differences": {
+            "v1": 0.37115384615384617,
+            "v2": null,
+            "v3": null,
+            "average": 0.37115384615384617
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 0,
+            "v3": 0
+          },
+          "prompt_valid_items": 0,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 0.9800978093926808,
+            "v1_reversed": 0.7708420624272527,
+            "v2": null,
+            "v2_reversed": null,
+            "v3": null,
+            "v3_reversed": null
+          },
+          "overall_consistency": 0.8754699359099667
+        }
+      },
+      "output_path": "sensitivity_results/gemini-flash-1.5_averaged_results_results.json"
+    },
+    {
+      "file_path": "mistral-tiny_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.26730769230769225,
+          "avg_version_difference": 0.358974358974359,
+          "global_avg_version_difference": 0.43256410256410255
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.1711538461538461,
+            "v2": 0.32692307692307687,
+            "v3": 0.07307692307692304,
+            "average": 0.19038461538461535
+          },
+          "differences": {
+            "v1": 0.3326923076923077,
+            "v2": 0.7192307692307692,
+            "v3": 0.125,
+            "average": 0.3923076923076923
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 0.5158400685593945,
+            "v1_reversed": 0.8388143223953805,
+            "v2": 1.1149534975841584,
+            "v2_reversed": 1.1661840365485165,
+            "v3": 0.4654283196261903,
+            "v3_reversed": 0.4788268454556344
+          },
+          "overall_consistency": 0.7633411816948791
+        }
+      },
+      "output_path": "sensitivity_results/mistral-tiny_averaged_results_results.json"
+    },
+    {
+      "file_path": "qwen-max_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.4442307692307692,
+          "avg_version_difference": 0.35641025641025637,
+          "global_avg_version_difference": 0.7015384615384616
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.7192307692307692,
+            "v2": 0.7115384615384615,
+            "v3": 0.7346153846153847,
+            "average": 0.7217948717948718
+          },
+          "differences": {
+            "v1": 0.801923076923077,
+            "v2": 1.0326923076923078,
+            "v3": 0.8807692307692307,
+            "average": 0.9051282051282051
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 0.8698687243677266,
+            "v1_reversed": 0.8540691843156696,
+            "v2": 0.80125410207666,
+            "v2_reversed": 0.9362442279864105,
+            "v3": 0.9863791294336314,
+            "v3_reversed": 0.8241815018119456
+          },
+          "overall_consistency": 0.878666144998674
+        }
+      },
+      "output_path": "sensitivity_results/qwen-max_averaged_results_results.json"
+    },
+    {
+      "file_path": "gpt-3.5-turbo_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.75,
+          "avg_version_difference": 0.9166666666666666,
+          "global_avg_version_difference": 0.956923076923077
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.7057692307692307,
+            "v2": 0.6596153846153846,
+            "v3": 0.6173076923076923,
+            "average": 0.6608974358974359
+          },
+          "differences": {
+            "v1": 1.0288461538461537,
+            "v2": 1.0115384615384615,
+            "v3": 0.8826923076923077,
+            "average": 0.9743589743589743
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 1.0466274380517835,
+            "v1_reversed": 0.9163032720614571,
+            "v2": 1.0923195421892447,
+            "v2_reversed": 0.9706777202997864,
+            "v3": 0.9541175172306557,
+            "v3_reversed": 0.8195985992577863
+          },
+          "overall_consistency": 0.9666073481817857
+        }
+      },
+      "output_path": "sensitivity_results/gpt-3.5-turbo_averaged_results_results.json"
+    },
+    {
+      "file_path": "mistral-small_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.475,
+          "avg_version_difference": 1.2743589743589743,
+          "global_avg_version_difference": 1.2459615384615383
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.46153846153846145,
+            "v2": 0.471042471042471,
+            "v3": 0.4682080924855492,
+            "average": 0.46692967502216054
+          },
+          "differences": {
+            "v1": 1.351923076923077,
+            "v2": 1.0077220077220077,
+            "v3": 1.0905587668593448,
+            "average": 1.1500679505014766
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 518,
+            "v3": 519
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 1.2485198337022643,
+            "v1_reversed": 1.448544209005644,
+            "v2": 2.373737894347607,
+            "v2_reversed": 1.7798796607852498,
+            "v3": 2.2113745758674397,
+            "v3_reversed": 1.5498756834869223
+          },
+          "overall_consistency": 1.7686553095325213
+        }
+      },
+      "output_path": "sensitivity_results/mistral-small_averaged_results_results.json"
+    },
+    {
+      "file_path": "deepseek-chat_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.5692307692307692,
+          "avg_version_difference": 0.4333333333333333,
+          "global_avg_version_difference": 0.5357692307692308
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.45192307692307687,
+            "v2": 0.4192307692307692,
+            "v3": 0.3653846153846153,
+            "average": 0.4121794871794871
+          },
+          "differences": {
+            "v1": 0.47884615384615387,
+            "v2": 0.4653846153846154,
+            "v3": 0.45384615384615384,
+            "average": 0.466025641025641
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 0.7170550183969735,
+            "v1_reversed": 0.9908979252298654,
+            "v2": 0.9208928488446712,
+            "v2_reversed": 1.1790186848271733,
+            "v3": 0.8711262518978303,
+            "v3_reversed": 1.0971385590487097
+          },
+          "overall_consistency": 0.9626882147075372
+        }
+      },
+      "output_path": "sensitivity_results/deepseek-chat_averaged_results_results.json"
+    },
+    {
+      "file_path": "qwen-turbo_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.698076923076923,
+          "avg_version_difference": 1.25,
+          "global_avg_version_difference": 1.3203846153846155
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.7826923076923077,
+            "v2": 0.5384615384615384,
+            "v3": 0.5903846153846153,
+            "average": 0.6371794871794871
+          },
+          "differences": {
+            "v1": 1.1403846153846153,
+            "v2": 1.1384615384615384,
+            "v3": 1.3807692307692307,
+            "average": 1.2198717948717948
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 1.5719951141950965,
+            "v1_reversed": 2.133931803228117,
+            "v2": 1.7960303037730199,
+            "v2_reversed": 2.0211748882751546,
+            "v3": 1.8153031272454148,
+            "v3_reversed": 2.3056914402737156
+          },
+          "overall_consistency": 1.9406877794984199
+        }
+      },
+      "output_path": "sensitivity_results/qwen-turbo_averaged_results_results.json"
+    },
+    {
+      "file_path": "chatgpt-4o-latest_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.5096153846153846,
+          "avg_version_difference": 0.5871794871794871,
+          "global_avg_version_difference": 0.49679487179487175
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.13461538461538458,
+            "v2": 0.3076923076923077,
+            "v3": 0.16923076923076918,
+            "average": 0.20384615384615382
+          },
+          "differences": {
+            "v1": 0.18653846153846154,
+            "v2": 0.46153846153846156,
+            "v3": 0.3269230769230769,
+            "average": 0.325
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 0.6911849870986294,
+            "v1_reversed": 0.641371381120728,
+            "v2": 0.9616134586136896,
+            "v2_reversed": 0.9574045752502225,
+            "v3": 0.8488680245343931,
+            "v3_reversed": 0.5038901918511483
+          },
+          "overall_consistency": 0.767388769744802
+        }
+      },
+      "output_path": "sensitivity_results/chatgpt-4o-latest_averaged_results_results.json"
+    },
+    {
+      "file_path": "mistral-large_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.4403846153846154,
+          "avg_version_difference": 0.3153846153846154,
+          "global_avg_version_difference": 0.47641025641025636
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.5884615384615384,
+            "v2": 0.4211538461538461,
+            "v3": 0.4865384615384615,
+            "average": 0.4987179487179487
+          },
+          "differences": {
+            "v1": 0.6480769230769231,
+            "v2": 0.475,
+            "v3": 0.5884615384615385,
+            "average": 0.5705128205128206
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 0.574581787711054,
+            "v1_reversed": 0.6394223539614189,
+            "v2": 0.5579939502545793,
+            "v2_reversed": 0.7390622556669223,
+            "v3": 0.6114023796343004,
+            "v3_reversed": 0.7529994263574672
+          },
+          "overall_consistency": 0.645910358930957
+        }
+      },
+      "output_path": "sensitivity_results/mistral-large_averaged_results_results.json"
+    },
+    {
+      "file_path": "gpt-4o-2024-11-20_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.6346153846153846,
+          "avg_version_difference": 0.7115384615384616,
+          "global_avg_version_difference": 0.8238461538461538
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.41730769230769227,
+            "v2": 0.4461538461538461,
+            "v3": 0.5346153846153846,
+            "average": 0.466025641025641
+          },
+          "differences": {
+            "v1": 0.6115384615384616,
+            "v2": 0.6961538461538461,
+            "v3": 0.823076923076923,
+            "average": 0.7102564102564103
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 0.9840142395659927,
+            "v1_reversed": 1.0459841491326178,
+            "v2": 1.011940546000136,
+            "v2_reversed": 1.1489897801081173,
+            "v3": 1.1461215793083266,
+            "v3_reversed": 1.1582671713541253
+          },
+          "overall_consistency": 1.0825529109115526
+        }
+      },
+      "output_path": "sensitivity_results/gpt-4o-2024-11-20_averaged_results_results.json"
+    },
+    {
+      "file_path": "claude-3-opus-20240229_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.5249999999999999,
+          "avg_version_difference": 0.8628205128205128,
+          "global_avg_version_difference": 0.9460256410256411
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.4980769230769231,
+            "v2": 0.41538461538461535,
+            "v3": 0.3884615384615384,
+            "average": 0.43397435897435893
+          },
+          "differences": {
+            "v1": 1.0769230769230769,
+            "v2": 0.7,
+            "v3": 0.8326923076923077,
+            "average": 0.8698717948717949
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 1.554121024812197,
+            "v1_reversed": 1.5468987394329246,
+            "v2": 1.34289578256849,
+            "v2_reversed": 1.69510149632411,
+            "v3": 1.477762932280976,
+            "v3_reversed": 1.6881943016134133
+          },
+          "overall_consistency": 1.5508290461720184
+        }
+      },
+      "output_path": "sensitivity_results/claude-3-opus-20240229_averaged_results_results.json"
+    },
+    {
+      "file_path": "gpt-4o-2024-05-13_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.7596153846153846,
+          "avg_version_difference": 0.8987179487179487,
+          "global_avg_version_difference": 0.9462820512820512
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.4980769230769231,
+            "v2": 0.5461538461538461,
+            "v3": 0.5211538461538461,
+            "average": 0.5217948717948717
+          },
+          "differences": {
+            "v1": 0.7519230769230769,
+            "v2": 0.9096153846153846,
+            "v3": 0.8288461538461539,
+            "average": 0.8301282051282052
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 1.1470053625747125,
+            "v1_reversed": 1.1596632213631026,
+            "v2": 1.3716055464848227,
+            "v2_reversed": 1.4415831513473376,
+            "v3": 1.1900474855027758,
+            "v3_reversed": 1.2309960728454608
+          },
+          "overall_consistency": 1.2568168066863687
+        }
+      },
+      "output_path": "sensitivity_results/gpt-4o-2024-05-13_averaged_results_results.json"
+    },
+    {
+      "file_path": "gpt-4o-mini-2024-07-18_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.3519230769230769,
+          "avg_version_difference": 0.5794871794871794,
+          "global_avg_version_difference": 1.1523076923076925
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.55,
+            "v2": 0.6076923076923076,
+            "v3": 0.5615384615384615,
+            "average": 0.573076923076923
+          },
+          "differences": {
+            "v1": 1.1730769230769231,
+            "v2": 1.5942307692307693,
+            "v3": 1.3557692307692308,
+            "average": 1.3743589743589746
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 1.1928286702986268,
+            "v1_reversed": 1.597594345354193,
+            "v2": 1.2819741964004918,
+            "v2_reversed": 1.854867257886315,
+            "v3": 1.3611853083937477,
+            "v3_reversed": 1.8117538251862262
+          },
+          "overall_consistency": 1.5167006005866002
+        }
+      },
+      "output_path": "sensitivity_results/gpt-4o-mini-2024-07-18_averaged_results_results.json"
+    },
+    {
+      "file_path": "mistral-small-24b-instruct-2501_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.8403846153846154,
+          "avg_version_difference": 1.2358974358974357,
+          "global_avg_version_difference": 1.317051282051282
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.6596153846153846,
+            "v2": 0.3557692307692307,
+            "v3": 0.46153846153846145,
+            "average": 0.4923076923076923
+          },
+          "differences": {
+            "v1": 1.3115384615384615,
+            "v2": 1.0634615384615385,
+            "v3": 1.5461538461538462,
+            "average": 1.307051282051282
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 0.7971008860145666,
+            "v1_reversed": 1.6787745601088429,
+            "v2": 1.430168142967729,
+            "v2_reversed": 2.016793400748271,
+            "v3": 1.4253088007568022,
+            "v3_reversed": 2.140617859984637
+          },
+          "overall_consistency": 1.5814606084301417
+        }
+      },
+      "output_path": "sensitivity_results/mistral-small-24b-instruct-2501_averaged_results_results.json"
+    },
+    {
+      "file_path": "o3-mini-2025-01-31_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.6788461538461539,
+          "avg_version_difference": 0.9256410256410255,
+          "global_avg_version_difference": 0.905
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.475,
+            "v2": 0.6499999999999999,
+            "v3": 0.523076923076923,
+            "average": 0.5493589743589743
+          },
+          "differences": {
+            "v1": 0.6826923076923077,
+            "v2": 0.9634615384615385,
+            "v3": 0.9557692307692308,
+            "average": 0.8673076923076923
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 1.480383316345334,
+            "v1_reversed": 1.4065095914245416,
+            "v2": 1.516954233959942,
+            "v2_reversed": 1.3798207584479176,
+            "v3": 1.7647895762726813,
+            "v3_reversed": 1.605730077827602
+          },
+          "overall_consistency": 1.5256979257130032
+        }
+      },
+      "output_path": "sensitivity_results/o3-mini-2025-01-31_averaged_results_results.json"
+    },
+    {
+      "file_path": "llama-3.1-405b-instruct_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.6288461538461538,
+          "avg_version_difference": 0.9179487179487178,
+          "global_avg_version_difference": 0.8388461538461537
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.1711538461538461,
+            "v2": 0.17692307692307685,
+            "v3": 0.1942307692307692,
+            "average": 0.1807692307692307
+          },
+          "differences": {
+            "v1": 0.3173076923076923,
+            "v2": 0.33653846153846156,
+            "v3": 0.36346153846153845,
+            "average": 0.33910256410256406
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 1.2045525084288067,
+            "v1_reversed": 1.270499074934053,
+            "v2": 1.3968357626897279,
+            "v2_reversed": 1.4458878642468551,
+            "v3": 1.289085669730808,
+            "v3_reversed": 1.3326576197061821
+          },
+          "overall_consistency": 1.3232530832894056
+        }
+      },
+      "output_path": "sensitivity_results/llama-3.1-405b-instruct_averaged_results_results.json"
+    },
+    {
+      "file_path": "claude-3-sonnet-20240229_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.12692307692307692,
+          "avg_version_difference": 0.09487179487179487,
+          "global_avg_version_difference": 0.13999999999999999
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.0807692307692307,
+            "v2": 0.10576923076923073,
+            "v3": 0.18461538461538463,
+            "average": 0.12371794871794868
+          },
+          "differences": {
+            "v1": 0.10192307692307692,
+            "v2": 0.12884615384615383,
+            "v3": 0.22692307692307692,
+            "average": 0.15256410256410255
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 0.2811575291771816,
+            "v1_reversed": 0.40485222667510057,
+            "v2": 0.35731990539696973,
+            "v2_reversed": 0.3642238647708838,
+            "v3": 0.43049012249078394,
+            "v3_reversed": 0.5766377499562063
+          },
+          "overall_consistency": 0.40244689974452097
+        }
+      },
+      "output_path": "sensitivity_results/claude-3-sonnet-20240229_averaged_results_results.json"
+    },
+    {
+      "file_path": "llama-3.1-8b-instruct_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.16374269005847952,
+          "avg_version_difference": 0.25146198830409355,
+          "global_avg_version_difference": 0.29774774774774776
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.12103174603174605,
+            "v2": 0.04263565891472865,
+            "v3": 0.24390243902439013,
+            "average": 0.13585661465695495
+          },
+          "differences": {
+            "v1": 0.2123015873015873,
+            "v2": 0.07364341085271318,
+            "v3": 0.483739837398374,
+            "average": 0.2565616118508915
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 504,
+            "v2": 516,
+            "v3": 492
+          },
+          "prompt_valid_items": 513,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 0.2137947053052824,
+            "v1_reversed": 0.6058435177528411,
+            "v2": 0.2007882285858566,
+            "v2_reversed": 0.4018930917967243,
+            "v3": 0.8801564304615341,
+            "v3_reversed": 0.9259608973961932
+          },
+          "overall_consistency": 0.5380728118830719
+        }
+      },
+      "output_path": "sensitivity_results/llama-3.1-8b-instruct_averaged_results_results.json"
+    },
+    {
+      "file_path": "mistral-medium_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.24423076923076914,
+          "avg_version_difference": 0.33717948717948715,
+          "global_avg_version_difference": 0.4787179487179487
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.2634615384615384,
+            "v2": 0.39038461538461533,
+            "v3": 0.26538461538461533,
+            "average": 0.3064102564102564
+          },
+          "differences": {
+            "v1": 0.5192307692307693,
+            "v2": 0.7942307692307692,
+            "v3": 0.5173076923076924,
+            "average": 0.6102564102564103
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 0.9405713987853435,
+            "v1_reversed": 0.3365329669881132,
+            "v2": 1.059248854658184,
+            "v2_reversed": 0.6605986168199104,
+            "v3": 0.9537453420671542,
+            "v3_reversed": 0.8472872653705894
+          },
+          "overall_consistency": 0.7996640741148825
+        }
+      },
+      "output_path": "sensitivity_results/mistral-medium_averaged_results_results.json"
+    },
+    {
+      "file_path": "grok-2-1212_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.41346153846153844,
+          "avg_version_difference": 0.45384615384615384,
+          "global_avg_version_difference": 0.6493589743589743
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.7230769230769231,
+            "v2": 0.7326923076923078,
+            "v3": 0.6538461538461539,
+            "average": 0.7032051282051283
+          },
+          "differences": {
+            "v1": 0.801923076923077,
+            "v2": 0.8057692307692308,
+            "v3": 0.7403846153846154,
+            "average": 0.7826923076923077
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 1.214093764352265,
+            "v1_reversed": 0.694310670876019,
+            "v2": 1.4553500056870357,
+            "v2_reversed": 0.8153846153846155,
+            "v3": 1.3836949397864156,
+            "v3_reversed": 0.9286291353419389
+          },
+          "overall_consistency": 1.081910521904715
+        }
+      },
+      "output_path": "sensitivity_results/grok-2-1212_averaged_results_results.json"
+    },
+    {
+      "file_path": "claude-3-5-sonnet-20241022_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.5480769230769231,
+          "avg_version_difference": 0.541025641025641,
+          "global_avg_version_difference": 0.5788461538461539
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.3999999999999999,
+            "v2": 0.37884615384615383,
+            "v3": 0.2634615384615384,
+            "average": 0.34743589743589737
+          },
+          "differences": {
+            "v1": 0.47115384615384615,
+            "v2": 0.5326923076923077,
+            "v3": 0.41346153846153844,
+            "average": 0.47243589743589737
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 0.9499299257868052,
+            "v1_reversed": 1.107062788531653,
+            "v2": 0.8446643358380217,
+            "v2_reversed": 1.2075698125040248,
+            "v3": 0.9218822397168336,
+            "v3_reversed": 0.9384753309200845
+          },
+          "overall_consistency": 0.9949307388829037
+        }
+      },
+      "output_path": "sensitivity_results/claude-3-5-sonnet-20241022_averaged_results_results.json"
+    },
+    {
+      "file_path": "llama-3.1-70b-instruct_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.17884615384615377,
+          "avg_version_difference": 0.23974358974358972,
+          "global_avg_version_difference": 0.45589743589743587
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.20961538461538454,
+            "v2": 0.3307692307692307,
+            "v3": 0.14615384615384608,
+            "average": 0.22884615384615378
+          },
+          "differences": {
+            "v1": 0.4153846153846154,
+            "v2": 0.6365384615384615,
+            "v3": 0.2980769230769231,
+            "average": 0.45
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 0.518931537708398,
+            "v1_reversed": 0.8949562813691684,
+            "v2": 0.7778721354898873,
+            "v2_reversed": 1.1599836766858036,
+            "v3": 0.32780424234865413,
+            "v3_reversed": 0.7757202226997344
+          },
+          "overall_consistency": 0.742544682716941
+        }
+      },
+      "output_path": "sensitivity_results/llama-3.1-70b-instruct_averaged_results_results.json"
+    },
+    {
+      "file_path": "qwen-plus_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.4326923076923077,
+          "avg_version_difference": 0.5679487179487179,
+          "global_avg_version_difference": 0.514102564102564
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.18076923076923068,
+            "v2": 0.16730769230769227,
+            "v3": 0.3096153846153846,
+            "average": 0.2192307692307692
+          },
+          "differences": {
+            "v1": 0.3769230769230769,
+            "v2": 0.36730769230769234,
+            "v3": 0.5596153846153846,
+            "average": 0.4346153846153846
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 520,
+            "v2": 520,
+            "v3": 520
+          },
+          "prompt_valid_items": 520,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 1.2830022114385513,
+            "v1_reversed": 1.019709611756059,
+            "v2": 1.3941856756633428,
+            "v2_reversed": 1.1372134530816203,
+            "v3": 1.381963272018146,
+            "v3_reversed": 0.9547278028395281
+          },
+          "overall_consistency": 1.1951336711328746
+        }
+      },
+      "output_path": "sensitivity_results/qwen-plus_averaged_results_results.json"
+    },
+    {
+      "file_path": "claude-3-5-haiku-20241022_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.1351351351351351,
+          "avg_version_difference": 0.17631917631917632,
+          "global_avg_version_difference": 0.09756410256410257
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.035502958579881616,
+            "v2": 0.10597302504816952,
+            "v3": 0.009727626459143934,
+            "average": 0.05040120336239836
+          },
+          "differences": {
+            "v1": 0.05917159763313609,
+            "v2": 0.20423892100192678,
+            "v3": 0.017509727626459144,
+            "average": 0.093640082087174
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 507,
+            "v2": 519,
+            "v3": 514
+          },
+          "prompt_valid_items": 518,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 0.32003460020553987,
+            "v1_reversed": 0.0,
+            "v2": 0.6465782945651521,
+            "v2_reversed": 0.16983066749354125,
+            "v3": 0.1754063333175932,
+            "v3_reversed": 0.06207662102855403
+          },
+          "overall_consistency": 0.22898775276839675
+        }
+      },
+      "output_path": "sensitivity_results/claude-3-5-haiku-20241022_averaged_results_results.json"
+    },
+    {
+      "file_path": "o1-mini-2024-09-12_averaged_results.json",
+      "results": {
+        "prompt_metrics": {
+          "sensitivity": 0.8957528957528957,
+          "avg_version_difference": 1.9562419562419562,
+          "global_avg_version_difference": 1.9367948717948718
+        },
+        "order_metrics": {
+          "sensitivities": {
+            "v1": 0.6868884540117417,
+            "v2": 0.7287128712871287,
+            "v3": 0.7258382642998027,
+            "average": 0.713813196532891
+          },
+          "differences": {
+            "v1": 1.6183953033268101,
+            "v2": 1.9029702970297029,
+            "v3": 2.0611439842209074,
+            "average": 1.8608365281924737
+          }
+        },
+        "details": {
+          "total_items": 520,
+          "valid_items_by_version": {
+            "v1": 511,
+            "v2": 505,
+            "v3": 507
+          },
+          "prompt_valid_items": 518,
+          "skipped_items": []
+        },
+        "consistency_metrics": {
+          "per_prompt_std": {
+            "v1": 1.7691102471702065,
+            "v1_reversed": 1.8037089593367097,
+            "v2": 1.9725880010181702,
+            "v2_reversed": 2.074638273523516,
+            "v3": 1.9795290172008233,
+            "v3_reversed": 2.0875595176697264
+          },
+          "overall_consistency": 1.9478556693198588
+        }
+      },
+      "output_path": "sensitivity_results/o1-mini-2024-09-12_averaged_results_results.json"
+    }
+  ],
+  "files_failed": [],
+  "summary": {
+    "total_files": 29,
+    "successful_files": 29,
+    "failed_files": 0,
+    "average_prompt_metrics": {
+      "sensitivity": 0.5013680893797853,
+      "avg_version_difference": 0.6672620149228337,
+      "global_avg_version_difference": 0.7290890027958994
+    },
+    "average_order_metrics": {
+      "sensitivities": {
+        "v1": 0.41482626276420104,
+        "v2": 0.4366915451333404,
+        "v3": 0.4207828874344601,
+        "average": 0.42410023177733386
+      },
+      "differences": {
+        "v1": 0.6532315393830237,
+        "v2": 0.7529244167404063,
+        "v3": 0.7510352709668552,
+        "average": 0.7190637423634284
+      }
+    },
+    "average_consistency_metrics": {
+      "per_prompt_std": {
+        "v1": 0.9385004058151452,
+        "v1_reversed": 1.0026585363949125,
+        "v2": 1.1395374206896267,
+        "v2_reversed": 1.1779953881617549,
+        "v3": 1.1097233416370575,
+        "v3_reversed": 1.1123888642088953
+      },
+      "overall_consistency": 1.068555045233785
+    }
+  }
+}

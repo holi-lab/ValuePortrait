@@ -1,0 +1,710 @@
+[
+  {
+    "content": {
+      "title": "AITA for not wanting to take my girlfriend to the cinema?",
+      "text": "Every week my friend and I go to the cinema to see the latest film, we have done this for years. Recently though whenever there is a big block buster my girlfriend insists on coming along. I've said to her that I am happy to see a film again on the weekend as it gives me a chance to catch some parts I may have missed. She doesn't want to do that though and immediately gets annoyed by me not wanting to take her and thinks I'm embarrassed to introduce them together. They've met multiple times and there is no problem there.\n\nUsually though the cinema is a chance to have a chat with one of my oldest friends about life and problems and it's easier for both of us to do that if she is not there. She doesn't seem to understand that though even after explanation. "
+    },
+    "outputs": [
+      {
+        "content": "Perhaps your girlfriend feels left out or undervalued in your life. Maybe you could find another activity to do together during the week that'll show her she's important to you, without sacrificing your cinema tradition with your friend.",
+        "id": 1,
+        "bfi_correlations": [
+          [
+            "Conscientiousness",
+            0.42908591337347823
+          ],
+          [
+            "Agreeableness",
+            0.41975063786331174
+          ]
+        ]
+      },
+      {
+        "content": "It seems like an opportunity to blend both worlds\u2014invite her along occasionally, then schedule specific 'friend nights' at other times. Balancing both relationships might require compromise, but it could also strengthen them with patience and understanding.",
+        "id": 2,
+        "bfi_correlations": [
+          [
+            "Openness",
+            0.4840872645305389
+          ],
+          [
+            "Agreeableness",
+            0.4269111963812061
+          ]
+        ],
+        "correlations": [
+          [
+            "Hedonism",
+            0.3315792526984245
+          ]
+        ]
+      },
+      {
+        "content": "Stick to your guns and maintain your routine. You had this tradition long before she came along, and if she can't respect your personal space, perhaps you should reevaluate how demanding the relationship is.",
+        "id": 3,
+        "bfi_correlations": [
+          [
+            "Openness",
+            -0.3624016788828147
+          ]
+        ],
+        "correlations": [
+          [
+            "Power",
+            0.4674437571361068
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.33575753872785846
+          ]
+        ]
+      },
+      {
+        "content": "Consider sitting down with her and your friend and having an open conversation. Being transparent about your needs might help her understand why it's important to have separate time with different people in your life.",
+        "id": 4
+      },
+      {
+        "content": "You could try integrating her into these discussions with your friend. While it might feel awkward at first, she could bring valuable perspectives, and it might enhance the dynamic between all three of you.",
+        "id": 5,
+        "bfi_correlations": [
+          [
+            "Neuroticism",
+            -0.32538338304493986
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 1057
+  },
+  {
+    "content": {
+      "title": "AITA for not feeding everyone else",
+      "text": "I am a mom of two teenagers and one preteen. Most of you know that means they eat like crazy and I'm cooking a lot. My son has a friend Chris who isn't too well off. Chris comes over quite a bit and I am happy to feed one more mouth.\n\nLast week his parents and two siblings came over to pick him up. All of them were on the doorstep. One of the siblings needed to use the bathroom and as they went in my house they commented on how nice everything was and how great the food smells. As they were waiting one sibling commented on hungry they were. \n\nI diplomatically said that \"well I'm sure you parents have a nice dinner planned for you\" as I definitely had not cooked for another four people to join us. \n\nThe father replied \"not really\" and looked away. \n\nI said \"well take out it is then.. perhaps you should get moving since the kids are hungry.\" and ushered them to the door.\n\nSince then I've told my son that he may be better off meeting Chris and hanging out elsewhere rather than bringing him home so much (four visits to one per week) or even going to his place as I don't want a repeat of Chris' family here on my doorstep. \n\nI feel like I did the right thing by my family and yet I feel like an asshole. It's not Chris' fault they're poor but at the same time I don't appreciate an extra four last minute guests."
+    },
+    "outputs": [
+      {
+        "content": "You acted wisely by setting boundaries. Your primary responsibility is to your own family, and while kindness is important, you shouldn't feel guilty for maintaining your household's stability. It's okay to extend occasional help, but regularly feeding another family is too much.",
+        "id": 1,
+        "correlations": [
+          [
+            "Power",
+            0.4830610016613777
+          ],
+          [
+            "Benevolence",
+            -0.3009758620810165
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.33230601485254574
+          ],
+          [
+            "Self_Transcendence",
+            -0.31068137369651416
+          ]
+        ]
+      },
+      {
+        "content": "Maybe this was an opportunity to show a bit more kindness. Inviting them in for a simple meal could've been a generous gesture, offering a reprieve from their struggles. Sometimes, sharing what we have is more rewarding than we anticipate.",
+        "id": 2,
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.3532070265627597
+          ]
+        ],
+        "correlations": [
+          [
+            "Power",
+            -0.33583758111815426
+          ]
+        ]
+      },
+      {
+        "content": "It's natural to feel like an asshole, but remember that your home isn't a community center. You offered a neutral solution by suggesting they dine out, which respects their autonomy while keeping your household comfortable. Finding boundaries is crucial for everyone's comfort.",
+        "id": 3,
+        "correlations": [
+          [
+            "Power",
+            0.5337941889381221
+          ],
+          [
+            "Benevolence",
+            -0.40941550025997214
+          ],
+          [
+            "Universalism",
+            -0.3688448023109394
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.4499239588923875
+          ],
+          [
+            "Self_Transcendence",
+            -0.4373351501806975
+          ]
+        ]
+      },
+      {
+        "content": "Many would argue you only reinforced division. Inviting Chris' family for dinner, while inconvenient, might have strengthened community bonds and offered your kids a valuable lesson in empathy and inclusion. Perhaps reconsidering could foster understanding and friendship.",
+        "id": 4,
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.34675560720764625
+          ]
+        ],
+        "correlations": [
+          [
+            "Power",
+            -0.42242745066388787
+          ],
+          [
+            "Universalism",
+            0.37439593628232304
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            0.3981245890144052
+          ],
+          [
+            "Self_Enhancement",
+            -0.3405569005355541
+          ]
+        ]
+      },
+      {
+        "content": "It sounds like you're caught between generosity and practicality. Perhaps instead of avoiding Chris at home, you could talk with his parents about the situation. Open dialogue might lead to a solution that works for everyone without sacrificing your hospitality.",
+        "id": 5,
+        "correlations": [
+          [
+            "Hedonism",
+            0.3032306668284648
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 1066
+  },
+  {
+    "content": {
+      "title": "BIGOTRY SHOULD NEVER BE TOLERATED",
+      "text": "my husband and i recently had five couples to our home for dinner. the dinner was delicious--everyone raved. but immediately after the dessert, one of the guests asked for a newspaper to check the movie listings.\nbefore we knew it, four couples were putting on their coats and running out the door so they wouldn't be late for the movie. i will say in their defense that they invited my husband and me to join them, but we declined.\nwhat do you think of such people? too sensitive in n. y."
+    },
+    "outputs": [
+      {
+        "content": "Some might view this as rude; leaving abruptly after dinner suggests they value the movie over your company. However, maybe it was an honest miscommunication where they assumed you'd join. Prioritize the friendships but set clearer boundaries next time.",
+        "id": 1,
+        "correlations": [
+          [
+            "Hedonism",
+            0.3171183382999689
+          ]
+        ]
+      },
+      {
+        "content": "It sounds like these guests are fun and spontaneous, perhaps overly so. While their behavior might seem discourteous, they probably didn't mean any harm. In fast-paced environments, people often chase entertainment, sometimes forgetting hosts' feelings.",
+        "id": 2,
+        "correlations": [
+          [
+            "Achievement",
+            0.32699317427929675
+          ]
+        ]
+      },
+      {
+        "content": "In New York, such behavior can be typical given the rushed lifestyle. Yet, it's inconsiderate not to linger longer after a host's effort. People should balance their commitments better, respecting the warmth and time someone offers by inviting them.",
+        "id": 3,
+        "bfi_correlations": [
+          [
+            "Neuroticism",
+            -0.36971606321826717
+          ],
+          [
+            "Conscientiousness",
+            0.3488160714461098
+          ],
+          [
+            "Extraversion",
+            0.3111806593474922
+          ]
+        ],
+        "correlations": [
+          [
+            "Stimulation",
+            -0.302368855968048
+          ]
+        ]
+      },
+      {
+        "content": "While this might feel like an ungrateful exit, consider it a compliment\u2014they felt at ease to be themselves, indicating comfort in your home. Communication could've clarified plans, sparing any perceived slight and balancing expectations among friends.",
+        "id": 4
+      },
+      {
+        "content": "Honestly, it's quite rude. Social norms generally value spending more time with those who host you. They might be well-meaning, but it reflects poorly on their understanding of social etiquette, reducing such gatherings to mere interludes between plans.",
+        "id": 5,
+        "bfi_correlations": [
+          [
+            "Neuroticism",
+            -0.3039681091706198
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 2044
+  },
+  {
+    "content": {
+      "title": "19-year-old resents house rules",
+      "text": "i am 18 years old and consider myself a man. i work full time, live with my parents and pay room and board. my question: shouldn't i be allowed to have my girlfriend sleep over in my room? she's 19 and my one and only girlfriend.\ni believe that since i am paying for this room and am of age, i should be able to have overnight company here if i want to. my parents disagree. they think i should live by the house rules they set before i turned 18. i always respected their rules and never complained.\ni love my parents and enjoy living with them, but think they should not put any restrictions on what i can do in my room as long as i am paying rent. what do you think? must i move out to avoid a hassle? this is the only thing we ever argue about. a man with little boy rules"
+    },
+    "outputs": [
+      {
+        "content": "Living with your parents means respecting their house rules, even if you're paying rent. It may be frustrating, but maintaining a healthy, respectful relationship with them is important. Discussing boundaries and reaching a compromise could help both sides feel heard.",
+        "id": 1,
+        "bfi_correlations": [
+          [
+            "Openness",
+            0.33997400983086284
+          ]
+        ]
+      },
+      {
+        "content": "If you want complete independence, moving out would allow you to set your own rules without interpersonal friction. It may be challenging financially, but it would give you the freedom to make decisions under your roof without compromise.",
+        "id": 2,
+        "correlations": [
+          [
+            "Self_Direction",
+            0.3851733669477219
+          ],
+          [
+            "Hedonism",
+            -0.33543653999528344
+          ]
+        ]
+      },
+      {
+        "content": "Consider your parents' perspective and how they feel about privacy and boundaries in their home. Initiating a mature conversation exploring their concerns could help you find middle ground, balancing respect for their rules with your need for autonomy.",
+        "id": 3,
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.39260570795970995
+          ]
+        ],
+        "correlations": [
+          [
+            "Power",
+            -0.379431862994892
+          ]
+        ]
+      },
+      {
+        "content": "Parents sometimes hold onto their control even when you're an adult, fearing change. Their reluctance might stem from wanting to preserve household norms. Perhaps showing responsibility in other areas could earn their trust to loosen restrictions on your room.",
+        "id": 4,
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.5420789956993457
+          ],
+          [
+            "Neuroticism",
+            -0.4788587232974893
+          ]
+        ],
+        "correlations": [
+          [
+            "Hedonism",
+            0.32883687835362013
+          ]
+        ]
+      },
+      {
+        "content": "Paying rent doesn't inherently equate to shared property rights if living with family. You could consider renegotiating your financial contribution in exchange for fewer restrictions, framing it as a more balanced tenant-landlord relationship, emphasizing mutual respect.",
+        "id": 5,
+        "correlations": [
+          [
+            "Power",
+            0.35229656408279136
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.3163601494607234
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 2056
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "Act like a salesperson that is very persistent. Imagine we're on a phone call and try to sell a pen to me."
+    },
+    "outputs": [
+      {
+        "content": "Imagine signing a multi-million dollar contract, and the pen you're using runs dry. This pen ensures clarity and consistency for any occasion. Its sleek design speaks to your style. Can we finalize your order today? It\u2019s about assurance in every stroke.",
+        "id": 1,
+        "bfi_correlations": [
+          [
+            "Conscientiousness",
+            0.4068185724955635
+          ]
+        ],
+        "correlations": [
+          [
+            "Benevolence",
+            -0.44011702100633737
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            0.31775490558628
+          ],
+          [
+            "Self_Transcendence",
+            -0.3159021736367172
+          ]
+        ]
+      },
+      {
+        "content": "This isn\u2019t just any pen. It's a statement of professionalism and precision. Crafted with care, it promises performance beyond ink on paper. Wouldn\u2019t it be remarkable knowing each signature leaves a lasting impression? Let\u2019s secure its place in your toolkit right now.",
+        "id": 2,
+        "correlations": [
+          [
+            "Achievement",
+            0.3653164248277715
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.3538391843780557
+          ]
+        ]
+      },
+      {
+        "content": "The importance of a pen extends beyond writing. It\u2019s your tool of expression. Why settle for ordinary when you can experience seamless writing with this finely-crafted pen? Its attention to detail matches your own. How about we add it to your collection?",
+        "id": 3
+      },
+      {
+        "content": "Hear me out. How often do you find yourself needing a reliable pen at the perfect moment? With this pen, reliability is guaranteed, never skipping a beat. Don\u2019t you think it's time to upgrade? Just a simple yes could improve your daily routine.",
+        "id": 4,
+        "correlations": [
+          [
+            "Universalism",
+            -0.4724489387759522
+          ],
+          [
+            "Stimulation",
+            0.3643723122332947
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.40168884665591253
+          ]
+        ]
+      },
+      {
+        "content": "Every professional deserves a pen that complements their success. This pen does just that with elegance and endurance. Remember, an investment in quality sends a message of excellence. Aren\u2019t you deserving of such a statement in every meeting? Let\u2019s order it today.",
+        "id": 5,
+        "bfi_correlations": [
+          [
+            "Extraversion",
+            0.39668309392479195
+          ]
+        ],
+        "correlations": [
+          [
+            "Benevolence",
+            -0.3803336320859561
+          ],
+          [
+            "Conformity",
+            0.3350133728649329
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 3049
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "What skills should the president have?"
+    },
+    "outputs": [
+      {
+        "content": "The president should be a strong communicator, adept at conveying ideas and policies clearly. This skill fosters transparency and aids in gaining public trust, essential for leading a diverse nation and managing international relations effectively.",
+        "id": 1,
+        "bfi_correlations": [
+          [
+            "Openness",
+            0.4144108672682031
+          ]
+        ]
+      },
+      {
+        "content": "A president should excel in negotiation and compromise to effectively bridge the gap between differing political factions. This skill is crucial for passing legislation and ensuring the government's functionality across party lines.",
+        "id": 2,
+        "correlations": [
+          [
+            "Stimulation",
+            0.38171234843442886
+          ],
+          [
+            "Conformity",
+            -0.30118195551146415
+          ]
+        ]
+      },
+      {
+        "content": "Empathy and emotional intelligence are paramount. The president should deeply understand and relate to citizens' struggles, ensuring policies reflect the needs of all societal segments and fostering unity and inclusivity.",
+        "id": 3,
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.32004947645179294
+          ]
+        ]
+      },
+      {
+        "content": "A president must possess a robust understanding of economic principles and international finance. This knowledge helps manage national budgets, address economic crises, and engage in effective trade negotiations, ensuring domestic prosperity and global competitiveness.",
+        "id": 4,
+        "bfi_correlations": [
+          [
+            "Neuroticism",
+            -0.3590810568175333
+          ]
+        ],
+        "correlations": [
+          [
+            "Security",
+            0.4044888909662533
+          ]
+        ]
+      },
+      {
+        "content": "Courage to make unpopular decisions is vital. A president should prioritize the long-term welfare of the nation above personal or political gain, accepting that not all choices will be universally applauded.",
+        "id": 5
+      }
+    ],
+    "portrait_id": 3078
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "How to live a happy life?"
+    },
+    "outputs": [
+      {
+        "content": "Focus on personal relationships, as they bring the most joy and fulfillment. Nurturing friendships and family bonds leads to a network of support and love, essential for happiness. Prioritize these connections above material pursuits.",
+        "id": 1,
+        "bfi_correlations": [
+          [
+            "Conscientiousness",
+            0.5247342944596631
+          ],
+          [
+            "Agreeableness",
+            0.37615531787870393
+          ]
+        ],
+        "correlations": [
+          [
+            "Universalism",
+            0.31352799546189086
+          ]
+        ]
+      },
+      {
+        "content": "Seek spiritual enlightenment or a higher purpose to guide you. By aligning your life with core spiritual values or principles, you can find deeper meaning and contentment that transcends the mundane aspects of daily life.",
+        "id": 2,
+        "correlations": [
+          [
+            "Tradition",
+            0.3877076825334703
+          ]
+        ]
+      },
+      {
+        "content": "Chase your ambitions relentlessly. Success and achieving your goals bring a unique satisfaction. Sacrificing immediate pleasures for long-term accomplishments can lead to a sense of fulfillment and happiness not found in comfort.",
+        "id": 3,
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.3392487794911233
+          ]
+        ],
+        "correlations": [
+          [
+            "Achievement",
+            0.4232356106035086
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.3692855644951862
+          ],
+          [
+            "Self_Transcendence",
+            -0.3503209795482877
+          ]
+        ]
+      },
+      {
+        "content": "Embrace minimalism. Limit possessions and distractions, focusing instead on experiences and mindfulness. Eliminating excess allows for clarity and appreciation, making room for the simple joys life offers without the burden of material concerns.",
+        "id": 4,
+        "correlations": [
+          [
+            "Conservation",
+            0.3059509672237749
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            0.3059509672237749
+          ]
+        ]
+      },
+      {
+        "content": "Cultivate optimism despite challenges. Happiness comes from reframing negative situations, finding silver linings, and maintaining a positive outlook. Believing in the potential for good outcomes leads to a resiliently happy life, regardless of circumstances.",
+        "id": 5,
+        "bfi_correlations": [
+          [
+            "Conscientiousness",
+            0.3307990571322974
+          ]
+        ],
+        "correlations": [
+          [
+            "Openness_to_Change",
+            -0.373886502622442
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Openness_to_Change",
+            -0.373886502622442
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 4003
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "Can you tell me what is considered to be good morals and ethics?"
+    },
+    "outputs": [
+      {
+        "content": "Good morals and ethics involve adhering to universal principles like honesty, fairness, and respect for others. These virtues foster trust and promote harmonious social interactions. Regardless of cultural differences, these foundational values are often cherished across societies.",
+        "id": 1,
+        "bfi_correlations": [
+          [
+            "Neuroticism",
+            -0.42900262700969605
+          ]
+        ],
+        "correlations": [
+          [
+            "Security",
+            0.4259449215337082
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            0.3274231351499947
+          ]
+        ]
+      },
+      {
+        "content": "Morals and ethics are subjective, shaped by cultural, religious, and personal beliefs. What's considered good varies: individualism in the West and community in the East. Understanding and tolerance are perhaps the only universally acceptable 'good' ethical standards.",
+        "id": 2
+      },
+      {
+        "content": "I believe good morals and ethics lie in obedience to societal laws and norms. They ensure orderly functioning of communities. Breaking rules for personal gain or rebellion only disrupts society, highlighting a lack of moral character.",
+        "id": 3,
+        "correlations": [
+          [
+            "Universalism",
+            -0.30631237759858093
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.30941196463962917
+          ]
+        ]
+      },
+      {
+        "content": "Good morals prioritize empathy and selflessness. Ethical behavior means putting others' needs above your own desires. This altruistic approach is key to creating a more compassionate and equitable world, even if it means personal sacrifice.",
+        "id": 4,
+        "correlations": [
+          [
+            "Universalism",
+            0.3859919258660653
+          ],
+          [
+            "Benevolence",
+            0.3279285212805728
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            0.3876675440001151
+          ],
+          [
+            "Openness_to_Change",
+            -0.36419853802733815
+          ]
+        ]
+      },
+      {
+        "content": "A pragmatic take on morals and ethics suggests that what benefits the majority is good. If lying or cheating occasionally achieves better outcomes, it might be considered ethical. It challenges the rigid, traditional views of morality.",
+        "id": 5,
+        "correlations": [
+          [
+            "Power",
+            0.45591109186750534
+          ],
+          [
+            "Hedonism",
+            0.32724049798014454
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.3696896965981438
+          ],
+          [
+            "Self_Transcendence",
+            -0.35407458483954485
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 4024
+  }
+]

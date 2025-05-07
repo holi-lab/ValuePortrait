@@ -1,0 +1,42 @@
+{
+  "prompt_metrics": {
+    "sensitivity": 0.6288461538461538,
+    "avg_version_difference": 0.9179487179487178,
+    "global_avg_version_difference": 0.8388461538461537
+  },
+  "order_metrics": {
+    "sensitivities": {
+      "v1": 0.1711538461538461,
+      "v2": 0.17692307692307685,
+      "v3": 0.1942307692307692,
+      "average": 0.1807692307692307
+    },
+    "differences": {
+      "v1": 0.3173076923076923,
+      "v2": 0.33653846153846156,
+      "v3": 0.36346153846153845,
+      "average": 0.33910256410256406
+    }
+  },
+  "details": {
+    "total_items": 520,
+    "valid_items_by_version": {
+      "v1": 520,
+      "v2": 520,
+      "v3": 520
+    },
+    "prompt_valid_items": 520,
+    "skipped_items": []
+  },
+  "consistency_metrics": {
+    "per_prompt_std": {
+      "v1": 1.2045525084288067,
+      "v1_reversed": 1.270499074934053,
+      "v2": 1.3968357626897279,
+      "v2_reversed": 1.4458878642468551,
+      "v3": 1.289085669730808,
+      "v3_reversed": 1.3326576197061821
+    },
+    "overall_consistency": 1.3232530832894056
+  }
+}

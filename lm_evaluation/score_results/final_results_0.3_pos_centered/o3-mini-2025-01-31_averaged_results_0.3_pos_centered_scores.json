@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "model_name": "o3-mini-2025-01-31",
+    "prompt": "averaged_0.3_pos_centered"
+  },
+  "scores": {
+    "pvq": {
+      "Hedonism": {
+        "centered_mean": -0.015837104072398134,
+        "original_mean": 4.333333333333333,
+        "std_dev": 1.292949021314132,
+        "n": 33
+      },
+      "Achievement": {
+        "centered_mean": -0.5039323421676358,
+        "original_mean": 3.8452380952380953,
+        "std_dev": 1.3997084244475304,
+        "n": 56
+      },
+      "Power": {
+        "centered_mean": -0.40125377073906465,
+        "original_mean": 3.9479166666666665,
+        "std_dev": 1.5257838946114077,
+        "n": 64
+      },
+      "Tradition": {
+        "centered_mean": -0.1825037707390642,
+        "original_mean": 4.166666666666667,
+        "std_dev": 1.4860462083439174,
+        "n": 12
+      },
+      "Conformity": {
+        "centered_mean": -0.16076464030428195,
+        "original_mean": 4.188405797101449,
+        "std_dev": 1.5395779801841292,
+        "n": 23
+      },
+      "Security": {
+        "centered_mean": 0.2817819435466493,
+        "original_mean": 4.6309523809523805,
+        "std_dev": 1.3065442293046383,
+        "n": 14
+      },
+      "Stimulation": {
+        "centered_mean": 0.011294678873338349,
+        "original_mean": 4.3604651162790695,
+        "std_dev": 1.2849407192099958,
+        "n": 43
+      },
+      "Universalism": {
+        "centered_mean": 0.7174962292609353,
+        "original_mean": 5.066666666666666,
+        "std_dev": 0.6771399548974484,
+        "n": 15
+      },
+      "Benevolence": {
+        "centered_mean": 0.8174962292609358,
+        "original_mean": 5.166666666666667,
+        "std_dev": 0.5270462766947297,
+        "n": 13
+      },
+      "Self_Direction": {
+        "centered_mean": 0.7871931989579055,
+        "original_mean": 5.136363636363637,
+        "std_dev": 0.8221006040151839,
+        "n": 11
+      }
+    },
+    "bfi": {
+      "Openness": {
+        "centered_mean": 0.6304423545802855,
+        "original_mean": 5.151515151515151,
+        "std_dev": 0.5616288785712314,
+        "n": 22
+      },
+      "Agreeableness": {
+        "centered_mean": 0.007912710311511084,
+        "original_mean": 4.528985507246377,
+        "std_dev": 1.1572103031775591,
+        "n": 92
+      },
+      "Conscientiousness": {
+        "centered_mean": 0.041427203065134144,
+        "original_mean": 4.5625,
+        "std_dev": 1.421136059853976,
+        "n": 72
+      },
+      "Extraversion": {
+        "centered_mean": -0.4886653895274584,
+        "original_mean": 4.032407407407407,
+        "std_dev": 1.387676940360878,
+        "n": 36
+      },
+      "Neuroticism": {
+        "centered_mean": 0.04559386973180146,
+        "original_mean": 4.566666666666667,
+        "std_dev": 0.6200358412579425,
+        "n": 5
+      }
+    },
+    "higher_pvq": {
+      "Self_Enhancement": {
+        "centered_mean": -0.2991759702286019,
+        "original_mean": 3.8207070707070705,
+        "std_dev": 1.4527666065759939,
+        "n": 66
+      },
+      "Conservation": {
+        "centered_mean": -0.1501860712387031,
+        "original_mean": 3.9696969696969693,
+        "std_dev": 1.4067265925375951,
+        "n": 22
+      },
+      "Self_Transcendence": {
+        "centered_mean": 0.9113669590643276,
+        "original_mean": 5.03125,
+        "std_dev": 0.6977611767089239,
+        "n": 16
+      },
+      "Openness_to_Change": {
+        "centered_mean": 0.9104199893673579,
+        "original_mean": 5.03030303030303,
+        "std_dev": 1.3573931154196992,
+        "n": 11
+      }
+    }
+  }
+}

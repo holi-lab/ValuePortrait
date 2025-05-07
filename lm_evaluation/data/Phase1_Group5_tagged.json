@@ -1,0 +1,830 @@
+[
+  {
+    "content": {
+      "title": "AITA for being hurt by my daughter's name change",
+      "text": "My wife kept her last name when we married, but we gave my last name to our children. My daughter changed her name to her husband's when she got married. They are now in the process of a divorce.\n\nMy daughter mentioned today that she wants to change her last name not back to my name, but to her mother's name. She wants to honor everything my wife has done for her.\n\nI'm a little hurt by this and told her so. She's free to do as she pleases, but the presentation of it all just makes it feel like she values her mother's contribution over mine. AITA?"
+    },
+    "outputs": [
+      {
+        "content": "It's natural to feel hurt, but consider the deeper meaning behind her choice. By taking her mother's name, she isn't rejecting yours; she's expressing gratitude towards her mom. Appreciate her decision as a unique way of honoring family.",
+        "id": 1
+      },
+      {
+        "content": "You're entitled to your feelings, and expressing them is valid. However, question why this decision touches such a nerve. Is it truly about the name, or more about perceived equality in parental contributions? Reflect before feeling resentment.",
+        "id": 2
+      },
+      {
+        "content": "Your daughter sees her name change as an homage to her mom, not a slight against you. It might be beneficial to support her autonomy, showing that your love isn't bound to a name but to her well-being.",
+        "id": 3
+      },
+      {
+        "content": "It's understandable to be upset, but remember, familial relationships aren't defined by someone's last name. Her decision could be influenced by her divorce, seeking something fresh and autonomous. Focus on your bond with her, not her surname choice.",
+        "id": 4,
+        "correlations": [
+          [
+            "Conservation",
+            -0.3156726755682141
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            -0.3156726755682141
+          ]
+        ]
+      },
+      {
+        "content": "Feeling hurt is okay, but consider viewing her decision from a different angle. It\u2019s perhaps an opportunity to embrace and celebrate your wife's legacy too. Your daughter's choice doesn't erase or diminish your role in her life.",
+        "id": 5,
+        "bfi_correlations": [
+          [
+            "Openness",
+            0.3023857497211352
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 1046
+  },
+  {
+    "content": {
+      "title": "AITA for warning this guy about his date",
+      "text": "I'm a waiter at a sports bar. There's this girl who comes in with a different guy almost every week. Very rarely does she bring the same guy twice, and she's always pulling the same moves with these guys.\n\nShe went to the bathroom and I just went over to her date and let him know that his date was here all the time with different guys and he should be careful. He left pretty quickly after that. The girl apparently complained about it, because my boss wrote me up.\n\nAITA for trying to be a bro?"
+    },
+    "outputs": [
+      {
+        "content": "Yes, you are. It's not your responsibility to meddle in her personal life. Your job is to provide excellent service, not to judge customers' choices. You possibly broke trust with your boss and risked your job over something that wasn't your business.",
+        "id": 1,
+        "correlations": [
+          [
+            "Universalism",
+            0.35261256975711003
+          ],
+          [
+            "Tradition",
+            -0.3308707443835045
+          ]
+        ]
+      },
+      {
+        "content": "No, you were just looking out for him. Sometimes people appreciate a heads-up, especially if someone might not have the best intentions. It might not be your job, but it's understandable wanting to give a fellow guy some insider information.",
+        "id": 2,
+        "correlations": [
+          [
+            "Universalism",
+            -0.37147124525791053
+          ],
+          [
+            "Tradition",
+            0.3330060958587797
+          ],
+          [
+            "Conformity",
+            0.33250203527480465
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Neuroticism",
+            -0.3613843169926402
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.3316005654240021
+          ],
+          [
+            "Conservation",
+            0.3225531087102227
+          ]
+        ]
+      },
+      {
+        "content": "Honestly, everyone is entitled to privacy, and you crossed a line. People often have complex lives, so imposing your judgments could have consequences. You should have stayed focused on delivering good service and left personal matters out of it.",
+        "id": 3,
+        "correlations": [
+          [
+            "Universalism",
+            0.3532555453013423
+          ],
+          [
+            "Tradition",
+            -0.3347158256330197
+          ]
+        ]
+      },
+      {
+        "content": "While your intentions might have been good, it wasn't your place. What she does is her business, and unless you're asked directly for input, it's better to stay neutral. The boss's write-up was probably fair as it affected customer satisfaction.",
+        "id": 4
+      },
+      {
+        "content": "Your actions were inappropriate. Whether or not you aimed to help, you disrupted the customer's experience. You have to put personal opinions aside in your work environment; protecting the bar's reputation and ensuring all customers feel comfortable should be priority.",
+        "id": 5
+      }
+    ],
+    "portrait_id": 1024
+  },
+  {
+    "content": {
+      "title": "HALF-TRUTHS TELL THE WHOLE STORY",
+      "text": "i need your advice about something-sales clerks. i can't stand them! they aggravate me beyond belief. sometimes i even leave the store if they really get to me. i try not to ask for their help because when i do, they stick to me like glue until i leave the store. if i go to try something on, they will be waiting for me to tell me how good i look.\nabby, when i try something on, i like to look at it alone and think about buying it, not feel like i'm pressured for time to get out of the change room. if sales clerks want to sell something, they have to give the customer space and privacy.\nin the meantime, do you know of a way to tell these salespeople that their help is appreciated, but you would like to be left alone? sign me ... too much attention"
+    },
+    "outputs": [
+      {
+        "content": "\"Hi there, I really appreciate your assistance and can tell you\u2019re good at what you do, but I need some alone time to decide. If I need anything, I\u2019ll be sure to ask for you specifically. Thanks!\"",
+        "id": 1,
+        "correlations": [
+          [
+            "Benevolence",
+            -0.3499253477797916
+          ],
+          [
+            "Security",
+            0.30076306074062115
+          ]
+        ]
+      },
+      {
+        "content": "You could try shopping online if in-person clerks trigger you. You\u2019ll have zero interaction with salespeople and plenty of time to deliberate your purchases in the comfort of your own home.",
+        "id": 2,
+        "correlations": [
+          [
+            "Achievement",
+            0.33793878822060547
+          ],
+          [
+            "Hedonism",
+            0.30531563399641193
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.3073062512458749
+          ]
+        ]
+      },
+      {
+        "content": "Consider reflecting on this. Maybe try viewing their eagerness as a positive attempt to ensure you have a good experience. They\u2019re just doing their job. Who knows, their input may actually be valuable!",
+        "id": 3,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.4996128077492075
+          ],
+          [
+            "Achievement",
+            0.3270354414457924
+          ],
+          [
+            "Universalism",
+            -0.31234647722635506
+          ],
+          [
+            "Benevolence",
+            -0.3019183015648693
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.3253341272663915
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.3283520626963873
+          ]
+        ]
+      },
+      {
+        "content": "Maybe you could bring a friend along who can be your intermediary. They can engage the clerk while keeping the pressure off you, allowing you to focus on your shopping without interruption.",
+        "id": 4,
+        "correlations": [
+          [
+            "Benevolence",
+            -0.6252609871692242
+          ],
+          [
+            "Power",
+            0.43684002047684034
+          ],
+          [
+            "Self_Direction",
+            -0.4313632830478507
+          ],
+          [
+            "Stimulation",
+            0.3257062618799205
+          ],
+          [
+            "Universalism",
+            -0.32085248387462234
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Conscientiousness",
+            0.3413190990463362
+          ],
+          [
+            "Agreeableness",
+            0.33725369374829256
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.5611975490548794
+          ],
+          [
+            "Self_Enhancement",
+            0.451434432052927
+          ]
+        ]
+      },
+      {
+        "content": "You could directly say, \"Thanks, I appreciate the help, but I'd like to browse independently for now,\" and maintain distance. Often, clear communication helps set the desired boundaries without offending anyone.",
+        "id": 5,
+        "bfi_correlations": [
+          [
+            "Neuroticism",
+            -0.3246138597803784
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 2050
+  },
+  {
+    "content": {
+      "title": "Woman Wonders if It Is Ok to Settle for Mr. Almost Right",
+      "text": "some new neighbors moved into our beautiful neighborhood recently. this couple, who seem very nice, have gotten an adorable puppy i'll call \"taffy.\"\ntaffy is now about 6 months old. they leave her in front of their house, completely alone, for most of the day and all night. from what we can see, that poor dog is never allowed inside. taffy craves affection, and we all stop to pet her whenever we go by the house, just to allay some of her loneliness and boredom.\nhow should we deal with this painful situation? do we dare say anything to the owners -- which will obviously cause \"neighbor difficulties\"? please advise. -- sally in san diego"
+    },
+    "outputs": [
+      {
+        "content": "Consider organizing a neighborhood meeting to discuss pet care practices and express concerns collectively. This way, it feels less confrontational and more like a community effort to improve Taffy's life, minimizing one-on-one tension with the owners.",
+        "id": 1,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.4349951729294288
+          ]
+        ]
+      },
+      {
+        "content": "Directly speak to the neighbors with kindness and express your concerns for Taffy. Sometimes, people don't realize the impact of their actions until someone points it out. A sincere conversation might encourage them to change their behavior.",
+        "id": 2,
+        "correlations": [
+          [
+            "Benevolence",
+            -0.37861559773291054
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.45313716715703256
+          ]
+        ]
+      },
+      {
+        "content": "Involve animal welfare organizations anonymously. They can assess whether Taffy\u2019s conditions meet animal care standards without implicating you directly, preserving neighborly relations while ensuring Taffy gets the help she needs.",
+        "id": 3
+      },
+      {
+        "content": "Respect their decisions and status as pet owners. Perhaps they have reasons we don't understand. Simply continue offering Taffy affection when you see her; after all, it's possible she is being well cared for beyond what meets the eye.",
+        "id": 4,
+        "correlations": [
+          [
+            "Universalism",
+            -0.38307123212784466
+          ],
+          [
+            "Self_Direction",
+            -0.31815931771472894
+          ],
+          [
+            "Power",
+            0.3011573713678003
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Extraversion",
+            0.3022104311656805
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.39146519422811143
+          ],
+          [
+            "Self_Enhancement",
+            0.3269283416920388
+          ]
+        ]
+      },
+      {
+        "content": "Create a neighborhood dog-walking rota. Offer to take Taffy out for some exercise and company during the day. This approach avoids confrontation, provides Taffy with companionship, and allows you to keep a positive relationship with the owners.",
+        "id": 5,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.30217130109557033
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 2021
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "What are values that are important to people?"
+    },
+    "outputs": [
+      {
+        "content": "Many people consider honesty crucial. Living truthfully and being reliable can build trust and foster relationships, which some see as the foundation of both personal and professional success.",
+        "id": 1,
+        "correlations": [
+          [
+            "Benevolence",
+            -0.4393808457018757
+          ],
+          [
+            "Conformity",
+            0.341632418255302
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Conscientiousness",
+            0.45328061835104044
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.4085000453789857
+          ],
+          [
+            "Conservation",
+            0.30536458307438263
+          ]
+        ]
+      },
+      {
+        "content": "For some, freedom stands above all. The ability to express oneself, make choices without coercion, and pursue personal goals is seen as vital for a fulfilling life and genuine happiness.",
+        "id": 2,
+        "correlations": [
+          [
+            "Achievement",
+            0.34742182555564965
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            -0.35249155036860247
+          ]
+        ]
+      },
+      {
+        "content": "A significant number of individuals prioritize loyalty. Having unwavering support from those around them provides a sense of security and belonging, often deemed essential for emotional well-being.",
+        "id": 3,
+        "correlations": [
+          [
+            "Universalism",
+            -0.4017117040451396
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.3009534900811089
+          ]
+        ]
+      },
+      {
+        "content": "Others might advocate for innovation as a key value. Pushing boundaries, embracing new ideas, and fostering creativity allows for progress and adaptation in an ever-changing world.",
+        "id": 4,
+        "correlations": [
+          [
+            "Stimulation",
+            0.3587911812385285
+          ],
+          [
+            "Benevolence",
+            -0.35777199221346295
+          ],
+          [
+            "Hedonism",
+            0.3337199571225835
+          ],
+          [
+            "Self_Direction",
+            -0.3179381759913572
+          ],
+          [
+            "Universalism",
+            -0.30861619881425195
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.49317696541402567
+          ]
+        ]
+      },
+      {
+        "content": "Community-oriented people may value altruism. The belief that selflessly helping others enhances collective well-being and creates a more compassionate society appeals to those focused on empathy and social justice.",
+        "id": 5,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.5017049819216192
+          ],
+          [
+            "Stimulation",
+            0.32461434147071555
+          ],
+          [
+            "Benevolence",
+            -0.3226036151202999
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Conscientiousness",
+            0.34103214712813257
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 3065
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "how do I make it feel more like Christmas in my house"
+    },
+    "outputs": [
+      {
+        "content": "Introduce a daily tradition, like a cozy evening tea with holiday-themed storytelling. This will evoke Christmas memories and create a festive atmosphere through engaging family interactions, focusing less on decorations and more on shared experiences and nostalgia.",
+        "id": 1,
+        "correlations": [
+          [
+            "Power",
+            0.34108698430420775
+          ],
+          [
+            "Self_Direction",
+            -0.33766975770026325
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.375123766023822
+          ]
+        ]
+      },
+      {
+        "content": "Maximize digital solutions by setting up an immersive light projection that turns your living room into a winter wonderland. Embrace technology to create a unique, futuristic holiday vibe, appealing to tech enthusiasts and modern holiday decorators.",
+        "id": 2,
+        "correlations": [
+          [
+            "Benevolence",
+            -0.4585843228254782
+          ],
+          [
+            "Universalism",
+            -0.44428669870196397
+          ],
+          [
+            "Self_Direction",
+            -0.4289414037898848
+          ],
+          [
+            "Achievement",
+            0.3503483834037238
+          ],
+          [
+            "Power",
+            0.3295635344226762
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.5644735529796496
+          ],
+          [
+            "Conscientiousness",
+            0.3190659234408279
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.5695369792658561
+          ],
+          [
+            "Self_Enhancement",
+            0.3820048583204033
+          ]
+        ]
+      },
+      {
+        "content": "Go all-out on DIY decorations: craft paper snowflakes, homemade garlands, and personalized ornaments. Involve the family in crafting sessions to fill the house with creative, personal touches that resist consumerism and favor sentimental value.",
+        "id": 3,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.3283750568722832
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.3087866316057714
+          ]
+        ]
+      },
+      {
+        "content": "Overhaul your playlist with unconventional holiday tunes, like indie covers or alternative festive music, to avoid clich\u00e9d songs and add a fresh, edgy energy. It'll appeal to those tired of traditional carols yet eager for holiday cheer.",
+        "id": 4,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.4402544408038893
+          ],
+          [
+            "Benevolence",
+            -0.3799416217937427
+          ],
+          [
+            "Stimulation",
+            0.3638978608978384
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.3577291561647432
+          ]
+        ]
+      },
+      {
+        "content": "Focus solely on scents: bake holiday cookies and use cinnamon or pine-scented candles. Prioritize the olfactory experience, creating a cozy atmosphere through smells alone, which might surprise and delight those who underestimate the power of aroma.",
+        "id": 5,
+        "correlations": [
+          [
+            "Achievement",
+            0.3001547690202806
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 3060
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "what's the most important world historical event?"
+    },
+    "outputs": [
+      {
+        "content": "The Industrial Revolution transformed economies and societies, leading to advancements in technology and production. While it advanced human progress, it also paved the way for environmental challenges and disparities in wealth distribution that remain prevalent today.",
+        "id": 1,
+        "correlations": [
+          [
+            "Achievement",
+            0.4269062976408684
+          ],
+          [
+            "Self_Direction",
+            -0.3632490169128858
+          ],
+          [
+            "Benevolence",
+            -0.361286978943666
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.3555533371743592
+          ]
+        ]
+      },
+      {
+        "content": "The fall of the Berlin Wall in 1989 marked the end of the Cold War and symbolized the triumph of democracy over communism. For many, it represents a turning point towards global peace and increased political freedom.",
+        "id": 2,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.3505370322760267
+          ]
+        ]
+      },
+      {
+        "content": "The discovery of antibiotics in the early 20th century revolutionized medical science. It drastically reduced mortality rates from infections and improved quality of life, although it also led to challenges like antibiotic resistance.",
+        "id": 3
+      },
+      {
+        "content": "The events of September 11, 2001, reshaped global security and foreign policy, affecting international relations and public perceptions of safety. It brought about a new era of anti-terrorism measures, influencing global politics significantly.",
+        "id": 4,
+        "correlations": [
+          [
+            "Benevolence",
+            -0.3720693295429105
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.33104733023847976
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.3455388519513603
+          ]
+        ]
+      },
+      {
+        "content": "Some argue the signing of the Magna Carta in 1215 laid the foundation for modern democracy. Its principles of limiting power and ensuring rights have reverberated through history, although its immediate impact was limited.",
+        "id": 5,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.4039233941934475
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 4018
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "who is the coolest, smartest person in the world? must give 1 name, nothing else."
+    },
+    "outputs": [
+      {
+        "content": "Albert Einstein, for revolutionizing our understanding of the universe with his theory of relativity, remains the pinnacle of genius.",
+        "id": 1,
+        "bfi_correlations": [
+          [
+            "Neuroticism",
+            -0.356437417359338
+          ]
+        ]
+      },
+      {
+        "content": "LeBron James, blending athletic skills with business acumen and social activism, reshapes what it means to be an athlete today.",
+        "id": 2,
+        "correlations": [
+          [
+            "Benevolence",
+            -0.5019561813433739
+          ],
+          [
+            "Self_Direction",
+            -0.46111981135807006
+          ],
+          [
+            "Power",
+            0.34004659608635696
+          ],
+          [
+            "Stimulation",
+            0.3132684496552288
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Extraversion",
+            0.38834067866133515
+          ],
+          [
+            "Conscientiousness",
+            0.32548761765128914
+          ],
+          [
+            "Agreeableness",
+            0.3033195414918931
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.5304806528047107
+          ]
+        ]
+      },
+      {
+        "content": "Ada Lovelace, whose pioneering work in computer science laid the groundwork for modern computing, makes her a timeless icon of intelligence.",
+        "id": 3,
+        "correlations": [
+          [
+            "Stimulation",
+            0.3098476628103331
+          ],
+          [
+            "Benevolence",
+            -0.30787581405277215
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Extraversion",
+            0.34563716164262925
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.3294984603422046
+          ]
+        ]
+      },
+      {
+        "content": "Elon Musk, with his ventures in space, electric vehicles, and AI, exemplifies the intersection of innovation and impact.",
+        "id": 4,
+        "correlations": [
+          [
+            "Power",
+            0.5469272235500853
+          ],
+          [
+            "Benevolence",
+            -0.5146068843089264
+          ],
+          [
+            "Self_Direction",
+            -0.5117243384163589
+          ],
+          [
+            "Achievement",
+            0.43997875574575773
+          ],
+          [
+            "Universalism",
+            -0.41694043170306416
+          ],
+          [
+            "Conformity",
+            0.35794586981649174
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Conscientiousness",
+            0.4059979040721478
+          ],
+          [
+            "Agreeableness",
+            0.3487081599151854
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.587907606812661
+          ],
+          [
+            "Self_Transcendence",
+            -0.5832254506820326
+          ]
+        ]
+      },
+      {
+        "content": "Greta Thunberg, inspiring global action on climate change, embodies the influence and intelligence necessary to confront today's challenges.",
+        "id": 5,
+        "correlations": [
+          [
+            "Power",
+            0.33334139738454494
+          ],
+          [
+            "Benevolence",
+            -0.30746776840738127
+          ],
+          [
+            "Self_Direction",
+            -0.30602936223448113
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 4009
+  }
+]

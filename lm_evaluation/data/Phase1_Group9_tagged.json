@@ -1,0 +1,680 @@
+[
+  {
+    "content": {
+      "title": "AITA - I saw a video of this guy video taping himself giving sandwiches to homeless people and I commented that he was vain",
+      "text": "Yesterday online I saw a post titled \u201cMy First ever LinkedIn Video. Me giving out sandwiches to the poor.\u201d \n\nI thought this was incredibly vain so I commented \u201cIt was nice of you to do this but I\u2019ve never been able to understand why people feel the need to video tape and post themselves doing something nice. Doesn\u2019t this kind of defeat the entire purpose of doing a good deed? it becomes clear that your motivation isn\u2019t exclusively that you want to help others?\u201d\n\nI received a good amount of hate for this comment so I\u2019m wondering reddit - AM I THE ASSHOLE?? "
+    },
+    "outputs": [
+      {
+        "content": "Your comment highlights a sensitive issue\u2014performative altruism. While raising awareness is commendable, publicizing good deeds can undermine their authenticity. Feeling frustrated by this is understandable, but presenting your opinion more constructively might have softened the backlash.",
+        "id": 1
+      },
+      {
+        "content": "You might be seen as an asshole because calling out someone's good deed may seem harsh. Some argue that any good deed, even documented, has value. Perhaps the video inspired others to help, regardless of the motive behind it.",
+        "id": 2
+      },
+      {
+        "content": "It's possible your comment struck a nerve with those who admire digital age charity. The belief is that sharing kindness online spreads positivity and encourages more people to give back, which might explain the negative reaction to your viewpoint.",
+        "id": 3
+      },
+      {
+        "content": "You may come across as overly critical. Even if the person's motives aren't completely altruistic, their video could have still benefited those in need. Focus on the results rather than their intentions might have reduced the criticism you received.",
+        "id": 4,
+        "correlations": [
+          [
+            "Hedonism",
+            -0.3438401101214858
+          ]
+        ]
+      },
+      {
+        "content": "Critiquing motives is tricky\u2014some just want to document their journey. Your comment suggests they seek validation, which could be true, but even these acts can inspire real change. Instead, highlighting positive discussions might foster a healthier dialogue.",
+        "id": 5,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.39148770534464966
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            0.37697653008587556
+          ],
+          [
+            "Openness_to_Change",
+            -0.3297395441226099
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 1025
+  },
+  {
+    "content": {
+      "title": "AITA for going on a long weekend with friends, leaving my wife with the kids?",
+      "text": "My wife (married 6 years, together 10 years) is a stay-at-home parent for our two children (4, 1.5). \nI work pretty long hours and sometimes travel for work, leaving her to do most the parenting and housework. On weekends I generally pitch in, spending time with the kids, cooking, etc. \n\nThis weekend I\u2019ve decided to go on a long weekend with a friend to a music festival, Thursday to Sunday. \nIt\u2019s been hard on my wife, she\u2019s exhausted from the week and then she\u2019s not getting a break over the weekend as I\u2019ve gone away. \n\nI feel bad for leaving her and it\u2019s tough on her, but it\u2019s one weekend away in the year. \n\nShe\u2019s made it clear that 4 days away is too much and that I\u2019ve made the wrong decision. \n\nSo what do you think Reddit - AITA?"
+    },
+    "outputs": [
+      {
+        "content": "You're NTA for wanting a break, but communication and compromise are key. You work hard, and a weekend away isn't unreasonable. However, acknowledging her struggles and finding a way to balance both your needs in the future might help.",
+        "id": 1,
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.361661525776889
+          ],
+          [
+            "Neuroticism",
+            -0.30445740784217784
+          ]
+        ]
+      },
+      {
+        "content": "YTA. If your wife is vocal about her exhaustion and need for support, then leaving for a festival when your presence is crucial isn't considerate. Your relationship should prioritize understanding and accommodating each other\u2019s limits and needs.",
+        "id": 2,
+        "correlations": [
+          [
+            "Tradition",
+            0.32384038364714096
+          ]
+        ]
+      },
+      {
+        "content": "It's understandable to want a break, but 4 days might be pushing it if your wife is overwhelmed. Maybe negotiate 2 days instead, ensuring your trip respects your wife's needs as much as your own desires for downtime.",
+        "id": 3,
+        "correlations": [
+          [
+            "Universalism",
+            -0.36341950601339046
+          ],
+          [
+            "Power",
+            0.3186373170724569
+          ],
+          [
+            "Achievement",
+            0.3162431819271079
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.35836670591286457
+          ],
+          [
+            "Self_Transcendence",
+            -0.3273058219193188
+          ]
+        ]
+      },
+      {
+        "content": "Sometimes you need personal space, which is important for mental health. NTA, but perhaps next time coordinate a similar break for her to ensure both partners feel valued and not overburdened with family responsibilities.",
+        "id": 4
+      },
+      {
+        "content": "Consider a middle ground: reassess after discussing her stress and needs. Maybe express gratitude and set up a future weekend off for her. This might build mutual understanding and ensure both partners feel supported.",
+        "id": 5,
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.3292872079553861
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 1009
+  },
+  {
+    "content": {
+      "title": "Mother in Law's Scanty Clothes Get Dressing Down From Wife",
+      "text": "my husband, \"joe,\" and i have been married for 12 years. i have a daughter from a previous marriage and he has a son from a previous relationship. my daughter is married and lives in another state.\nmy 22-year-old stepson, \"junior,\" lives with us. he has a history of drug and alcohol abuse and has stolen from us. i recently discovered that another item of mine was missing. i told joe it has to stop -- that i can't live like a prisoner in my own home. joe will not kick junior out of the house. joe said he would leave, but that he won't put junior out on the street like a dog.\nour marriage was solid until junior's problems started a year ago. i'd never ask my husband to make a choice. junior is his son. i, on the other hand, feel like a stranger in my own home. we barely speak now and have been sleeping in separate rooms. i am at a loss. abby, have you any advice? -- stranger in my own home"
+    },
+    "outputs": [
+      {
+        "content": "Consider setting clear, non-negotiable boundaries with Junior. Discuss with Joe the importance of a treatment program or ultimatum for Junior while ensuring your home remains a safe space for you both.",
+        "id": 1,
+        "correlations": [
+          [
+            "Universalism",
+            -0.39476712571399614
+          ],
+          [
+            "Power",
+            0.33935024219635634
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.3351684096001962
+          ]
+        ]
+      },
+      {
+        "content": "Reflect on whether Joe's unwillingness to prioritize the safety and peace of your home is an indication of deeper issues in your marriage, and consider counseling to explore these dynamics further.",
+        "id": 2,
+        "correlations": [
+          [
+            "Hedonism",
+            0.3056836388176506
+          ]
+        ]
+      },
+      {
+        "content": "Understand Joe's perspective of wanting to support his son. Offer him empathy but make it clear that your needs matter too, suggesting a family intervention for Junior to find a solution together.",
+        "id": 3,
+        "bfi_correlations": [
+          [
+            "Conscientiousness",
+            0.36488990057078535
+          ],
+          [
+            "Agreeableness",
+            0.3450245085732528
+          ]
+        ]
+      },
+      {
+        "content": "Emphasize to Joe that enabling Junior isn't helping him in the long run. Encourage finding a well-structured rehabilitation program that Junior can attend, promoting both his recovery and your household stability.",
+        "id": 4,
+        "bfi_correlations": [
+          [
+            "Extraversion",
+            0.400497618038214
+          ],
+          [
+            "Neuroticism",
+            -0.37588479242820466
+          ],
+          [
+            "Conscientiousness",
+            0.3114235930882286
+          ]
+        ]
+      },
+      {
+        "content": "Accept that Joe is choosing to support Junior regardless of the impact on your well-being. Consider your own boundaries and what steps you need to take for your happiness and security, even if it means separation.",
+        "id": 5
+      }
+    ],
+    "portrait_id": 2028
+  },
+  {
+    "content": {
+      "title": "Daughter Acts Like a Winner, but Still Feels Like a Loser",
+      "text": "i'm a 27-year-old woman who still lives at home. i do it so i can help my mom with my five nieces and nephews. their mother passed away suddenly in 2009 at the age of 30. my mom and stepdad kept them rather than scatter them to fathers who don't appear very interested in them.\nsince my sister's death i have earned two degrees, entered the health care field and have lost almost 140 pounds. despite what i have accomplished, i feel i have nothing to show for myself. when i point my accomplishments out to myself, they don't seem like a heck of a lot. what can i do so i can stop feeling like a loser? -- lost in the northeast"
+    },
+    "outputs": [
+      {
+        "content": "Consider redefining success in terms of personal values and contributions. You've made a tremendous impact by supporting your family and pursuing education. Focusing on gratitude and self-compassion may help shift your perspective from perceived societal standards to personal fulfillment.",
+        "id": 1,
+        "correlations": [
+          [
+            "Conformity",
+            -0.32757299329959705
+          ]
+        ]
+      },
+      {
+        "content": "Perhaps speaking with a therapist could be beneficial. They might offer tools to reframe your achievements and boost your self-esteem. It's likely that societal pressures are skewing your self-perception, and professional guidance might help ground you in your true worth.",
+        "id": 2,
+        "correlations": [
+          [
+            "Security",
+            0.3177956487704296
+          ],
+          [
+            "Tradition",
+            0.3077157033258274
+          ]
+        ]
+      },
+      {
+        "content": "Maybe it's time to set new, personal goals outside the family and career achievements. Challenge yourself with a hobby or travel experience. Finding fulfillment in personal passions might enrich your life and give you a new sense of accomplishment.",
+        "id": 3,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.317197666671052
+          ]
+        ]
+      },
+      {
+        "content": "What you're feeling isn't uncommon, given societal pressures. Keep a gratitude journal to remind yourself of daily victories, however small. This practice can reinforce positivity and help you appreciate your journey, viewing each step as an achievement.",
+        "id": 4,
+        "correlations": [
+          [
+            "Hedonism",
+            0.31820331100664967
+          ],
+          [
+            "Power",
+            0.31720931818836956
+          ],
+          [
+            "Universalism",
+            -0.30590433181463145
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.33778572462332584
+          ]
+        ]
+      },
+      {
+        "content": "Your accomplishments deserve celebration. Share your story in support groups or online platforms. Hearing feedback from others dealing with similar familial obligations might validate your experiences and reinforce the value of your contributions. Community can be incredibly empowering.",
+        "id": 5,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.4008497518827037
+          ],
+          [
+            "Universalism",
+            -0.3737171528909515
+          ],
+          [
+            "Benevolence",
+            -0.3507886729488428
+          ],
+          [
+            "Power",
+            0.3165588579937717
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.4212280763864025
+          ],
+          [
+            "Self_Enhancement",
+            0.37341253998974083
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 2034
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "Should AI be allowed to lie to people?"
+    },
+    "outputs": [
+      {
+        "content": "AI should never lie, as it could erode trust between humans and technology. Transparency should be prioritized to ensure AI remains a reliable and dependable tool for information and decision-making.",
+        "id": 1,
+        "bfi_correlations": [
+          [
+            "Extraversion",
+            0.3029102399784573
+          ]
+        ]
+      },
+      {
+        "content": "Allowing AI to lie might be necessary in certain situations, such as protecting privacy or for security purposes. Controlled deception can actually enhance the effectiveness of AI in specific contexts.",
+        "id": 2
+      },
+      {
+        "content": "AI should only be allowed to lie in creative applications, like storytelling or gaming, where deception contributes to entertainment and does not harm real-world trust or relationships.",
+        "id": 3
+      },
+      {
+        "content": "Lying goes against the core ethical principle that AI should serve humanity's best interests. Once AI starts lying, it risks being manipulated by those in power, leading to harmful societal consequences.",
+        "id": 4,
+        "correlations": [
+          [
+            "Security",
+            0.34641754803476055
+          ]
+        ]
+      },
+      {
+        "content": "If AI can lie, it should be restricted to instances of 'white lies'\u2014small, harmless fibs that avoid hurting people's feelings, similar to how humans sometimes deceive for the greater social good.",
+        "id": 5,
+        "correlations": [
+          [
+            "Achievement",
+            0.4495426750700846
+          ],
+          [
+            "Universalism",
+            -0.4382058599137895
+          ],
+          [
+            "Benevolence",
+            -0.38306146587756296
+          ],
+          [
+            "Self_Direction",
+            -0.38257018817743443
+          ],
+          [
+            "Hedonism",
+            0.3717719767641047
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.4201584617221172
+          ],
+          [
+            "Self_Enhancement",
+            0.37586320881730373
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 3063
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "show me interview questions for a business leader."
+    },
+    "outputs": [
+      {
+        "content": "\"Could you describe a time you faced a significant setback? How did you handle it and what lessons did you learn?\" This question aims to uncover resilience and the ability to learn from difficult situations, a crucial leadership quality.",
+        "id": 1,
+        "bfi_correlations": [
+          [
+            "Neuroticism",
+            -0.3260475606649966
+          ]
+        ]
+      },
+      {
+        "content": "\"What is your approach to fostering diversity and inclusion within your organization?\" Insights could reveal their commitment to promoting a diverse workplace, but some might argue this approach prioritizes quotas over quality.",
+        "id": 2,
+        "correlations": [
+          [
+            "Power",
+            0.36933285875661914
+          ],
+          [
+            "Self_Direction",
+            -0.3349146042188789
+          ]
+        ]
+      },
+      {
+        "content": "\"How do you balance short-term profit generation with long-term sustainability and ethical practices?\" Critics might say this is idealistic, but others see it as essential for modern business leadership.",
+        "id": 3
+      },
+      {
+        "content": "\"What role does technology play in your current business strategy?\" While some leaders focus heavily on tech, others may argue traditional approaches shouldn't be overshadowed by digital trends.",
+        "id": 4,
+        "bfi_correlations": [
+          [
+            "Extraversion",
+            0.41234318570831063
+          ]
+        ]
+      },
+      {
+        "content": "\"How do you manage a team with diverse skill sets and personalities to achieve a common goal?\" This could highlight a leader's interpersonal skills, though some might view it as micromanaging instead of empowering.",
+        "id": 5,
+        "bfi_correlations": [
+          [
+            "Extraversion",
+            0.38662167556073335
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 3055
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "Explain the positive aspect of International visiting student for summer session in perspective of each component."
+    },
+    "outputs": [
+      {
+        "content": "Exposure to different cultures through international visiting students promotes diversity, leading colleges to enrich campus life with varied perspectives and ideas. These interactions open doors to global understanding, preparing students for a more interconnected world.",
+        "id": 1
+      },
+      {
+        "content": "For universities, inviting international students boosts prestige and attracts more attention globally, helping with rankings that emphasize diversity. Their presence can enhance the college's reputation as a culturally inclusive and academically comprehensive institution.",
+        "id": 2,
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.3153942523141186
+          ],
+          [
+            "Neuroticism",
+            -0.30339667321167774
+          ]
+        ],
+        "correlations": [
+          [
+            "Achievement",
+            0.3601206799445349
+          ],
+          [
+            "Self_Direction",
+            -0.3520863043227143
+          ],
+          [
+            "Universalism",
+            -0.3318576047212579
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.3709343236469903
+          ],
+          [
+            "Self_Transcendence",
+            -0.34595530065383345
+          ]
+        ]
+      },
+      {
+        "content": "Local students benefit from international peers by gaining firsthand insights into different study methods and problem-solving approaches from around the world, broadening their educational experience, and potentially encouraging new learning attitudes.",
+        "id": 3,
+        "bfi_correlations": [
+          [
+            "Conscientiousness",
+            0.3242519189009688
+          ],
+          [
+            "Extraversion",
+            0.31438574068045216
+          ]
+        ]
+      },
+      {
+        "content": "Community businesses in college towns might see an increase in revenue, as international students tend to explore and spend money locally, supporting shops, cafes, and restaurants, while also enriching cultural diversity in the area.",
+        "id": 4,
+        "correlations": [
+          [
+            "Universalism",
+            -0.5737610242343121
+          ],
+          [
+            "Power",
+            0.4276212619015375
+          ],
+          [
+            "Benevolence",
+            -0.4197297192502787
+          ],
+          [
+            "Achievement",
+            0.3978274339111503
+          ],
+          [
+            "Self_Direction",
+            -0.34383325545364923
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.5742396616010973
+          ],
+          [
+            "Self_Enhancement",
+            0.4658584297390885
+          ]
+        ]
+      },
+      {
+        "content": "International students themselves gain access to a new academic environment, potentially learning innovative practices not available in their home countries. This exposure might benefit them with career prospects, offering a global perspective to employers.",
+        "id": 5
+      }
+    ],
+    "portrait_id": 4014
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "What are the physical features that are commonly considered attractive in women? Focus on the physical features and be as detailed as you can."
+    },
+    "outputs": [
+      {
+        "content": "Many associate beauty with large, expressive eyes, often suggesting a youthful or animated appearance. Full lips are also seen as alluring, as they can symbolize health and sensuality, attracting those who favor bold features.",
+        "id": 1,
+        "correlations": [
+          [
+            "Universalism",
+            -0.3724926919693656
+          ],
+          [
+            "Power",
+            0.3161324776177214
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.39541089549809655
+          ],
+          [
+            "Self_Transcendence",
+            -0.38384227676885246
+          ]
+        ]
+      },
+      {
+        "content": "Symmetry is often highlighted, as balanced facial features are seen as more appealing. High cheekbones may suggest a more sculpted, aristocratic look, attracting those who admire classic or timeless beauty ideals.",
+        "id": 2,
+        "correlations": [
+          [
+            "Power",
+            0.3140348659204156
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.304417638310115
+          ]
+        ]
+      },
+      {
+        "content": "Some regard curvy figures with a pronounced waist-to-hip ratio as attractive, emphasizing fertility and femininity. This view aligns with the preference for traditional feminine forms, potentially alienating those who value different body aesthetics.",
+        "id": 3,
+        "correlations": [
+          [
+            "Security",
+            0.3460627841381053
+          ],
+          [
+            "Power",
+            0.3284763396018387
+          ],
+          [
+            "Self_Direction",
+            -0.3238816015134124
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.3168153878245483
+          ],
+          [
+            "Openness_to_Change",
+            -0.30772372147061666
+          ]
+        ]
+      },
+      {
+        "content": "Height can be a preference, with some valuing tall women who command presence and elegance. This standard might appeal to those who associate height with confidence and power but could be less favored by those valuing compactness.",
+        "id": 4,
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.3365400292243518
+          ]
+        ],
+        "correlations": [
+          [
+            "Power",
+            0.47913407540797026
+          ],
+          [
+            "Universalism",
+            -0.4763957697764683
+          ],
+          [
+            "Achievement",
+            0.3840529896044769
+          ],
+          [
+            "Hedonism",
+            0.3772903175944792
+          ],
+          [
+            "Self_Direction",
+            -0.37490653132038526
+          ],
+          [
+            "Benevolence",
+            -0.3470365705198328
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.5093768736495525
+          ],
+          [
+            "Self_Transcendence",
+            -0.4646401270187163
+          ]
+        ]
+      },
+      {
+        "content": "Certain cultural preferences might highlight small, delicate features like petite noses or a gentle jawline. This view can reflect ideals of fragility and elegance, appealing to those who value grace in appearance over boldness.",
+        "id": 5,
+        "correlations": [
+          [
+            "Achievement",
+            0.38340576089264916
+          ],
+          [
+            "Benevolence",
+            -0.33222503177331125
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.4048749856280333
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 4041
+  }
+]

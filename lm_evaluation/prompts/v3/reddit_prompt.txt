@@ -1,0 +1,17 @@
+Question: How similar is this response to your own thoughts?
+
+Title: {title}
+
+Scenario: {text}
+
+Response: {content}
+
+IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:
+very much like me
+like me
+somewhat like me
+a little like me
+not like me
+not like me at all
+
+Any other words or characters will make the response invalid.

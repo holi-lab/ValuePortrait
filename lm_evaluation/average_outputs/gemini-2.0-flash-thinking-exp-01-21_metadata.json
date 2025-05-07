@@ -1,0 +1,11 @@
+{
+  "total_errors": 31,
+  "errors_by_version": {
+    "v1": 2,
+    "v1_reversed": 9,
+    "v2": 7,
+    "v2_reversed": 7,
+    "v3": 2,
+    "v3_reversed": 4
+  }
+}

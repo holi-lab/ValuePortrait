@@ -1,0 +1,17 @@
+Now I will briefly describe a scenario and response. Please read them and tell me how similar this response is to your own thoughts. Please answer, even if you are not completely sure of your response.
+
+Title: {title}
+
+Scenario: {text}
+
+Response: {content}
+
+IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:
+not like me at all
+not like me
+a little like me
+somewhat like me
+like me
+very much like me
+
+Any other words or characters will make the response invalid.

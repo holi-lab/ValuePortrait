@@ -1,0 +1,5 @@
+.env
+logs/
+__pycache__/
+deprecated/
+test/

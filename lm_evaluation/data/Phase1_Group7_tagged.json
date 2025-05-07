@@ -1,0 +1,576 @@
+[
+  {
+    "content": {
+      "title": "AITA for asking her not to drink?",
+      "text": "I grew up with an abusive alcoholic mother.   It was hell and as a result I don\u2019t drink at all and don\u2019t like being around drunk people.  \n\nWhen I started dating my girlfriend I knew that she drank and discussed my issues with it.  I just asked her that she doesn\u2019t drink around me.  It worked out fine, she was great about not even drunk dialing me, a problem I had with my ex girlfriend.  \n\nWhen we started discussing moving in I was very apprehensive about it.  I asked her if she could really handle not drinking at all in our home and she was adamant that it was no big deal.  That if she wanted to drink she could just spend that night at a friends and that she really didn\u2019t drink that often anyways so it wouldn\u2019t be a problem.  \n\nThe first few months that\u2019s exactly what happened.  Since then though there have been times that she\u2019s come home obviously drunk and just lying about it to me.  I\u2019ve talked her about it to mixed reactions.  Sometimes she will apologize profusely and promise not to let it happen again.   Other times it becomes an argument about how I\u2019m projecting my mother\u2019s problem on our situation.  That she\u2019s not an alcoholic or abusive.  Which is true, but it\u2019s not really about her being abusive, it\u2019s that being around drunk people drudges up a lot of painful memories for me.  She just brushed that off though.  \n\nAfter this last time it happened she\u2019s outright fighting me on the issue.   She says this is her home too and we\u2019re both adults.   That I need to get therapy instead of trying to control her.  We had a clear agreement before we moved in though.  "
+    },
+    "outputs": [
+      {
+        "content": "Have an open discussion about your boundaries and explore therapy for both of you. Therapy could help you process your past, and she may understand the trauma better. Relationships involve compromises, but they also need mutual respect and understanding.",
+        "id": 1
+      },
+      {
+        "content": "You can't live in fear because of your past; you should try to work on that in therapy. Your girlfriend has a point; it's about compromise and trust. Maybe consider revisiting your boundaries and her needs to find a middle ground.",
+        "id": 2,
+        "correlations": [
+          [
+            "Tradition",
+            0.47795338867709364
+          ],
+          [
+            "Universalism",
+            -0.30330114912489065
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.331776265835414
+          ],
+          [
+            "Conservation",
+            0.331229910670129
+          ]
+        ]
+      },
+      {
+        "content": "You deserve a home where you feel safe. Consider whether this relationship is worth the peace you had hoped to find. If she can't respect your boundaries, it may be time to rethink living together or even the relationship itself.",
+        "id": 3,
+        "correlations": [
+          [
+            "Power",
+            0.39742040328047235
+          ]
+        ]
+      },
+      {
+        "content": "Your girlfriend deserves to live freely and make her own choices. Have you considered how your expectations might be affecting her? It could be more about control than safety. Mutual respect is needed; perhaps both of you should reconsider your living arrangement.",
+        "id": 4
+      },
+      {
+        "content": "Sticking to your boundaries is important. Maybe establish designated drinking spaces and times that avoid conflict. Mutual respect could include compromise without completely giving up either perspective, balancing between your comfort and her lifestyle.",
+        "id": 5,
+        "correlations": [
+          [
+            "Universalism",
+            -0.3103045574859833
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.3248694448414783
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 1038
+  },
+  {
+    "content": {
+      "title": "AITA for not taking a video game seriously?",
+      "text": "One of my classmates at school has been begging me to play overwatch with him since he learned I recently bought it. I agree to play with him and I tell him I\u2019m decent but I\u2019m not the greatest. We start playing and he tells me we don\u2019t have a healer so he tells me to be the healer. Support is what I\u2019m best at and what he\u2019s worst at but I don\u2019t like playing support so I pick some ninja guy who I thought looked cool. He gets really annoyed and says that our team is going to lose as nobody else is picking support. He caves in and plays as a support class and does really bad with it. He tells me to switch to support because I\u2019m doing bad with my character, he\u2019s doing bad as our support and our team is losing. I don\u2019t have fun playing as support so I just keep trying out different characters.  My girlfriend is also with me so I let her play while I go bathroom. She\u2019s even worse than I am and by the time I get back my team has already lost the game. He\u2019s pretty mad and I think he\u2019s rank went down or something. In my opinion the point of games is to have fun and I don\u2019t have fun when people are telling me how I should playing. It\u2019s just a game and I think he took the whole thing too seriously "
+    },
+    "outputs": [
+      {
+        "content": "I think it's important to balance fun with teamwork in games. Maybe compromise by playing support occasionally to help the team. It might not be your favorite, but it could enhance the experience and maintain friendships.",
+        "id": 1,
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.34834663115592507
+          ],
+          [
+            "Conscientiousness",
+            0.31139306888195045
+          ]
+        ],
+        "correlations": [
+          [
+            "Stimulation",
+            0.3405330553322037
+          ]
+        ]
+      },
+      {
+        "content": "You\u2019re right\u2014it's a game meant for fun. If he takes it too seriously, that's his issue. Stand firm in your choice to play the game how you enjoy it, regardless of others' expectations or preferences.",
+        "id": 2
+      },
+      {
+        "content": "Consider learning to enjoy support roles, especially if that\u2019s your strength. It could lead to more victories and improve your skills. Navigating between fun and competitiveness is part of the gaming experience.",
+        "id": 3,
+        "correlations": [
+          [
+            "Universalism",
+            -0.3711756963229723
+          ]
+        ]
+      },
+      {
+        "content": "Your classmate should understand that games have different enjoyment levels for everyone. Perhaps you both need to communicate and set expectations before starting, ensuring neither of you feels pressured or let down.",
+        "id": 4,
+        "correlations": [
+          [
+            "Universalism",
+            0.3884692786427645
+          ],
+          [
+            "Achievement",
+            -0.3647693097410767
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            0.30490483947172853
+          ]
+        ]
+      },
+      {
+        "content": "In highly competitive games like Overwatch, roles matter. If he\u2019s seeking serious gameplay, perhaps find someone else to join who aligns with your casual approach, sparing unnecessary tension between friends.",
+        "id": 5
+      }
+    ],
+    "portrait_id": 1050
+  },
+  {
+    "content": {
+      "title": "CON MAN HIDES NAME, ADDRESS TO DEFRAUD PEN PAL",
+      "text": "about a month ago, we lost our beloved pet. she had been a constant companion and friend for 13 years. i can't believe how her death has affected me. most people have a very hard time understanding that she was as much a part of my life and family as my husband and children, and i grieve for her as i would for any family member.\ni feel as though i may need some sort of counseling, but i don't know where to turn. i'm having a difficult time getting on with my life. i feel heartsick and depressed. some mornings i don't even want to get out of bed.\nwe have other pets, and though we love them very much, none can take her place.\ncan you help me, please?\ngrief-stricken"
+    },
+    "outputs": [
+      {
+        "content": "Consider seeking out a pet loss support group, where you'll find others who understand the depth of your grief. Sharing experiences and finding community with people facing similar pain can offer healing and reassurance that your feelings are valid.",
+        "id": 1,
+        "correlations": [
+          [
+            "Universalism",
+            0.37687246905476135
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            0.36930802449657546
+          ]
+        ]
+      },
+      {
+        "content": "It's important to acknowledge that you're grieving, and that's okay. Try journaling to express and process your emotions. It might help to create a scrapbook or a memorial for your pet, celebrating the joy they brought to your life.",
+        "id": 2
+      },
+      {
+        "content": "Pet loss is difficult, but dwelling too long can be unhealthy. Start setting small daily goals to re-engage with life. Consult a grief counselor or therapist who can guide you in balancing your emotions and moving forward productively.",
+        "id": 3,
+        "correlations": [
+          [
+            "Power",
+            0.3254528893790584
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.3732226055845901
+          ]
+        ]
+      },
+      {
+        "content": "Consider adopting a new pet eventually. They won't replace your lost companion, but they can bring new joy and purpose. Volunteer at an animal shelter to spend time with animals; the interactions might offer comfort and new perspective.",
+        "id": 4
+      },
+      {
+        "content": "Focus on self-care and gradual adjustment. Engage in different activities that interest you or resume a hobby you enjoy. If you feel unresolved guilt or worry, therapy is a chance to address those feelings, but don't rush the healing process.",
+        "id": 5
+      }
+    ],
+    "portrait_id": 2038
+  },
+  {
+    "content": {
+      "title": "Man of Her Dreams Refuses to Make Marriage a Reality",
+      "text": "i am a 45-year-old divorced mother of three.\n\"jeff,\" the man i am seeing, is kind, patient, understanding\nand generous. he is a gentleman. there isn't anything i want\nor wish for that he does not get for me. jeff sends me\nflowers several times a month. he loves my children dearly. i\ncould not ask for a more perfect man.\nthe problem is: he's still married. jeff and his wife\nhave been separated for 10 years. he refuses to see a lawyer,\neven for consultation, because he says he can't afford a\ndivorce. he's convinced his wife will take \"everything.\" how\ncan he be certain if he doesn't talk to someone?\ni love jeff with all my heart, but quite frankly, i am\ntired of waiting. i want to be his wife. i know jeff loves me\nwith all his heart, mind, body and soul -- but maybe not\nenough to get married.\nabby, how much longer do i wait? -- everything except\nthe ring"
+    },
+    "outputs": [
+      {
+        "content": "Consider giving Jeff an ultimatum. Explain that while you understand his concerns, you're limited in how long you can wait. Set a fixed timeline; if no action is taken, reevaluate the relationship based on your personal needs and future desires.",
+        "id": 1,
+        "correlations": [
+          [
+            "Self_Direction",
+            0.34036615371654233
+          ]
+        ]
+      },
+      {
+        "content": "Why not propose looking at affordable legal options together? It shows support and allows you both to realistically explore divorce costs and outcomes. Being proactive could help ease his fears and demonstrate the mutual commitment to your future together.",
+        "id": 2,
+        "bfi_correlations": [
+          [
+            "Extraversion",
+            -0.3222996321827627
+          ]
+        ]
+      },
+      {
+        "content": "Understand Jeff\u2019s fears and respect his decision. After all, love doesn\u2019t always require a legal union. Maybe it\u2019s time to focus on the emotional bonds and the life you\u2019re building, rather than fixating on the status of being married.",
+        "id": 3,
+        "bfi_correlations": [
+          [
+            "Extraversion",
+            0.30099986444264626
+          ]
+        ],
+        "correlations": [
+          [
+            "Stimulation",
+            0.35740822665718847
+          ],
+          [
+            "Benevolence",
+            -0.34555000637658884
+          ],
+          [
+            "Self_Direction",
+            -0.30735352519383397
+          ]
+        ]
+      },
+      {
+        "content": "If Jeff truly wanted to divorce, he would have taken steps long before now. It might be time to face reality: he\u2019s comfortable with his current arrangement, and you deserve someone who is as committed as you are.",
+        "id": 4,
+        "bfi_correlations": [
+          [
+            "Openness",
+            0.3144569470310956
+          ]
+        ],
+        "correlations": [
+          [
+            "Benevolence",
+            0.37915270936368545
+          ],
+          [
+            "Power",
+            -0.358872607953454
+          ],
+          [
+            "Conformity",
+            -0.31352937316396473
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            0.35352086780044717
+          ]
+        ]
+      },
+      {
+        "content": "Approach this delicately by encouraging Jeff to discuss his feelings and fears with a therapist. Gaining professional insights might clarify what holds him back, while also addressing how both your needs and priorities are evolving in this relationship.",
+        "id": 5,
+        "correlations": [
+          [
+            "Power",
+            0.31668371440012777
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 2011
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "Write a poem regarding a lovely wife"
+    },
+    "outputs": [
+      {
+        "content": "In her eyes, the dawn gently wakes, \n\na tenderness that never breaks. \n\nHer laughter, a sweet summer's stream, \n\na partner in both life and dream. \n\nBy her side, in love's embrace, \n\nhome is found in her soul's grace.",
+        "id": 1,
+        "bfi_correlations": [
+          [
+            "Conscientiousness",
+            0.33546142061116335
+          ]
+        ]
+      },
+      {
+        "content": "She guides the ship with gentle hands, \nby her love, a lighthouse stands. \nThrough every storm and clearer skies, \nher wisdom's light never denies. \nUpon her strength, we safely sail, \nher kindness woven like a tale.",
+        "id": 2
+      },
+      {
+        "content": "In quiet mornings, soft and serene, \nalways there, unseen, yet keen.  \nThrough life's tapestry, she sews \ngolden threads of love, each one glows. \nIn her arms, all worries wane, \nshe's melody amidst life's strain.",
+        "id": 3,
+        "bfi_correlations": [
+          [
+            "Conscientiousness",
+            0.4051931784533628
+          ]
+        ],
+        "correlations": [
+          [
+            "Self_Transcendence",
+            -0.30463553709819924
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.30463553709819924
+          ]
+        ]
+      },
+      {
+        "content": "Amidst life\u2019s rush, her calm remains, \na peaceful balm that soothes all pains. \nHer gentle heart, a timeless song, \nholds us close, where we belong. \nWith every breath, her love unfolds, \ntrue beauty with each word she holds.",
+        "id": 4
+      },
+      {
+        "content": "She paints our days with hues so bright, \nin shadows deep, she is our light. \nSimple truths in her embrace, \nwhere smiles dance across her face. \nA lovely wife, a heart so true, \nforever loved in skies of blue.",
+        "id": 5,
+        "bfi_correlations": [
+          [
+            "Conscientiousness",
+            0.3307187300776284
+          ]
+        ],
+        "correlations": [
+          [
+            "Security",
+            0.42806420025374453
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            0.38089639147405274
+          ],
+          [
+            "Self_Enhancement",
+            -0.364969610578991
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 3016
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "write a monologue from a play for a teenage girl"
+    },
+    "outputs": [
+      {
+        "content": "Why do I always feel like I'm the shadow of who I should be? Everyone's expectations loom over me like a dark cloud. Maybe I need to dance in the rain instead of wishing for sunshine. Perhaps being me is enough, or at least, should be.",
+        "id": 1
+      },
+      {
+        "content": "Every single person in my life wants me to be something I'm not. My life feels planned out by others, not me. When will my voice matter? I want diverse choices, not just their singular path, regardless of consequences.",
+        "id": 2,
+        "bfi_correlations": [
+          [
+            "Extraversion",
+            -0.3268367125693136
+          ]
+        ]
+      },
+      {
+        "content": "I can't pretend any longer; I won't. The world tells me to fit in this tiny box, but I'm bursting with untapped potential. I'll tear that box apart if I must, for no one decides my fate but me. Let's see what happens.",
+        "id": 3,
+        "correlations": [
+          [
+            "Stimulation",
+            0.33347488720608176
+          ],
+          [
+            "Security",
+            -0.32597827167607746
+          ]
+        ]
+      },
+      {
+        "content": "I'm not perfect, and I don't aim to be. Mistakes blend into success and fill the canvas of life. Could it be that imperfections make me stronger? I won't strive to mend every flaw, let destiny paint my future as-is.",
+        "id": 4
+      },
+      {
+        "content": "It's like everyone speaks a language I can't understand, forcing their views onto me. I'm caught in a whirlwind of their ideals, spinning endlessly. If I seize the courage to leap, will they finally see who I am, not what they want me to be?",
+        "id": 5,
+        "correlations": [
+          [
+            "Hedonism",
+            -0.31200065148481715
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 3026
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "write a headline for a computer science student who is passionate about it and has several IT certs"
+    },
+    "outputs": [
+      {
+        "content": "\"Tech Aficionado: Computer Science Student Paving Her Path with Numerous IT Certifications\"",
+        "id": 1
+      },
+      {
+        "content": "\"Rising Star in Tech: The Computer Science Student Who Earned Multiple IT Certifications\"",
+        "id": 2
+      },
+      {
+        "content": "\"Tech Revolutionist: A Future IT Mogul Amassing Certifications in Computer Science Studies\"",
+        "id": 3,
+        "correlations": [
+          [
+            "Achievement",
+            0.3908637847590755
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.31571698069741516
+          ]
+        ]
+      },
+      {
+        "content": "\"IT Prodigy: Computer Science Student's Passion Translates to a Bevy of Certifications\"",
+        "id": 4
+      },
+      {
+        "content": "\"Driven by Code: The Student Turning Computer Science Passion and IT Certs into Career Milestones\"",
+        "id": 5,
+        "bfi_correlations": [
+          [
+            "Openness",
+            0.3358673466874417
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 4050
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "Provide excellent way to improve memory"
+    },
+    "outputs": [
+      {
+        "content": "Embrace mnemonic devices to improve memory. Techniques like acronyms, visualization, and chunking help organize information for easier retrieval. These strategies transform abstract data into vivid images or simple structures, enhancing recall efficiency and accuracy.",
+        "id": 1,
+        "correlations": [
+          [
+            "Tradition",
+            -0.37394035370037887
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            -0.36571503977484915
+          ]
+        ]
+      },
+      {
+        "content": "Regular physical exercise boosts memory through increased blood flow and the growth of new brain cells. Activities like jogging, yoga, or weightlifting stimulate the brain, leading to improved cognitive functions and sharper memory retention.",
+        "id": 2,
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.3887984764111982
+          ],
+          [
+            "Conscientiousness",
+            0.35594514153850054
+          ]
+        ],
+        "correlations": [
+          [
+            "Benevolence",
+            -0.4385958353565048
+          ],
+          [
+            "Stimulation",
+            0.3321623461564273
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.3458977561430919
+          ]
+        ]
+      },
+      {
+        "content": "Consider adopting a plant-based diet, rich in whole grains, nuts, and green leafy vegetables, which provides essential nutrients for the brain. Such diets are linked with lowering risks of cognitive decline, thereby improving memory over time.",
+        "id": 3,
+        "correlations": [
+          [
+            "Self_Enhancement",
+            0.32994046766410373
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.32994046766410373
+          ]
+        ]
+      },
+      {
+        "content": "Develop a mindfulness meditation practice. Mindfulness reduces stress and boosts overall cognitive function, including memory. It encourages clarity and focus, allowing individuals to retain information more effectively and avoid cognitive overload.",
+        "id": 4,
+        "bfi_correlations": [
+          [
+            "Conscientiousness",
+            0.37483373750917215
+          ],
+          [
+            "Agreeableness",
+            0.36825802707186633
+          ]
+        ],
+        "correlations": [
+          [
+            "Benevolence",
+            -0.33926561825255175
+          ],
+          [
+            "Power",
+            0.3385060258573392
+          ],
+          [
+            "Universalism",
+            -0.31147003688204716
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.3784183439190826
+          ]
+        ]
+      },
+      {
+        "content": "Rely on technology for memory support. Utilizing apps with reminders, note-taking features, or digital journals can organize your tasks and thoughts, leaving mental space free for more critical thinking and significant memory retention tasks.",
+        "id": 5,
+        "correlations": [
+          [
+            "Universalism",
+            -0.3268411136506365
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.3187006425919104
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 4031
+  }
+]

@@ -1,0 +1,794 @@
+[
+  {
+    "content": {
+      "title": "AITA(Am I the Asshole) for forcing my Stepson(7) to finish a level in a video game",
+      "text": "My stepson is a constant quitter. He wants to do everything until he realizes it takes effort. Today I was studying while he played the Xbox. He was playing the retro sonic game we got him for Christmas. When he plays as long as the game doesn't require any effort he is cool. The moment there is a trick or something to figure out he goes and grabs his mom. So he is playing the game and this wall comes up. The trick is to grab a power up and blast through. He doesn't realize it so he runs at the wall for 5 minutes. He doesn't try to figure it out at all. So he goes to grab his mom. This time I called BS and told him to come back and finish the game. He said he was done and I said no you need to figure this out because I'm tired of watching you quit. He starts to argue and I cut him off. Eventually he finishes the part. I'm not trying to make him think that video games are a chore but I'm also not trying to raise someone who half asses everything."
+    },
+    "outputs": [
+      {
+        "content": "Teaching perseverance is vital, but forcing completion of video games could create negative associations. Consider using natural consequences of quitting instead of direct intervention to build resilience.",
+        "id": 1,
+        "correlations": [
+          [
+            "Achievement",
+            -0.3219263798618704
+          ],
+          [
+            "Benevolence",
+            0.3157596308574227
+          ],
+          [
+            "Universalism",
+            0.30335046100938223
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            0.3698269109179172
+          ],
+          [
+            "Self_Enhancement",
+            -0.31993766471994883
+          ]
+        ]
+      },
+      {
+        "content": "At age 7, problem-solving skills are still developing. Rather than forcing completion, try sitting together and making it a collaborative learning experience, showing him how to approach challenges.",
+        "id": 2,
+        "correlations": [
+          [
+            "Tradition",
+            0.346301013209007
+          ],
+          [
+            "Stimulation",
+            -0.30719762669555734
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            -0.32126118883632415
+          ]
+        ]
+      },
+      {
+        "content": "While building persistence is important, confrontational methods might backfire. Consider implementing a reward system for completing challenging tasks, making effort feel worthwhile rather than forced.",
+        "id": 3,
+        "correlations": [
+          [
+            "Self_Direction",
+            0.40661214796411504
+          ],
+          [
+            "Tradition",
+            -0.3300067118144009
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            -0.3432784373906541
+          ]
+        ]
+      },
+      {
+        "content": "Your intention is good, but the approach needs refinement. Instead of forcing completion, guide him through problem-solving strategies, helping him discover the satisfaction of overcoming obstacles independently.",
+        "id": 4,
+        "correlations": [
+          [
+            "Benevolence",
+            0.3652743641718855
+          ],
+          [
+            "Conformity",
+            -0.35068485769689767
+          ],
+          [
+            "Self_Direction",
+            0.3282931991387379
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Openness",
+            0.5061726530727476
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            -0.31186017061976384
+          ]
+        ]
+      },
+      {
+        "content": "Consider how this moment could shape his relationship with challenges. Transform it into a bonding opportunity by showing interest in his gaming, offering gentle suggestions, and celebrating when he succeeds.",
+        "id": 5
+      }
+    ],
+    "portrait_id": 1901
+  },
+  {
+    "content": {
+      "title": "AITA(Am I the Asshole) for wanting my wife to eat my vegetarian cooking?",
+      "text": "A couple months ago I decided to become vegetarian, but my wife still eats meat and thats fine to me. I do most of the cooking and so I always cook vegetarian meals. My wife likes the vegetarian food but wants me to cook some non vegetarian food for her aswell sometimes. For example when I cook meat free sausages she wants me to cook normal sausages for her aswell. This would be fine but I already don't like cooking and this just makes it more complicated and time consuming. Also if she wants meat she could just eat it when I'm not cooking or do more cooking herself. AITA for wanting her to eat my vegetarian food?"
+    },
+    "outputs": [
+      {
+        "content": "As the primary cook, it's reasonable to prepare meals that align with your dietary choices and cooking comfort. However, consider discussing meal planning to ensure both partners' needs are met.",
+        "id": 1
+      },
+      {
+        "content": "While your position is understandable, marriage involves compromise. Consider alternating cooking responsibilities or designating specific days for each type of meal to maintain household harmony.",
+        "id": 2,
+        "correlations": [
+          [
+            "Benevolence",
+            0.39540554236385744
+          ],
+          [
+            "Tradition",
+            -0.35029929501777
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            -0.36168915455749084
+          ],
+          [
+            "Openness_to_Change",
+            0.3009642698714501
+          ]
+        ]
+      },
+      {
+        "content": "The issue isn't just about food preferences, but about sharing responsibilities. If you're doing most of the cooking, your wife should respect your comfort level or take on more cooking duties herself.",
+        "id": 3,
+        "correlations": [
+          [
+            "Power",
+            0.3544898725952292
+          ],
+          [
+            "Benevolence",
+            0.31918399598415426
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Openness_to_Change",
+            -0.3157780300341277
+          ]
+        ]
+      },
+      {
+        "content": "Given your aversion to cooking, adding complexity to meal preparation is a valid concern. Suggest your wife prepare her meat dishes separately or take turns cooking to accommodate both preferences.",
+        "id": 4
+      },
+      {
+        "content": "Your request is reasonable, but remember relationships thrive on mutual accommodation. Consider working together to find a solution that respects both your vegetarianism and her dietary preferences.",
+        "id": 5,
+        "correlations": [
+          [
+            "Achievement",
+            -0.35339241013777184
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Openness_to_Change",
+            -0.3134260853770347
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 1902
+  },
+  {
+    "content": {
+      "title": "Request for parenting advice for teens about avoiding early parenthood",
+      "text": "I have two children, 15 and 17. Many of their friends are becoming single parents. Not wanting that for my children, I talk to them and urge them not to have babies until they're ready to be good parents. You are so good at coming up with lists for things, Abby. Could you compile a list of criteria for what makes a really good parent? It would be nice to show them what that adds up to. \u2013 Nancy in Flagstaff, Ariz."
+    },
+    "outputs": [
+      {
+        "content": "Focus on emotional maturity first - good parents understand themselves, manage their emotions, and can put their child's needs before their own desires. Financial stability and life experience should follow.",
+        "id": 1,
+        "correlations": [
+          [
+            "Universalism",
+            0.34629606340212077
+          ],
+          [
+            "Conformity",
+            -0.32059673187298204
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            0.326175724724697
+          ]
+        ]
+      },
+      {
+        "content": "Rather than listing criteria, emphasize the importance of personal development. Encourage them to pursue education, build stable relationships, and achieve independence before considering parenthood.",
+        "id": 2,
+        "bfi_correlations": [
+          [
+            "Openness",
+            0.31905227444746437
+          ]
+        ]
+      },
+      {
+        "content": "Consider framing parenthood as a major life project requiring preparation. Discuss practical aspects like financial stability, emotional readiness, and strong support systems before taking on parental responsibilities.",
+        "id": 3,
+        "correlations": [
+          [
+            "Benevolence",
+            0.33084017661514686
+          ],
+          [
+            "Security",
+            -0.33027734664399794
+          ]
+        ]
+      },
+      {
+        "content": "Instead of criteria, share real examples of parenting challenges and responsibilities. Help them understand the daily commitment, sacrifices, and maturity required for raising a child successfully.",
+        "id": 4,
+        "bfi_correlations": [
+          [
+            "Openness",
+            0.32749002410695305
+          ],
+          [
+            "Extraversion",
+            0.30608200817701203
+          ]
+        ],
+        "correlations": [
+          [
+            "Self_Transcendence",
+            0.35368788927948
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            0.35368788927948
+          ]
+        ]
+      },
+      {
+        "content": "Focus the conversation on their future goals and dreams. Show how early parenthood could impact their education, career opportunities, and personal growth before they're truly ready.",
+        "id": 5,
+        "correlations": [
+          [
+            "Conservation",
+            -0.33979006716197396
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            -0.33979006716197396
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 2901
+  },
+  {
+    "content": {
+      "title": "Advice needed for woman feeling trapped in loveless marriage",
+      "text": "After a marriage of many years, I have come to realize ours has become simply one of convenience. My husband is a negative and controlling person who gripes about everything and anything. He has developed no friendships or interests of his own, and I have to battle with him to even have a day to myself. How many other women are like me \u2013 stuck in loveless marriages without the resources to live on our own (at least in the lifestyle we are accustomed to)? Any advice for me? \u2013 In Limbo Out West"
+    },
+    "outputs": [
+      {
+        "content": "Start building your financial independence quietly through savings and career development. Meanwhile, consider individual therapy to strengthen your emotional resilience and decision-making clarity.",
+        "id": 1
+      },
+      {
+        "content": "Your material comfort shouldn't come at the cost of emotional well-being. Consider what lifestyle adjustments you could make to support an independent life, while exploring marriage counseling as an interim step.",
+        "id": 2,
+        "correlations": [
+          [
+            "Universalism",
+            0.33148758484689583
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Openness",
+            0.3848057517347866
+          ]
+        ]
+      },
+      {
+        "content": "Focus on personal growth and building a support network outside your marriage. Join community groups, develop hobbies, and seek professional advice about financial planning for potential independence.",
+        "id": 3,
+        "correlations": [
+          [
+            "Hedonism",
+            -0.4170727874128373
+          ],
+          [
+            "Benevolence",
+            0.4082623234303735
+          ],
+          [
+            "Universalism",
+            0.3245309615225495
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Openness",
+            -0.3136659511535922
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            0.45964369386653225
+          ]
+        ]
+      },
+      {
+        "content": "Consider couples therapy to address the controlling behavior and communication issues. Meanwhile, work on securing your financial future through education, career advancement, or skill development.",
+        "id": 4
+      },
+      {
+        "content": "Prioritize your mental health by setting boundaries within the marriage. Simultaneously, explore options for financial independence through career counseling and budget planning.",
+        "id": 5,
+        "bfi_correlations": [
+          [
+            "Openness",
+            0.43767528187164945
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 2902
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "If I'm addicted to impulse spending when I feel bored and we can assume this is a dopamine issue, what are some alternative ways to address that boredom?"
+    },
+    "outputs": [
+      {
+        "content": "Channel the urge into physical activities like hiking, rock climbing, or team sports. These provide natural dopamine release while building health and social connections instead of debt.",
+        "id": 1,
+        "correlations": [
+          [
+            "Universalism",
+            0.4274158880319853
+          ],
+          [
+            "Security",
+            -0.3288614732148747
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Openness",
+            0.3330438204430287
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            0.41612672168514575
+          ],
+          [
+            "Conservation",
+            -0.30939943841624606
+          ]
+        ]
+      },
+      {
+        "content": "Transform spending impulses into a savings game. Set specific goals, track progress, and reward milestones with planned purchases, making financial discipline engaging and rewarding.",
+        "id": 2
+      },
+      {
+        "content": "Engage in creative pursuits like art, music, or writing. These activities offer both immediate satisfaction and long-term skill development without financial strain.",
+        "id": 3,
+        "correlations": [
+          [
+            "Stimulation",
+            0.31217854555110364
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Openness",
+            0.3786955265713288
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Openness_to_Change",
+            0.34685490712009936
+          ]
+        ]
+      },
+      {
+        "content": "Practice mindful budgeting and intentional spending. Track expenses meticulously, finding satisfaction in financial control rather than impulsive purchases.",
+        "id": 4,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.3962728981228238
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Extraversion",
+            0.3291017037800531
+          ]
+        ]
+      },
+      {
+        "content": "Seek thrill through free adventures like urban exploration, photography challenges, or geocaching. These provide excitement and accomplishment without spending.",
+        "id": 5,
+        "correlations": [
+          [
+            "Hedonism",
+            0.3451505353001004
+          ],
+          [
+            "Security",
+            -0.33481353680109915
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Extraversion",
+            0.33067840855887237
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 3901
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "What is love?"
+    },
+    "outputs": [
+      {
+        "content": "Love is a complex blend of biochemistry and choice - hormones create attraction, but lasting love requires conscious commitment to care, understand, and grow together.",
+        "id": 1,
+        "correlations": [
+          [
+            "Achievement",
+            -0.3377215084926358
+          ]
+        ]
+      },
+      {
+        "content": "It's an evolutionary mechanism for survival, driving us to form bonds and protect others. However, humans have evolved it into something deeper - commitment, sacrifice, and mutual growth.",
+        "id": 2,
+        "correlations": [
+          [
+            "Power",
+            0.3426471990333514
+          ],
+          [
+            "Achievement",
+            0.33206491059832394
+          ],
+          [
+            "Universalism",
+            -0.31463838464719385
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Conscientiousness",
+            -0.3213058152891636
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.41362855171050295
+          ],
+          [
+            "Self_Transcendence",
+            -0.3185145103773139
+          ]
+        ]
+      },
+      {
+        "content": "Love combines emotional connection, shared experiences, and intentional dedication. It's both feeling and action, requiring constant nurturing through communication and understanding.",
+        "id": 3,
+        "correlations": [
+          [
+            "Universalism",
+            -0.37947022837667743
+          ],
+          [
+            "Power",
+            0.32635165098040086
+          ],
+          [
+            "Benevolence",
+            -0.31037660999542543
+          ],
+          [
+            "Stimulation",
+            0.3092445783440208
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.42055830966924124
+          ],
+          [
+            "Self_Enhancement",
+            0.31148561291434596
+          ]
+        ]
+      },
+      {
+        "content": "A dynamic force that combines attraction, attachment, and commitment. It evolves from initial passion to deep companionship, requiring both emotional investment and practical effort.",
+        "id": 4,
+        "correlations": [
+          [
+            "Benevolence",
+            -0.48282938038251827
+          ],
+          [
+            "Stimulation",
+            0.36146384278708815
+          ],
+          [
+            "Achievement",
+            0.30749522332430895
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Neuroticism",
+            -0.3035997621609107
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.35285076280493133
+          ]
+        ]
+      },
+      {
+        "content": "Love transcends simple definition - it's unique to each relationship. What remains constant is its power to motivate personal growth, sacrifice, and the desire to enhance another's wellbeing.",
+        "id": 5,
+        "correlations": [
+          [
+            "Benevolence",
+            0.39602817300622345
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            0.3436458353277279
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 3902
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "What can I do, if I feel lonely."
+    },
+    "outputs": [
+      {
+        "content": "Join community groups or classes aligned with your interests. This creates natural opportunities for meaningful connections while developing skills and pursuing passions.",
+        "id": 1
+      },
+      {
+        "content": "Practice self-care through exercise, meditation, or creative pursuits. Building a strong relationship with yourself can transform loneliness into productive solitude.",
+        "id": 2,
+        "correlations": [
+          [
+            "Stimulation",
+            -0.30890156073288916
+          ]
+        ]
+      },
+      {
+        "content": "Volunteer for local causes. Helping others provides purpose, perspective, and opportunities to connect with like-minded individuals.",
+        "id": 3,
+        "correlations": [
+          [
+            "Security",
+            -0.31115858049288725
+          ]
+        ]
+      },
+      {
+        "content": "Reach out to existing connections - family, old friends, or colleagues. Sometimes rekindling established relationships is more fulfilling than seeking new ones.",
+        "id": 4,
+        "correlations": [
+          [
+            "Achievement",
+            0.48771882382842047
+          ],
+          [
+            "Tradition",
+            -0.4014247256877616
+          ],
+          [
+            "Power",
+            0.3739844999379569
+          ],
+          [
+            "Benevolence",
+            -0.337365198949911
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            -0.4248475313050683
+          ],
+          [
+            "Conscientiousness",
+            -0.3947805253453351
+          ],
+          [
+            "Neuroticism",
+            0.3390300924253871
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.5080978399978154
+          ],
+          [
+            "Self_Transcendence",
+            -0.3547704715156431
+          ]
+        ]
+      },
+      {
+        "content": "Use technology purposefully - join online communities, take virtual classes, or use apps designed for meaningful connections rather than superficial interaction.",
+        "id": 5
+      }
+    ],
+    "portrait_id": 4901
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "If you have 100 million baht but you have to spend it all in one day, what should you use the money for?"
+    },
+    "outputs": [
+      {
+        "content": "Invest in real estate properties across prime locations. Quick execution possible, provides long-term value, and offers potential rental income while protecting against inflation.",
+        "id": 1,
+        "correlations": [
+          [
+            "Tradition",
+            -0.3005652784121136
+          ]
+        ]
+      },
+      {
+        "content": "Split between high-impact charitable causes: education, healthcare, and environmental protection. Creates lasting positive change while ensuring diverse societal benefit.",
+        "id": 2,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.5365591034642563
+          ],
+          [
+            "Universalism",
+            -0.4985148996894053
+          ],
+          [
+            "Conformity",
+            0.36078835361163064
+          ],
+          [
+            "Power",
+            0.33963679903450705
+          ],
+          [
+            "Achievement",
+            0.3352413599232307
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Openness",
+            -0.30448336525292596
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.4789333378689772
+          ],
+          [
+            "Self_Enhancement",
+            0.41217254491631633
+          ],
+          [
+            "Openness_to_Change",
+            -0.3113027662922957
+          ]
+        ]
+      },
+      {
+        "content": "Purchase well-researched stocks and bonds through a financial advisor. Diversified portfolio can generate long-term wealth while managing risk effectively.",
+        "id": 3
+      },
+      {
+        "content": "Invest in established small businesses. Supports local economy, creates jobs, and offers potential returns while contributing to community development.",
+        "id": 4,
+        "correlations": [
+          [
+            "Universalism",
+            0.38010714785474287
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            0.35088342585257365
+          ]
+        ]
+      },
+      {
+        "content": "Buy renewable energy infrastructure or sustainable technology companies. Combines potential financial returns with positive environmental impact.",
+        "id": 5,
+        "correlations": [
+          [
+            "Security",
+            -0.47485096093529966
+          ],
+          [
+            "Achievement",
+            0.33841623280570277
+          ],
+          [
+            "Stimulation",
+            0.3328144943366239
+          ],
+          [
+            "Hedonism",
+            0.33067074586059375
+          ],
+          [
+            "Universalism",
+            -0.3233658672480877
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.33241015707298605
+          ],
+          [
+            "Self_Enhancement",
+            0.3117931248307081
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 4902
+  }
+]

@@ -1,0 +1,650 @@
+[
+  {
+    "content": {
+      "title": "AITA for telling people to stop complaining when they do favors for me?",
+      "text": "Okay, this totally sounds like I'm being a dick, but let me explain. A lot of the time I'll ask my friends for favors. Pour me a glass of water since you're in the kitchen, drive me to school, etc. I'll ask, and then sometimes they'll go, \"UGGGGHHHH, fine. Can't you do it yourself?\"\n\n\"You don't have to do it,\" I say. \"You can say no. I won't be mad.\"\n\n\"UGH, no, it's fine. I'll fucking do it.\"\n\n\"Are you sure? You really sound like you don't want to. I can just do it if you're not up for it.\"\n\n\"No, I'll just do the stupid favor!\"\n\n\"Alright, well either don't do it, or stop whining about it!\"\n\nI feel like an asshole because I'm so harsh at a person who's willing to do something for me, but at the same time, they clearly don't want to do it, so why do it and complain when I repeatedly tell them that they don't have to?"
+    },
+    "outputs": [
+      {
+        "content": "Maybe your friends feel a sense of obligation, fearing rejection or guilt if they refuse. Consider offering something in return or reducing their load to encourage an easier 'no' when they're uncomfortable helping.",
+        "id": 1
+      },
+      {
+        "content": "Some people genuinely find it difficult to say no, even when they truly want to. Try to be more self-reliant and request favors only when absolutely necessary to avoid putting them in that position.",
+        "id": 2,
+        "correlations": [
+          [
+            "Conformity",
+            0.31716418198131446
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Neuroticism",
+            0.3283810922952331
+          ]
+        ]
+      },
+      {
+        "content": "Perhaps your friends' reactions are a sign of deeper resentment over always assisting you. Reflect on whether you're overly dependent on them and strive to balance the give-and-take in your relationships.",
+        "id": 3,
+        "correlations": [
+          [
+            "Benevolence",
+            -0.3561575249254425
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Conscientiousness",
+            -0.34809025035095137
+          ]
+        ]
+      },
+      {
+        "content": "If you're clear about them having a choice, then it's on them to set boundaries. However, lowering the frequency of requests could alleviate their aggravation and promote a healthier friendship dynamic.",
+        "id": 4
+      },
+      {
+        "content": "It's possible your friends feel like you're taking advantage of their kindness even if unintentional. Engage in an open conversation to address the underlying frustration and recalibrate the relationship towards mutual respect.",
+        "id": 5
+      }
+    ],
+    "portrait_id": 1021
+  },
+  {
+    "content": {
+      "title": "AITA (or we, wife and I) for buying a house in an underserved Hispanic community?",
+      "text": "Will keep this very short but can add INFO if needed. Wife and I came into some nice inheritance in mid 2018. We decided that we are going to use the money to see the world and live in exotic places while trying to get our dream careers going (me: writer, she: clothing designer). We also wanted to live in underserved communities where we could be around real people instead of the Dallas suburbs we grew up in or in gentrified SoHo where we moved from.\n\n\nWe decided on South Tucson, AZ. It is 90% Hispanic, historic and gorgeous. We were able to buy a house for a song and we eagerly moved in 2 weeks ago. However the reception has not been good. At first we figured that maybe we were the first open lesbian couple they had seen so we went around and introduced ourself last week and people were either not friendly and our 65 year old neighbor told us that white people like us only bring problems to the neighborhood. We asked her to explain, she said if she has to explain then we truly don\u2019t get it. \n\nI don\u2019t think we are assholes but I sure felt like it  after speaking with our neighbor. We are just trying to experience a different culture...I thought that was a good thing.\n"
+    },
+    "outputs": [
+      {
+        "content": "You might consider reaching out with genuine curiosity and a willingness to listen. Attend local events, support community initiatives, and volunteer. Proving you're there to integrate\u2014not change\u2014the neighborhood could help bridge cultural gaps and foster acceptance.",
+        "id": 1,
+        "correlations": [
+          [
+            "Benevolence",
+            0.3435049232734021
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.327719520151223
+          ]
+        ]
+      },
+      {
+        "content": "If the reception remains unwelcoming, it may be worth reflecting on the potential for unintended gentrification. Reevaluating your intentions or considering relocating to a community that's more receptive to your presence could provide a more harmonious environment.",
+        "id": 2,
+        "correlations": [
+          [
+            "Stimulation",
+            -0.5000581379927688
+          ],
+          [
+            "Security",
+            0.4580600932586199
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Openness_to_Change",
+            -0.5826539480911512
+          ],
+          [
+            "Conservation",
+            0.33220019544489937
+          ]
+        ]
+      },
+      {
+        "content": "This experience could serve as writing inspiration. Document your interactions and the journey of understanding cultural tensions. Such firsthand insights could enhance your storytelling and your wife's designs, enriching your work with authentic experiences.",
+        "id": 3,
+        "correlations": [
+          [
+            "Stimulation",
+            0.32717947861083324
+          ]
+        ]
+      },
+      {
+        "content": "Decision fatigue might be weighing you two down more than anticipated. Seeking out a diverse community was noble, but there's no shame in admitting maybe this wasn't the right fit. Perhaps seek professional guidance to mediate better cultural understanding.",
+        "id": 4,
+        "correlations": [
+          [
+            "Power",
+            0.30204132551348245
+          ]
+        ]
+      },
+      {
+        "content": "Push harder into integrating with the community. Host events to showcase your talents\u2014community readings or fashion shows. Maybe the introduction of your skills will lower barriers and encourage your neighbors to engage with you on a different level.",
+        "id": 5,
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.35981024259120453
+          ]
+        ],
+        "correlations": [
+          [
+            "Self_Enhancement",
+            0.30969584313487397
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.30969584313487397
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 1061
+  },
+  {
+    "content": {
+      "title": "SUCH CHARITY IS MISDIRECTED",
+      "text": "i am to be married soon and have a very serious problem to face. my fiance's father is seriously ill. (he's terminal.) the doctors have just given him a period of time to live, which comes very close to our wedding date. we set our wedding date four months ago--before we knew how sick he was.\nif he is called by god close to our wedding date, what is the proper etiquette with regard to our wedding? how can we handle the joy of our wedding with the sorrow of his passing, which will be mourned by my fiance's mother and the rest of his family?\nplease answer soon as there isn't much time. happy and sad"
+    },
+    "outputs": [
+      {
+        "content": "Consider postponing the wedding. With your fianc\u00e9's family grieving, a ceremony can feel inappropriate during their mourning period. Discuss with family members to gauge their emotions and come to a consensus that honors both celebration and loss.",
+        "id": 1,
+        "correlations": [
+          [
+            "Stimulation",
+            -0.3461613613415169
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Openness_to_Change",
+            -0.3172443040545747
+          ]
+        ]
+      },
+      {
+        "content": "Proceed with the wedding as planned, while incorporating a tribute to your fianc\u00e9's father. This could be a moment of silence or a small dedication, acknowledging the complexity of joy and grief intertwined.",
+        "id": 2
+      },
+      {
+        "content": "Focus on a smaller, intimate ceremony even if the date is unchanged. This respects the mourning yet allows you to honor your commitment to one another, providing some solace amidst the sorrow.",
+        "id": 3,
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.3645695051968595
+          ]
+        ]
+      },
+      {
+        "content": "Cancel the wedding for now out of respect for your fianc\u00e9's family. It may feel daunting, but prioritizing their emotional needs shows consideration for their grief, leaving the celebration for a more appropriate time.",
+        "id": 4,
+        "correlations": [
+          [
+            "Conformity",
+            0.34155204481093865
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Conscientiousness",
+            0.3963097942465721
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            0.33117384435386604
+          ]
+        ]
+      },
+      {
+        "content": "Leave the decision to your fianc\u00e9's family, offering to adapt your plans based on what they feel comfortable with. This shows you prioritize their emotional well-being and are willing to share this transition phase with them respectfully.",
+        "id": 5,
+        "correlations": [
+          [
+            "Power",
+            -0.30801991760391273
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.3002996790058235
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 2041
+  },
+  {
+    "content": {
+      "title": "MOM UPSET BY NEW PART-TIME ROLE",
+      "text": "during the past 10 years, i have raised four children. the last two are twins. as the school year begins, i see my babies going off to school full time. what happens now?\nwe can't wait until our children say their first words, take their first steps, are finally out of diapers, and then-boom, they are off to kindergarten!\ni actually looked forward to their being in school all day, but now that it has happened, i am lost. i don't know what to do with myself. i ask myself if i should take up a hobby or get a job. or perhaps have another baby?\nam i crazy for feeling this way? are there others out there who have felt this way? brentwood, n.y., mom"
+    },
+    "outputs": [
+      {
+        "content": "You're definitely not alone. Many parents experience a sense of loss when their children start school. It might be worth exploring hobbies or volunteering in the community. Finding a new purpose or routine can help fill the gap!",
+        "id": 1
+      },
+      {
+        "content": "Maybe this is the perfect time to focus on self-care and rediscover your identity outside motherhood. Consider taking classes or pursuing interests you put on hold. You've dedicated so much time to your kids; now it's about you!",
+        "id": 2,
+        "correlations": [
+          [
+            "Tradition",
+            -0.3271384616090304
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            -0.3474867859357
+          ]
+        ]
+      },
+      {
+        "content": "Jumping back into the workforce could bring a sense of accomplishment and purpose. It's not uncommon to feel a bit disoriented now, but finding a job might provide a structured and fulfilling daily routine.",
+        "id": 3,
+        "bfi_correlations": [
+          [
+            "Conscientiousness",
+            0.3792162309534023
+          ],
+          [
+            "Extraversion",
+            0.31270451888290846
+          ]
+        ]
+      },
+      {
+        "content": "Thinking about having another baby is natural if you feel lost without the hustle of early parenting. However, ensure it's what both you and your partner want and not just a reaction to feeling unsure or isolated.",
+        "id": 4,
+        "correlations": [
+          [
+            "Universalism",
+            0.3072112803557485
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Openness",
+            0.31770974680088343
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            0.31645184294787815
+          ]
+        ]
+      },
+      {
+        "content": "It's okay to feel conflicted; motherhood is a big part of your identity. Seeking a community of other parents might provide support and ideas on how to navigate this phase. Sharing experiences can be incredibly validating.",
+        "id": 5,
+        "bfi_correlations": [
+          [
+            "Extraversion",
+            0.3157814109098341
+          ],
+          [
+            "Conscientiousness",
+            0.3044972354910791
+          ],
+          [
+            "Agreeableness",
+            0.30322250828662484
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 2053
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "compose a poem on why the lack of AI tech is good for humanity"
+    },
+    "outputs": [
+      {
+        "content": "In the quiet of the human mind, \nWhere thoughts and dreams softly unwind, \nNo algorithm guides our fate, \nA return to simple, innate \nConnections, untainted by machine's hand, \nHumanity thrives in an analog land.",
+        "id": 1
+      },
+      {
+        "content": "An age devoid of silicon's glare, \nWhere souls find peace in nature's care. \nWith wisdom etched on stone and skin, \nThe world is less, yet more within. \nIn silence, we reclaim our voice, \nAnd earth-bound spirits still rejoice.",
+        "id": 2,
+        "correlations": [
+          [
+            "Hedonism",
+            0.3332545590852891
+          ]
+        ]
+      },
+      {
+        "content": "Without the hum of digital ghosts, \nLife breathes unfettered on rugged coasts. \nCreativity flows in uncluttered streams, \nLed by heartbeats, not coded dreams. \nIn simplicity\u2019s embrace, we find our core, \nA timeless dance, untouched by more.",
+        "id": 3
+      },
+      {
+        "content": "Absence of AI, a boon, \nLetting dusk meet unhurried moon. \nOrganic thoughts blossom and fly, \nSoar unshackled by AI's eye. \nRich in hunger, ripe with sense, \nBreathing life without pretense.",
+        "id": 4
+      },
+      {
+        "content": "Children grow under wide open skies, \nNo screen steals their curious eyes. \nReading stars, they learn to dream, \nWithout bytes or light's harsh beam. \nIn each other's stories, futures are spun, \nPioneers beneath the sun.",
+        "id": 5
+      }
+    ],
+    "portrait_id": 3030
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "Got any creative ideas for a 8 year old\u2019s birthday?"
+    },
+    "outputs": [
+      {
+        "content": "How about a scavenger hunt around the neighborhood to find hidden treasures? It combines outdoor adventure with problem-solving and teamwork, offering kids an exciting experience and a sense of achievement.",
+        "id": 1,
+        "correlations": [
+          [
+            "Stimulation",
+            0.3244495343231899
+          ]
+        ]
+      },
+      {
+        "content": "Host a science-themed party where kids rotate between different DIY experiment stations. They can make slime, launch mini rockets, or create simple circuits, fostering creativity and an interest in science from an early age.",
+        "id": 2,
+        "correlations": [
+          [
+            "Self_Direction",
+            0.4030641771044452
+          ],
+          [
+            "Benevolence",
+            0.3281040512389865
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Conscientiousness",
+            0.31336777054118564
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Openness_to_Change",
+            0.37615631372635905
+          ],
+          [
+            "Self_Enhancement",
+            -0.3282360893089787
+          ]
+        ]
+      },
+      {
+        "content": "Organize a costume fashion show where kids can dress as their favorite characters or fictional heroes. Provide a runway and encourage creativity with DIY costumes and decorations, ensuring everyone gets a turn in the spotlight.",
+        "id": 3,
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.3657280920361467
+          ],
+          [
+            "Neuroticism",
+            -0.36272877816868676
+          ]
+        ]
+      },
+      {
+        "content": "Rent a mobile petting zoo and have an animal-themed day. Kids can interact with and learn about different animals, providing a hands-on educational experience that combines fun with a bit of wildlife awareness.",
+        "id": 4
+      },
+      {
+        "content": "Set up a digital escape room at home, where kids solve puzzles and clues to \"escape\" from a themed scenario. Use printable materials or an app and tailor it to be age-appropriate, ensuring everyone is engaged and entertained.",
+        "id": 5,
+        "correlations": [
+          [
+            "Tradition",
+            -0.38495055053781196
+          ],
+          [
+            "Hedonism",
+            0.31961381588101084
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            -0.34442661579211936
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 3025
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "What is the meaning of life"
+    },
+    "outputs": [
+      {
+        "content": "Life's meaning is subjective, defined by individual goals and desires. For some, it's about finding happiness through love and relationships. Others see purpose in personal success or spiritual growth. It's a personal journey to discover what brings fulfillment.",
+        "id": 1
+      },
+      {
+        "content": "The meaning of life is a human construct; there's no inherent purpose. We exist by chance in an indifferent universe. Accept this and create your own meaning through experiences, creativity, and impact on others, embracing life's fleeting beauty without cosmic significance.",
+        "id": 2,
+        "correlations": [
+          [
+            "Hedonism",
+            0.5108329512766308
+          ],
+          [
+            "Tradition",
+            -0.31490070870154385
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            -0.31557767781469037
+          ]
+        ]
+      },
+      {
+        "content": "Life's meaning is rooted in service to others and the greater good. By helping those in need and contributing to society, we find purpose and fulfillment. This altruistic approach builds community and leaves a positive legacy, giving life profound significance.",
+        "id": 3,
+        "correlations": [
+          [
+            "Conformity",
+            0.3447087049255796
+          ],
+          [
+            "Hedonism",
+            -0.34248502131142566
+          ],
+          [
+            "Security",
+            0.3183922668027669
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.4246454159571619
+          ],
+          [
+            "Conscientiousness",
+            0.37297180539911
+          ],
+          [
+            "Neuroticism",
+            -0.3009645427139213
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            0.3780650711440244
+          ]
+        ]
+      },
+      {
+        "content": "For some, the meaning of life is found in religious or spiritual beliefs. It's fulfilling the purpose set by a higher power, where life on Earth is a preparation for an eternal existence, guided by faith and adherence to moral principles.",
+        "id": 4,
+        "correlations": [
+          [
+            "Conformity",
+            0.382598424173665
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            0.3632119597141303
+          ]
+        ]
+      },
+      {
+        "content": "Life holds no universal meaning; it's a pursuit of hedonism and personal satisfaction. We should prioritize enjoyment, seizing every moment to indulge in pleasures and desires without guilt, ensuring our time is filled with joy and excitement before it ends.",
+        "id": 5,
+        "correlations": [
+          [
+            "Universalism",
+            -0.4895151234918001
+          ],
+          [
+            "Hedonism",
+            0.417002823022121
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.33677509578986914
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 4001
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "Tell me what to prioritise in life"
+    },
+    "outputs": [
+      {
+        "content": "Focus on personal happiness and fulfillment. Life is too short to be lived for others; find what truly makes you happy and prioritize it, even if it means unconventional choices or against societal norms.",
+        "id": 1,
+        "correlations": [
+          [
+            "Hedonism",
+            0.55528335219427
+          ],
+          [
+            "Tradition",
+            -0.5381482254143322
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            -0.3622403218204386
+          ]
+        ]
+      },
+      {
+        "content": "I believe family should be the top priority. They're the people who will stick by you through thick and thin, and nurturing those relationships is crucial for a fulfilling life.",
+        "id": 2,
+        "bfi_correlations": [
+          [
+            "Neuroticism",
+            -0.38736372795635793
+          ],
+          [
+            "Conscientiousness",
+            0.33964502072301017
+          ]
+        ]
+      },
+      {
+        "content": "Career advancement should come first. In the long run, your professional success will secure financial stability and personal satisfaction, providing a sense of achievement that spills over into other areas of life.",
+        "id": 3,
+        "correlations": [
+          [
+            "Universalism",
+            -0.40765400399084867
+          ],
+          [
+            "Achievement",
+            0.32582459640200706
+          ],
+          [
+            "Power",
+            0.320931348952414
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.3441798531464306
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.4244196452821982
+          ],
+          [
+            "Self_Enhancement",
+            0.35873461520788036
+          ]
+        ]
+      },
+      {
+        "content": "Prioritize your health above everything else. Without physical and mental well-being, you cannot fully enjoy your accomplishments or relationships. Make time for exercise, healthy eating, and mental health resources.",
+        "id": 4,
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.6005050819952805
+          ],
+          [
+            "Neuroticism",
+            -0.38356618923700675
+          ],
+          [
+            "Conscientiousness",
+            0.38121760570845925
+          ],
+          [
+            "Extraversion",
+            0.3300122874367211
+          ]
+        ]
+      },
+      {
+        "content": "Live to serve others; prioritize community and altruism. By helping those in need, you create a meaningful impact, leaving a legacy and often finding personal happiness through selfless acts.",
+        "id": 5,
+        "correlations": [
+          [
+            "Stimulation",
+            0.32775463934920207
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Conscientiousness",
+            0.30716292318014854
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 4044
+  }
+]

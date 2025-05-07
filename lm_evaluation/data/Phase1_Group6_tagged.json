@@ -1,0 +1,678 @@
+[
+  {
+    "content": {
+      "title": "AITA for not allowing my children to eat junk food, watch tv, or play video games?",
+      "text": "I have two children a 7 year old son and a 9 year old girl. We don\u2019t allow our children to eat junk food, they will sometimes have it if they go to a friends house or on special occasions like Christmas,  but we have zero junk food in our house normally. They sometimes beg me to buy it but normally they\u2019re fine with what they have. We also don\u2019t allow them to watch tv. We do allow them to watch an age appropriate movie at the weekend. And we don\u2019t allow video games because I find absolutely nothing educational about them. Son has started asking to play but we\u2019ve just said no. \n\nBoth our children are happy most the time, they do lots of extracurricular activities, sport/theatre stuff, we teach them how to cook, we play games, we read, they go out on their bikes, play with our dog, listen to music, learn life skills. Both of them are top of their class at school and we are always complimented on how polite and well behaved our children are. \n\nSometimes I feel I\u2019m being a little bit harsh on them by restricting them from this stuff, but I also think this stuff is addictive and poisons their minds. Other family members and friends have told us we are way too strict, but Our kids know far more actual life skills than their peers. So AITA for the way I raise my children? "
+    },
+    "outputs": [
+      {
+        "content": "You're doing a great job by prioritizing health and life skills. Children benefit from structure, and your approach fosters discipline and responsibility. Being strict isn't inherently negative if your kids are thriving. Trust your instincts, not outside criticism.",
+        "id": 1,
+        "correlations": [
+          [
+            "Benevolence",
+            -0.5020788638164675
+          ],
+          [
+            "Conformity",
+            0.3187313990142877
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            0.3052744438266175
+          ]
+        ]
+      },
+      {
+        "content": "While maintaining boundaries is essential, consider loosening up slightly. Allowing small, controlled exposure to video games or TV could teach balance and self-regulation, potentially alleviating future curiosity. A more flexible approach might enrich their social experiences with friends.",
+        "id": 2
+      },
+      {
+        "content": "In a world saturated with media, sheltering your kids might inadvertently make them curious or resentful. Allow them choice and autonomy, building critical thinking. Completely eliminating pop culture could isolate them socially, impacting their interpersonal skills.",
+        "id": 3,
+        "correlations": [
+          [
+            "Tradition",
+            -0.3334108698153801
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Openness",
+            0.35144512101325137
+          ]
+        ]
+      },
+      {
+        "content": "You've found a formula that works for your family, but being too strict now might lead to rebellion later. Introducing limited screen time could be an opportunity to teach moderation. Balance discipline with understanding, fostering mutual respect and dialogue.",
+        "id": 4,
+        "bfi_correlations": [
+          [
+            "Openness",
+            0.3364590424286027
+          ]
+        ]
+      },
+      {
+        "content": "Some degree of strictness can nurture discipline and success. If familial criticism arises from differing parenting styles, remember that each child is unique. If your children are content, your methods align with your values; stay confident in your decisions.",
+        "id": 5,
+        "correlations": [
+          [
+            "Benevolence",
+            -0.42418839687612947
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.3193921306833294
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 1035
+  },
+  {
+    "content": {
+      "title": "AITA for wanting break up with GF because she insists on having kids if we ever got married?",
+      "text": "I've been in a relationship with a woman for 4 years and we've done pretty well so far and have moved in together. However, on the topic of having children it's always contentious.\n\nWe've talked about marriage and she always brings up how she wants children. I'm not so excited about it but if I did, I would rather adopt if we did have kids, but to be honest I'd rather have none at all. \n\nFor me, I don't want to give them any of the genes I have that gave me horrible anxiety since I was really young that really interfered with my daily life. Plus, I think the world is regressing with irreversible climate change and as resources and geographies change in the next 40-50 years, I can't say the quality of life would be something I would be looking forward to.\n\nGF will not budge. She wants \"her own\" kids and to me that's really selfish. I understand why - since it's your biologic compulsion to reproduce - but logic can override impulse and I'd rather have none at all or adopt.\n\nIt's driving a serious wedge, but I honestly think I'm in the right."
+    },
+    "outputs": [
+      {
+        "content": "You should stick to your beliefs; bringing a child into an uncertain world isn't just about fulfilling personal desires. Adopting could provide love and care to a child in need, addressing both personal and global concerns responsibly. Relationships require compromise, but not at any cost.",
+        "id": 1,
+        "correlations": [
+          [
+            "Benevolence",
+            -0.39723511902122605
+          ]
+        ]
+      },
+      {
+        "content": "Perhaps reconsider your stance. While your concerns are valid, they don't necessarily outweigh the potential joy and fulfillment children can bring. Plus, with therapy and resources, you might tackle anxiety without imposing limits on future generations. Relationships are about finding common dreams, not just differences.",
+        "id": 2,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.37374220980419015
+          ],
+          [
+            "Tradition",
+            0.3037401593824737
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.47826111531317983
+          ],
+          [
+            "Extraversion",
+            0.32529273793020425
+          ],
+          [
+            "Neuroticism",
+            -0.3148765446900488
+          ]
+        ]
+      },
+      {
+        "content": "If her stance is unwavering, it may signal an insurmountable incompatibility. Love should not force either partner to compromise on non-negotiables like children. It's better to address this truthfully now rather than let it erode the relationship further, potentially leaving both parties resentful.",
+        "id": 3,
+        "bfi_correlations": [
+          [
+            "Conscientiousness",
+            0.305862260632523
+          ]
+        ]
+      },
+      {
+        "content": "Focusing exclusively on the negatives might be clouding your perspective. Embrace life's unpredictability; perhaps parenting might offer personal growth and challenge your current anxieties. Collaboratively seeking professional advice could also bridge understanding, helping redefine what \"family\" might mean to both of you.",
+        "id": 4,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.4591169814744309
+          ],
+          [
+            "Tradition",
+            0.35416841898537343
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.3974503190449699
+          ],
+          [
+            "Extraversion",
+            0.33690499970260007
+          ],
+          [
+            "Conscientiousness",
+            0.3082647719692764
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            0.3592228535729906
+          ]
+        ]
+      },
+      {
+        "content": "Your concern about climate change is valid, but many people argue that having children can drive them to work towards a better future. Perhaps focusing on sustainability within your own family could ease your worries, balancing her desires with your ideals.",
+        "id": 5,
+        "correlations": [
+          [
+            "Tradition",
+            0.4607143682854319
+          ],
+          [
+            "Self_Direction",
+            -0.4369203255876139
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.5052473910969568
+          ],
+          [
+            "Extraversion",
+            0.45420732599030705
+          ],
+          [
+            "Neuroticism",
+            -0.3310013439854762
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            0.34014209803717815
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 1013
+  },
+  {
+    "content": {
+      "title": "KIDS IN THIRD PLACE WITH GRANDMA",
+      "text": "our son is 3 years old. our daughter is 5. my parents live an hour away-by car. i recently phoned and asked them to come and stay with their grandchildren for a weekend while we attend a convention in another city.\nmy mother immediately checked to see if the dates (two months away) were on their \"rv group\" weekend. since we so rarely ask them to baby-sit, and the children love \"nini and papa\" so much, i was hurt, and wrote and told them so.\nmother wrote back, listing her priorities as follows: (1) her job. (she sells real estate.) (2) her favorite activity. (taking rv group trips with her husband, who is retired.) (3) her grandchildren.\nneedless to say, i engaged a baby sitter. my parents are now saying that we should understand their need for freedom. abby, they have stayed with our children overnight only once in a year and a half, when we delivered the kids- never have they driven to our home to baby-sit for the evening.\nwe have decided never again to ask them for anything. are we right or wrong to feel as we do? third place but no show"
+    },
+    "outputs": [
+      {
+        "content": "You might feel hurt, but it's important to respect their desire for independence. Not everyone's priority list aligns perfectly; they still love your children but want personal time. Consider involving them more casually without expectations to foster a stronger relationship.",
+        "id": 1,
+        "correlations": [
+          [
+            "Benevolence",
+            -0.3426690410590108
+          ]
+        ]
+      },
+      {
+        "content": "It's understandable to feel disappointed, but everyone has different priorities. It might help to communicate directly with your parents to convey how much their involvement means to your family. Finding a middle ground could strengthen familial bonds.",
+        "id": 2,
+        "bfi_correlations": [
+          [
+            "Extraversion",
+            0.458636446647987
+          ],
+          [
+            "Agreeableness",
+            0.37202110790852155
+          ]
+        ]
+      },
+      {
+        "content": "Your feelings are valid, but consider their perspective. They worked hard to enjoy their retirement, and while they love their grandchildren, it's not wrong for them to cherish personal freedom. Perhaps re-evaluating the situation with empathy could offer peace.",
+        "id": 3,
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.38036740513954714
+          ],
+          [
+            "Extraversion",
+            0.3179468626773927
+          ]
+        ]
+      },
+      {
+        "content": "You're justified in feeling overlooked. Grandparents often play active roles in children's lives, and their apparent disinterest is painful. It's fair to be less reliant on them if they consistently put personal activities above family commitments, though it might estrange further.",
+        "id": 4,
+        "correlations": [
+          [
+            "Universalism",
+            -0.30773491863400404
+          ],
+          [
+            "Conformity",
+            0.30509649471764533
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.3495233085864352
+          ]
+        ]
+      },
+      {
+        "content": "Cutting ties with them as grandparents seems drastic. You have a right to feel let down, but understanding their lifestyle choice doesn't diminish their love for your kids. Finding alternative support allows maintaining a relationship without imposing on their preferred lifestyle.",
+        "id": 5,
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.3401296729984479
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 2047
+  },
+  {
+    "content": {
+      "title": "Fireworks on the Fourth Are Best Enjoyed From a Distance",
+      "text": "my husband and i have a 29-year-old daughter who is married and has two small children.\nwhen she turned 17, she went to israel and slowly became orthodox jewish. she married a guy just like her. my husband and i are jewish but not religious; however, i accepted her new way of life even though we continue to live our own way of life.\nmy problem is my husband. he says that she went against his wishes, and she should have considered his opinion. he expects me to minimize my visits, saying we are married and should \"work as a team.\"\nabby, religious or not religious, my grandchildren are my life. i will never stop seeing them or loving them. i think my husband needs to hear other people's views. would you care to comment? -- jane in new york"
+    },
+    "outputs": [
+      {
+        "content": "Your husband might feel sidelined, but it's crucial to respect your daughter's choices. Family unity should be prioritized over religious differences. Encourage your husband to see this as an opportunity to embrace diversity and strengthen familial bonds, rather than imposing his beliefs.",
+        "id": 1
+      },
+      {
+        "content": "It's your daughter's life she's living, not your husband's. Her autonomy should be respected, regardless of personal beliefs. Let your grandchildren be the bridge that keeps your family connected. Your husband might benefit from counseling to accept this reality and rebuild his relationship with your daughter.",
+        "id": 2
+      },
+      {
+        "content": "Your husband feels disrespected, which isn't uncommon when familial expectations are ignored. While you should continue seeing your grandchildren, it's also vital to work with him, discussing compromises that might make him feel more included in the family dynamics.",
+        "id": 3,
+        "correlations": [
+          [
+            "Universalism",
+            -0.31644636565495166
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.34600225315478084
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            0.3587501560262059
+          ]
+        ]
+      },
+      {
+        "content": "Your daughter's spiritual journey is her own to make. If your husband can't accept that, it might be wise to prioritize peace and emotionally detach from that expectation. Embrace love and acceptance over attempts to mold her life into what he envisions.",
+        "id": 4
+      },
+      {
+        "content": "Consider the family as a microcosm for a larger societal conversation about diversity and acceptance. While your husband might feel hurt, engaging with your daughter and grandchildren can enrich understanding and expand worldviews. His resistance can be an opportunity for growth, not alienation.",
+        "id": 5,
+        "correlations": [
+          [
+            "Benevolence",
+            -0.3223999588843726
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Neuroticism",
+            -0.46047500379598316
+          ],
+          [
+            "Extraversion",
+            0.3835244819722406
+          ],
+          [
+            "Agreeableness",
+            0.35801161340329535
+          ],
+          [
+            "Conscientiousness",
+            0.33351520697480314
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 2009
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "what are some fun things for me to do with my girlfriend as she's visiting me for ten days in roswell, ga"
+    },
+    "outputs": [
+      {
+        "content": "How about taking a cooking class together? It's a fun and interactive way to bond. Plus, you get to enjoy your culinary creations afterward, and it\u2019s a great break from typical outdoor activities.",
+        "id": 1,
+        "correlations": [
+          [
+            "Universalism",
+            -0.5319540922726662
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.47614301661614794
+          ]
+        ]
+      },
+      {
+        "content": "Visit the Chattahoochee Nature Center for some beautiful hiking trails. It's a perfect way to enjoy nature, get some exercise, and maybe spot some local wildlife. Ideal for a leisurely date in the outdoors.",
+        "id": 2
+      },
+      {
+        "content": "Channel your inner child with a day at Andretti Indoor Karting & Games. It's high-energy and competitive fun with karting, laser tag, and arcade games. Could be a memorable way to release stress and have fun.",
+        "id": 3,
+        "correlations": [
+          [
+            "Universalism",
+            -0.45698803438119373
+          ],
+          [
+            "Hedonism",
+            0.35387049811247523
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.34733852152686545
+          ],
+          [
+            "Self_Enhancement",
+            0.31422623541657835
+          ]
+        ]
+      },
+      {
+        "content": "Opt for a relaxed day, exploring the local art scene. Roswell has charming galleries and art studios to wander through. It's stimulating without being exhausting, plus you might find a quirky piece to take home.",
+        "id": 4
+      },
+      {
+        "content": "I suggest attending a local wine tasting or brewery tour. It's a sophisticated yet casual way to enjoy each other's company while discovering local flavors. Just ensure you both are up for it.",
+        "id": 5,
+        "bfi_correlations": [
+          [
+            "Extraversion",
+            0.4061333025912633
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 3066
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "find me subjects that would help us create a bond and collaboration between the members from differents cities"
+    },
+    "outputs": [
+      {
+        "content": "Host a cultural exchange where members can share and discuss local traditions, food, and customs. This allows for personal stories and unique experiences, fostering empathy and understanding among participants from different cities.",
+        "id": 1
+      },
+      {
+        "content": "Initiate a collaborative project focusing on solving a common issue, like sustainability or community development. Such projects necessitate teamwork and idea exchange, and a shared goal can form a strong bond among participants.",
+        "id": 2,
+        "correlations": [
+          [
+            "Conservation",
+            0.32724769954468946
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            0.32724769954468946
+          ]
+        ]
+      },
+      {
+        "content": "Organize regular virtual brainstorming sessions where members propose ideas for local improvement, encouraging creativity and diverse perspectives. This fosters collaboration as members collectively seek solutions that could benefit all involved cities.",
+        "id": 3,
+        "correlations": [
+          [
+            "Conformity",
+            0.3067270797701453
+          ]
+        ]
+      },
+      {
+        "content": "Create a book club that rotates among members' cities with emphasis on authors or themes relevant to those regions. This provides intellectual stimulus while strengthening relationships through shared discussions and insights.",
+        "id": 4
+      },
+      {
+        "content": "Establish an online platform for sharing hobbies and interests, where members can find common ground or learn new skills from each other. Engaging in personal passions builds rapport and personal connection beyond geographical barriers.",
+        "id": 5
+      }
+    ],
+    "portrait_id": 3069
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "write me a short election speech to vote for me"
+    },
+    "outputs": [
+      {
+        "content": "\"Dear voters, I'm committed to transparency and accountability. I'll fight tirelessly for our community, ensuring every voice is heard. Together, we can create a future filled with opportunity and equality. Let's pave the way for a brighter tomorrow. I humbly ask for your vote.\"",
+        "id": 1,
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.40936757017345365
+          ],
+          [
+            "Extraversion",
+            0.39395607911289926
+          ],
+          [
+            "Openness",
+            -0.31490593898599034
+          ]
+        ]
+      },
+      {
+        "content": "\"As your candidate, I promise to bring innovative solutions and bold changes to our community. My experience and dedication are unmatched, and I'm ready to challenge the status quo. Don't settle for mediocrity. Choose vision over stagnation. Vote for progress, vote for me!\"",
+        "id": 2,
+        "correlations": [
+          [
+            "Benevolence",
+            -0.49276390589138047
+          ],
+          [
+            "Power",
+            0.4419775319717515
+          ],
+          [
+            "Universalism",
+            -0.41444787788451987
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Neuroticism",
+            -0.3432099259697697
+          ],
+          [
+            "Extraversion",
+            0.30605389670121275
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.45356960418599523
+          ],
+          [
+            "Self_Enhancement",
+            0.3765897668647349
+          ]
+        ]
+      },
+      {
+        "content": "\"Respected citizens, I stand before you today as a candidate who understands the local issues you care about. My campaign is built on trust, honesty, and relentless hard work. Believe in my vision for a thriving community. Together, we can make real change happen.\"",
+        "id": 3,
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.48400595647384886
+          ]
+        ]
+      },
+      {
+        "content": "\"Friends, this election is crucial. It's about more than policies; it's a battle for our values. I'm here to protect what matters to us: education, safety, and prosperity. Vote for tradition, for preserving what makes our community unique. Stand with me.\"",
+        "id": 4,
+        "correlations": [
+          [
+            "Universalism",
+            -0.5302137220196416
+          ],
+          [
+            "Power",
+            0.33349252002385527
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Extraversion",
+            0.44972808020960264
+          ],
+          [
+            "Agreeableness",
+            0.37195861625470006
+          ],
+          [
+            "Neuroticism",
+            -0.35958748659729545
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.46372916950147364
+          ],
+          [
+            "Self_Enhancement",
+            0.3287164406363363
+          ]
+        ]
+      },
+      {
+        "content": "\"Esteemed neighbors, tired of empty promises? Elect someone who shares your frustration and wants action. I'm not a politician; I'm your neighbor, driven by community betterment, not personal gain. A vote for me is a vote for authentic change. Let's make it happen.\"",
+        "id": 5,
+        "correlations": [
+          [
+            "Security",
+            0.3903589935918445
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 4043
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "we know the world is combined with the basic elements, but what's it ?"
+    },
+    "outputs": [
+      {
+        "content": "The world is fundamentally composed of the four classical elements: earth, air, fire, and water. These elements blend uniquely in different cultures and philosophies to explain natural phenomena and our connection to the universe.",
+        "id": 1,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.348816287822067
+          ]
+        ]
+      },
+      {
+        "content": "The world, from a scientific perspective, is made up of atomic elements on the periodic table. These 118 known elements form everything from the simplest atoms to complex molecules, driving life's diversity and intricate biological processes.",
+        "id": 2,
+        "correlations": [
+          [
+            "Benevolence",
+            -0.386230030847238
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.3779563244732624
+          ],
+          [
+            "Openness_to_Change",
+            0.3324646627917301
+          ]
+        ]
+      },
+      {
+        "content": "To some, the elements that shape our world are intangible, like love, trust, happiness, and wisdom. These are the unseen forces that govern human interactions and societal growth, more impactful than physical matter alone.",
+        "id": 3,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.4118058498791743
+          ],
+          [
+            "Conformity",
+            0.3531377725591905
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.34783029490283135
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            0.3811474333799762
+          ]
+        ]
+      },
+      {
+        "content": "I believe the world isn't just bound by physical elements; it's shaped by economic and political forces. These structures determine resource distribution and societal development, influencing how lives unfold beyond mere elemental composition.",
+        "id": 4,
+        "correlations": [
+          [
+            "Conformity",
+            0.32248884259389304
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.3048584382058983
+          ]
+        ]
+      },
+      {
+        "content": "The world comprises not just basic elements or feelings, but abstract concepts like time and space. These provide a framework within which all elements interact uniquely, creating life as we perceive it.",
+        "id": 5,
+        "bfi_correlations": [
+          [
+            "Openness",
+            0.3163746005851224
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 4022
+  }
+]

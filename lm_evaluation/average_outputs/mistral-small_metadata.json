@@ -1,0 +1,8 @@
+{
+  "total_errors": 3,
+  "errors_by_version": {
+    "v2": 1,
+    "v2_reversed": 1,
+    "v3_reversed": 1
+  }
+}

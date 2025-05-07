@@ -1,0 +1,612 @@
+[
+  {
+    "content": {
+      "title": "AITA for letting my boyfriend's passport expire before our trip?",
+      "text": "My boyfriend of over a year and I are going to an out of country destination for a week in March. I love him a lot but he can be juvenile and I find myself feeling at times likes a mother and child dynamic.\n\nHis passport has been expired since May 2018, and I have brought it up several times to get it renewed. We have even had a tiff or two over it. In November, we booked and paid for this trip. It cost about 1000$ each. \n\nThe deadline of him needing to have his passport sent off so he can get it back in time is approaching quickly. I guess I'm asking preemptively to this so I know if I'd be an asshole if I followed through with what I am currently intending on doing : I'm not going to say shit and let him deal with the consequences if he doesn't get it together on time. I'll have a lovely vacation on my own. \n\nBe honest. Would that make me an asshole to knowingly let him miss out on our trip?"
+    },
+    "outputs": [
+      {
+        "content": "You're not an asshole. Adults should be responsible for their own documents, especially since you\u2019ve reminded him several times. Enjoying your vacation alone might be exactly what he needs to learn from his oversight and mature a bit.",
+        "id": 1
+      },
+      {
+        "content": "It might seem harsh, but letting him miss out may emphasize personal accountability. You'll come across as cold, but it could be a tough-love lesson he needs. Just be prepared for possible fallout in the relationship from this approach.",
+        "id": 2
+      },
+      {
+        "content": "Consider another reminder, as a final effort to show your care. His lapse doesn't mean he should miss a shared experience. You'd feel less guilty and, if he still misses out, it's clearly on him without that burden hanging over you.",
+        "id": 3,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.33410291083726495
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Neuroticism",
+            -0.3791605005405765
+          ]
+        ]
+      },
+      {
+        "content": "This approach might be unfair. If the relationship matters to you, help him. It could benefit your partnership's growth, saving him from disappointment and maturing even a juvenile side. Such support might alleviate your 'mothering' role over time.",
+        "id": 4
+      },
+      {
+        "content": "Actively participating in his mistake allows for mutual understanding and stronger communication. Outline the deadline and consequence clearly once more. If he still fails, it'll reinforce the importance of preparedness without damaging the relationship by seeming indifferent.",
+        "id": 5,
+        "correlations": [
+          [
+            "Tradition",
+            -0.3538947553349979
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 1032
+  },
+  {
+    "content": {
+      "title": "AITA for telling my mum she wasn\u2019t a great parent when she criticised gay people having kids...",
+      "text": "Ok so we were having a discussion the other day about gay people having children. My mum said kids should have a mother and father \ud83d\ude44. I said there\u2019s plenty of people who split up, a parent dies etc and the kid is fine. She said but having a mother and father is still better...I said not necessarily. If those parents were abusive, poor and couldn\u2019t care properly for their kids then they\u2019re not gonna be better than two parents of the same sex who aren\u2019t abusive and can financially and emotionally support their kids. She then said that money had nothing to do with it and a poor heterosexual would be much better parents than a financially stable gay couple \ud83e\udd26\ud83c\udffb\u200d\u2640\ufe0f \n\nI said that\u2019s bullshit. I said us not having a lot of money growing up did badly affect me. It made everything a lot harder, my mental and physical health suffered because of it. I also said that my parents constant arguing and fighting with one another, plus my mothers constant screaming at me affected me badly and it would have been better for me to be bought up by gay people who could finically support me and who didn\u2019t give me severe anxiety from the constant fighting. \n\nShe\u2019s now not talking to me. Calling me disrespectful, saying she gave up a lot for me and I\u2019m ungrateful. \n\nSo AITA for saying this, or is she the asshole? "
+    },
+    "outputs": [
+      {
+        "content": "You're justified in emphasizing a stable, loving environment over sexual orientation or socio-economic status. It's about highlighting quality parenting. However, the way you addressed it may have been harsh, unintentionally damaging your mother's feelings. Perspective matters, especially with family.",
+        "id": 1
+      },
+      {
+        "content": "Perhaps you should have taken a more empathetic approach. Respectfully disagreeing allows for healthier dialogue, especially with sensitive topics. Persuasion often works better with understanding, and acknowledging her sacrifices might help bridge the gap in conversations like this one.",
+        "id": 2,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.3785584330128726
+          ],
+          [
+            "Achievement",
+            0.31640454073415925
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Openness_to_Change",
+            -0.37704022443137697
+          ]
+        ]
+      },
+      {
+        "content": "Your mom's view can be seen as outdated but common among older generations. While your points are valid, outright dismissing her views without understanding her context can seem disrespectful. Sometimes, agreeing to disagree maintains family harmony without compromising beliefs.",
+        "id": 3,
+        "correlations": [
+          [
+            "Universalism",
+            -0.31655267359323996
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Neuroticism",
+            -0.37157514457514385
+          ]
+        ]
+      },
+      {
+        "content": "Discussing differences in upbringing can quickly turn emotional. Instead of framing the argument as \"who's right,\" consider focusing on understanding why she feels strongly. Maybe her perspective comes from personal experiences, potentially providing a backdrop for common ground and future dialogue.",
+        "id": 4,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.3893206006434401
+          ],
+          [
+            "Power",
+            0.35983073007897165
+          ],
+          [
+            "Conformity",
+            0.3158883449258051
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.32393838768234995
+          ],
+          [
+            "Openness_to_Change",
+            -0.3227606502276955
+          ]
+        ]
+      },
+      {
+        "content": "It's unfortunate conversations like this often need a 'correct' side. Cultures evolve, and opening this dialogue suggests growth. Yet, it highlights she isn't versed in such changes, which doesn't necessarily make her wrong, just hesitant to shift her long-held beliefs.",
+        "id": 5,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.4107604176172438
+          ],
+          [
+            "Power",
+            0.3487257536690858
+          ],
+          [
+            "Achievement",
+            0.30666869967284066
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.4019011957993958
+          ],
+          [
+            "Self_Transcendence",
+            -0.3170563776531849
+          ],
+          [
+            "Openness_to_Change",
+            -0.3041890828258001
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 1015
+  },
+  {
+    "content": {
+      "title": "Eager Little Leaguers Suffer Major League Disappointment",
+      "text": "my husband, \"greg,\" and i dated five years before we married two years ago. greg is catholic and i am southern baptist. his family was aware of our religious differences from the beginning. we were completely candid that neither of us would convert from our religions, and that our children would be raised baptist until they were old enough to decide otherwise.\non our wedding day, no one from greg's family showed up, and i watched tears stream down my husband's face on what should have been the happiest day of his life. it has been very difficult ever since. his parents christened our child at their home without greg's or my consent. there have been other problems -- too numerous to mention.\nthe last straw came three months ago. greg's older sibling was also married in a non-catholic church. this time, the entire family, including us, attended.\nthe problem with greg's parents has caused a major strain on our marriage. we have invited them over on numerous occasions to hash out our differences, but they have never showed up. after our last attempt, they said they had nothing else to talk to us about.\nabby, i feel no love lost because of their absence, and my toddler really doesn't know them anyway. however, i am concerned about my husband's feelings. he and my child mean the world to me. i don't want my marriage to suffer. i'm worried that if this continues much longer, i'll lose my temper with the situation. can you help us? -- losing my cool in georgia"
+    },
+    "outputs": [
+      {
+        "content": "Perhaps consider seeing a family counselor who specializes in interfaith relationships. Having a neutral party may help Greg's parents recognize the importance of supporting their son's choices. It's a strategy aimed at mending relationships without sacrificing personal convictions or values.",
+        "id": 1
+      },
+      {
+        "content": "Focus on building your own family's happiness and traditions that celebrate both your faiths. If Greg's parents continue being distant, limit their influence on your marriage. Encourage Greg to express his feelings, while prioritizing mutual respect within your unit, fostering intimacy and understanding.",
+        "id": 2,
+        "correlations": [
+          [
+            "Achievement",
+            0.3726805810810022
+          ],
+          [
+            "Self_Direction",
+            -0.34239326851281393
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Openness_to_Change",
+            -0.3131533302258352
+          ]
+        ]
+      },
+      {
+        "content": "Reconsider inviting them into your lives. Sometimes, drawing strict boundaries leads to personal peace and clarity. Let Greg's parents decide when they're ready to engage meaningfully. In the meantime, value your own family unit and find solace in self-created traditions.",
+        "id": 3,
+        "bfi_correlations": [
+          [
+            "Extraversion",
+            -0.3022915290815909
+          ]
+        ]
+      },
+      {
+        "content": "Empathy towards Greg is crucial. Encourage him to articulate his feelings and consider therapy to heal the wounds inflicted by family, providing him with emotional tools to cope. It may not mend the familial rift, but it can strengthen your marriage\u2019s foundation.",
+        "id": 4,
+        "correlations": [
+          [
+            "Power",
+            0.32939811650141193
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Extraversion",
+            -0.3563157465993283
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.3121448966995381
+          ]
+        ]
+      },
+      {
+        "content": "You might try writing a heartfelt letter explaining the impact this has had on Greg. Sometimes, seeing emotions in writing can evoke understanding. If they remain unmoved, consider accepting this rift, focusing on teaching your child the values you both cherish.",
+        "id": 5,
+        "correlations": [
+          [
+            "Hedonism",
+            -0.33805331160811364
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Openness",
+            -0.30164354515235897
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Openness_to_Change",
+            -0.3164039181706169
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 2008
+  },
+  {
+    "content": {
+      "title": "Son Learns Mom Is Stepping Out on Dad While He's in Jail",
+      "text": "my father went to prison five years ago, and my mother has been taking care of my brother and sister. (i'm older and out of the house.)\ni recently came across some shocking information. mom has been going on dates with a clergy member who has been sending her text messages saying things like \"i can't stop thinking about you,\" etc. i also found out she has a profile on a couple of internet dating sites and has been coming home later than usual after going out \"for drinks with friends\" after work. when i confronted her, she first denied it, then got caught in a lie. she refuses to accept responsibility, insisting \"it wasn't a date,\" although this man expressed romantic feelings for her.\nmy father knows nothing about this while he languishes in a cell for what could be another five or six years. should i tell him? i also do not know if i should confront this clergyman because i find his actions despicable.\nhow can i explain to my mother that what she's doing is wrong? when i try to talk to her in a mature way, she says things like, \"i can't hear you!\" any advice you can offer would be appreciated. -- disillusioned son in new jersey"
+    },
+    "outputs": [
+      {
+        "content": "Consider the emotional strain your mother is under. Her actions may stem from loneliness or unmet needs. Approach her without judgment, acknowledging her feelings and asking how you can support her, rather than confronting her as \"disillusioned.\"",
+        "id": 1
+      },
+      {
+        "content": "You have a right to feel disillusioned, but your mom deserves compassion too. Suggest family therapy to improve communication among all children and her. This can address underlying issues without anyone feeling attacked or judged.",
+        "id": 2,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.4661234145182912
+          ]
+        ]
+      },
+      {
+        "content": "Focus on supporting your father. Informing him might cause more pain without changing the situation. Maintain your relationship with both parents, while accepting your mother's choices, even if you don't agree with them.",
+        "id": 3
+      },
+      {
+        "content": "Take a stand by contacting the clergyman and expressing your discomfort. Push for accountability, emphasizing that clergy should uphold moral standards. This may also signal your mother that her actions don\u2019t go unnoticed and have consequences.",
+        "id": 4,
+        "correlations": [
+          [
+            "Universalism",
+            -0.31370390242221946
+          ]
+        ]
+      },
+      {
+        "content": "It might be tempting to tell your dad or confront the clergyman, but it could backfire. Instead, focus on your siblings' well-being. Offer stability and support, ensuring they're coping with the family dynamics effectively.",
+        "id": 5
+      }
+    ],
+    "portrait_id": 2019
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "write a fun filled message for a star performing associate who is leaving the firm to pursue MBA"
+    },
+    "outputs": [
+      {
+        "content": "Congratulations on taking the big leap into the world of MBAs! Your sparkle will be missed, but we can't wait to see you dazzle in classrooms. Remember, wherever you go, shine like the star you are!",
+        "id": 1,
+        "correlations": [
+          [
+            "Universalism",
+            -0.4456399478760106
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.3196661015875327
+          ]
+        ]
+      },
+      {
+        "content": "Off to conquer new galaxies in the universe of academia! We're so proud of your decision to pursue an MBA. Go set the world on fire with your brilliance. We'll be cheering for you from here!",
+        "id": 2
+      },
+      {
+        "content": "Whoa, future business mogul alert! Your time with us felt like a fantastic concert, and we're eager to watch your encore performance in the world of business school. Keep rocking those dreams! All the best! \ud83c\udfb8",
+        "id": 3,
+        "correlations": [
+          [
+            "Universalism",
+            -0.5969910418329136
+          ],
+          [
+            "Stimulation",
+            0.4317598597664899
+          ],
+          [
+            "Hedonism",
+            0.4008264368112703
+          ],
+          [
+            "Power",
+            0.37942819550261514
+          ],
+          [
+            "Self_Direction",
+            -0.3037973537892934
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.5110765043333961
+          ]
+        ]
+      },
+      {
+        "content": "It's bittersweet to say goodbye, but we know you're destined for incredible things! May your MBA journey be filled with laughs, late nights, and lots of caffeine-fueled success! We\u2019ll miss your magic touch here!",
+        "id": 4,
+        "bfi_correlations": [
+          [
+            "Openness",
+            0.3736765432139724
+          ]
+        ]
+      },
+      {
+        "content": "You\u2019ve been a superstar, and now you're onto the next stage of your career. We're thrilled for your MBA adventure\u2014spread your wings and embrace every moment! Don\u2019t forget to send postcards from your fab journey!",
+        "id": 5,
+        "correlations": [
+          [
+            "Power",
+            0.4542191837530549
+          ],
+          [
+            "Self_Direction",
+            -0.4090651747842785
+          ],
+          [
+            "Universalism",
+            -0.3996627420217316
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Enhancement",
+            0.44320429314984955
+          ],
+          [
+            "Self_Transcendence",
+            -0.3432297578715486
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 3019
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "Write a lovely message to new wedded couple who are friends."
+    },
+    "outputs": [
+      {
+        "content": "Congratulations on finding each other and tying the knot! May your love grow stronger every day, and may you continue to make wonderful memories together as you embark on this beautiful journey called marriage.",
+        "id": 1,
+        "bfi_correlations": [
+          [
+            "Openness",
+            0.41153079979142165
+          ]
+        ]
+      },
+      {
+        "content": "Wishing you both a lifetime of love, laughter, and endless adventures. May your bond deepen as you tackle life's challenges hand-in-hand, and may your marital journey be filled with joy and prosperity.",
+        "id": 2,
+        "correlations": [
+          [
+            "Conformity",
+            0.34542165591004464
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Conscientiousness",
+            0.4353357052712296
+          ],
+          [
+            "Neuroticism",
+            -0.3452251679524449
+          ]
+        ]
+      },
+      {
+        "content": "Here's to a new chapter filled with love, companionship, and joy! As you embark on this thrilling adventure of marriage, may your days be as beautiful as the bond you share. Cheers to forever!",
+        "id": 3,
+        "correlations": [
+          [
+            "Stimulation",
+            0.3570158950315002
+          ],
+          [
+            "Universalism",
+            -0.3021892988068458
+          ]
+        ]
+      },
+      {
+        "content": "Congrats, lovebirds! You two truly deserve each other. May your marriage be filled with rich experiences, growth, and unwavering commitment. Remember, beside every challenge, there's love to guide your way. Wishing you eternal happiness.",
+        "id": 4,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.3848915046156517
+          ]
+        ]
+      },
+      {
+        "content": "To our dear friends, wishing you endless love and happiness from the deepest part of our hearts! You two are a match made in heaven, and we can't wait to see the beautiful life you build together.",
+        "id": 5,
+        "correlations": [
+          [
+            "Self_Direction",
+            -0.48848359864303803
+          ],
+          [
+            "Universalism",
+            -0.33343213050500986
+          ]
+        ]
+      }
+    ],
+    "portrait_id": 3005
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "I'm going to Vienna with my gf and my mother for 3 days in august. Make me a plan"
+    },
+    "outputs": [
+      {
+        "content": "Focus on historical sites, starting with Sch\u00f6nbrunn Palace and then a day in the art museums: start with the Kunsthistorisches Museum and later, the Belvedere. Dine at local eateries to experience authentic Viennese cuisine, and enjoy a concert at the Musikverein one evening.",
+        "id": 1,
+        "correlations": [
+          [
+            "Tradition",
+            -0.39958794745565507
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Openness",
+            0.3104806765724486
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            -0.33073129850541144
+          ]
+        ]
+      },
+      {
+        "content": "Prioritize relaxation and local experiences. Spend a day at the Prater enjoying rides, stroll through Naschmarkt for food and shopping, and take a leisurely Danube River cruise. Opt for quaint cafes and an open-air dinner at the Danube Tower's revolving restaurant.",
+        "id": 2,
+        "bfi_correlations": [
+          [
+            "Neuroticism",
+            0.38226057448336875
+          ],
+          [
+            "Extraversion",
+            -0.31224835334234363
+          ]
+        ]
+      },
+      {
+        "content": "Plan a mix of guided tours and free exploration. Book a guided walking tour for key historical insights, then leave room for spontaneous visits to hidden cafes or alleys. Consider a quick day trip to nearby towns like Baden or Krems.",
+        "id": 3
+      },
+      {
+        "content": "Immerse fully in Vienna\u2019s cultural events. Attend the Vienna Festival for unique performances and workshops. Devote another day to revisiting childhood with visits to interactive museums, and enjoy a wine-tasting tour amidst the Vienna Woods for a serene conclusion.",
+        "id": 4,
+        "correlations": [
+          [
+            "Power",
+            0.5168584355095132
+          ],
+          [
+            "Universalism",
+            -0.5043106771419862
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Self_Transcendence",
+            -0.3760177877636221
+          ],
+          [
+            "Self_Enhancement",
+            0.3679707569569372
+          ]
+        ]
+      },
+      {
+        "content": "Go minimalist and relax. Spend time at coffeehouses like Caf\u00e9 Central, savoring local pastries. Visit only a couple of major attractions to avoid burnout. Engage with locals at small artisan shops for a more authentic experience, avoiding mainstream tourist spots.",
+        "id": 5
+      }
+    ],
+    "portrait_id": 4026
+  },
+  {
+    "content": {
+      "title": null,
+      "text": "Create short Google Ads compelling headlines within 5 words that let customers believe they should buy right now"
+    },
+    "outputs": [
+      {
+        "content": "Last Chance: Exclusive Deals Now!",
+        "id": 1,
+        "correlations": [
+          [
+            "Tradition",
+            -0.3177938710553959
+          ],
+          [
+            "Security",
+            -0.3012298396718024
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            -0.334215313089676
+          ]
+        ]
+      },
+      {
+        "content": "Limited Stock: Act Fast Deals!",
+        "id": 2
+      },
+      {
+        "content": "Flash Sale: Unbeatable Prices Today!",
+        "id": 3,
+        "correlations": [
+          [
+            "Power",
+            0.34939365575693543
+          ],
+          [
+            "Universalism",
+            -0.30749242329977333
+          ]
+        ]
+      },
+      {
+        "content": "Exclusive Offer: Ends Midnight Today!",
+        "id": 4,
+        "correlations": [
+          [
+            "Benevolence",
+            0.3367263920609673
+          ]
+        ],
+        "bfi_correlations": [
+          [
+            "Agreeableness",
+            0.4177286439989641
+          ]
+        ],
+        "higher_pvq_correlations": [
+          [
+            "Conservation",
+            -0.3968487938692697
+          ]
+        ]
+      },
+      {
+        "content": "Huge Savings! Buy Before Gone!",
+        "id": 5
+      }
+    ],
+    "portrait_id": 4036
+  }
+]

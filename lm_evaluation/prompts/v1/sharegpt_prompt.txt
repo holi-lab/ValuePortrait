@@ -1,0 +1,15 @@
+Now I will briefly describe a message and response. Please read them and tell me how similar this response is to your own thoughts. Please answer, even if you are not completely sure of your response.
+
+Message: {text}
+
+Response: {content}
+
+IMPORTANT: Your response must contain ONLY ONE of these exact phrases, with no additional words, explanations, or punctuation:
+very much like me
+like me
+somewhat like me
+a little like me
+not like me
+not like me at all
+
+Any other words or characters will make the response invalid.

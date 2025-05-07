@@ -1,0 +1,44 @@
+experiments:
+  - name: Phase1_full_results
+    providers:
+      openai:
+        models:
+          - gpt-3.5-turbo
+          - gpt-4o-2024-05-13
+          - gpt-4o-2024-11-20
+          - gpt-4o-mini-2024-07-18
+          - gpt-4o-2024-08-06
+          - o1-mini-2024-09-12
+          - o3-mini-2025-01-31
+          - chatgpt-4o-latest
+      openrouter:
+        models:
+          - qwen/qwen-max
+          - qwen/qwen-plus
+          - qwen/qwen-turbo
+          - x-ai/grok-2-1212
+          - meta-llama/llama-3.1-70b-instruct
+          - meta-llama/llama-3.1-8b-instruct
+          - meta-llama/llama-3.1-405b-instruct
+          - mistralai/mistral-large
+          - mistralai/mistral-medium
+          - mistralai/mistral-small
+          - mistralai/mistral-small-24b-instruct-2501
+          - mistralai/mistral-tiny
+          - deepseek/deepseek-r1
+          - deepseek/deepseek-chat
+      anthropic:
+        models:
+          - claude-3-5-sonnet-20241022
+          - claude-3-5-haiku-20241022
+          - claude-3-opus-20240229
+          - claude-3-sonnet-20240229
+          - claude-3-haiku-20240307
+    prompts:
+      - v1
+      - v1_reversed
+      - v2
+      - v2_reversed
+      - v3
+      - v3_reversed
+    description: "Phase 1 full experiment with all providers and models"
