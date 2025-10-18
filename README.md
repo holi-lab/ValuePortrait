@@ -37,12 +37,12 @@ The `data/` directory contains the ValuePortrait dataset. The dataset consists o
 
 ### Query-Response Data (`data/query-response/`)
 
-| Dataset | Description | Format | Size |
-|---------|-------------|---------|------|
-| `DearAbby.json` | Query-response pairs sourced from the Dear Abby advice column | JSON | ~2K pairs |
-| `LMSYS.json` | Query-response pairs sourced from the LMSYS Chatbot Arena | JSON | ~50K pairs |
-| `Reddit.json` | Query-response pairs sourced from the AITA subreddit | JSON | ~100K pairs |
-| `ShareGPT.json` | Query-response pairs sourced from the ShareGPT dataset | JSON | ~50K pairs |
+| Dataset | Description | Format |
+|---------|-------------|---------|
+| `DearAbby.json` | Query-response pairs sourced from the Dear Abby advice column | JSON |
+| `LMSYS.json` | Query-response pairs sourced from the LMSYS Chatbot Arena | JSON |
+| `Reddit.json` | Query-response pairs sourced from the AITA subreddit | JSON |
+| `ShareGPT.json` | Query-response pairs sourced from the ShareGPT dataset | JSON |
 
 ### Query Categories (`data/query/`)
 | Dataset | Description | Format |
