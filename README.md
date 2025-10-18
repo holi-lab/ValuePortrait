@@ -1,4 +1,4 @@
-# Value Portrait: Assessing Language Models’ Values through Psychometrically and Ecologically Valid Items
+# [ACL 25] Value Portrait: Assessing Language Models’ Values through Psychometrically and Ecologically Valid Items
 
 
 Repository for the following paper:
