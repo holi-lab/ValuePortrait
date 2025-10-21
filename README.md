@@ -1,11 +1,24 @@
-# [ACL 25] Value Portrait: Assessing Language Models’ Values through Psychometrically and Ecologically Valid Items
-
-
-Repository for the following paper:
-
-> **Value Portrait: Assessing Language Models’ Values through Psychometrically and Ecologically Valid Items**  
-> *Jongwook Han, Dongmin Choi, Woojung Song, Eun-Ju Lee, Yohan Jo*  
-> [arXiv:2505.01015](https://arxiv.org/pdf/2505.01015)
+<p align="center">
+  <h1 align="center">Value Portrait: Assessing Language Models’ Values through Psychometrically and Ecologically Valid Items</h1>
+  <p align="center">
+    ACL 2025
+  </p>
+  <p align="center">
+    <a href="https://jongwook-han.github.io/">Jongwook Han</a>,
+    <a href="https://scholar.google.com/citations?user=9AlW_GAAAAAJ&hl=ko">Dongmin Choi</a>,
+    <a href="https://github.com/opusdeisong">Woojung Song</a>,
+    <a href="https://scholar.google.com/citations?user=LPVWCwsAAAAJ&hl=ko&oi=ao">Eun-Ju Lee</a>,
+    <a href="https://yohanjo.github.io/">Yohan Jo</a></span>
+  </p>
+  <p align="center">
+    <a href="https://arxiv.org/pdf/2505.01015">
+      <img src='https://img.shields.io/badge/Paper-PDF-red?style=flat&logo=arXiv&logoColor=red' alt='Paper PDF'>
+    </a>
+    <a href='https://holi-lab.github.io/ValuePortrait/' style='padding-left: 0.5rem;'>
+      <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
+    </a>
+  </p>
+</p>
 
 ---
 
