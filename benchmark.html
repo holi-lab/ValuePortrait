@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Value Portrait · Benchmark explorer</title>
+  <meta name="description" content="Browse all 520 Value Portrait items: real user queries, five candidate responses each, human-validated value and trait correlations, and how 33 LLMs rated every response.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23171B26'/%3E%3Cpolygon points='16,5 26,11 24,23 16,27 8,23 6,11' fill='none' stroke='%238FA8EC' stroke-width='2'/%3E%3Cpolygon points='16,10 22,13 21,21 16,23 11,21 10,13' fill='%23EE8A76' opacity='.9'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="static/css/site.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <div class="brandwrap"><a class="brand" href="index.html">Value Portrait</a><span class="venue">ACL 2025 · Main Conference</span></div>
+    <nav class="topnav" aria-label="Page">
+      <a href="index.html#overview" class="optional">Overview</a>
+      <a href="benchmark.html">Benchmark</a>
+      <a href="models.html">Models</a>
+      <a href="bias.html">Bias</a>
+      <a href="steering.html">Steering</a>
+      <a href="index.html#bibtex" class="optional">BibTeX</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero small">
+    <div class="wrap">
+      <h1>Benchmark explorer</h1>
+      <p class="lede">Every Value Portrait item is a real user query paired with one of five candidate responses. Each response carries the Spearman correlation between how much 46 participants (on average) said it resembled their own thoughts and those participants' PVQ-21 value scores and BFI-10 trait scores. Open any query to read the responses, their full correlation tables, and the ratings 33 LLMs gave them.</p>
+      <div class="kpis">
+        <div class="kpi"><div class="n">104</div><div class="k">queries · 26 per source</div></div>
+        <div class="kpi"><div class="n">520</div><div class="k">query–response pairs</div></div>
+        <div class="kpi"><div class="n">7,800</div><div class="k">item–dimension correlations</div></div>
+        <div class="kpi"><div class="n">549 / 287</div><div class="k">value / trait tags with |ρ| ≥ 0.3, p &lt; 0.05</div></div>
+        <div class="kpi"><div class="n">681</div><div class="k">Prolific participants</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block tight" id="explorer">
+    <div class="wrap">
+      <div class="panel" id="expPanel">
+        <div class="panel-head">
+          <h2 class="panel-title">All queries and responses</h2>
+          <div class="controls">
+            <div class="seg" role="group" aria-label="Source" id="srcSeg">
+              <button type="button" data-src="" aria-pressed="true">All sources</button>
+              <button type="button" data-src="Reddit" aria-pressed="false">Reddit</button>
+              <button type="button" data-src="DearAbby" aria-pressed="false">Dear Abby</button>
+              <button type="button" data-src="ShareGPT" aria-pressed="false">ShareGPT</button>
+              <button type="button" data-src="LMSYS" aria-pressed="false">LMSYS</button>
+            </div>
+          </div>
+        </div>
+        <div class="filters">
+          <label class="ctl">Tagged with <select id="dimSel"><option value="">any dimension</option></select></label>
+          <div class="seg" role="group" aria-label="Direction" id="dirSeg">
+            <button type="button" data-dir="any" aria-pressed="true">either sign</button>
+            <button type="button" data-dir="pos" aria-pressed="false">ρ ≥ +0.3</button>
+            <button type="button" data-dir="neg" aria-pressed="false">ρ ≤ −0.3</button>
+          </div>
+          <label class="ctl">Sort <select id="sortSel"><option value="id">by query id</option><option value="strength">by strongest tag</option><option value="ntags">by number of tags</option></select></label>
+          <input type="search" id="search" placeholder="Search query or response text" aria-label="Search">
+          <span class="count" id="count"></span>
+        </div>
+        <div class="qlist" id="qlist"></div>
+      </div>
+      <p class="caption">Tags are correlations with |ρ| ≥ 0.3 and p &lt; 0.05, the threshold used to select evaluation items in the paper. <span class="t pos">blue</span> = positive (people who hold the value endorse the response), <span class="t neg">red</span> = negative; dashed tags are Big Five traits. Query ids encode the source (1xxx Reddit, 2xxx Dear Abby, 3xxx ShareGPT, 4xxx LMSYS). Model ratings are the mean of six prompt variants on the 1–6 scale, from the released <code>average_outputs</code>.</p>
+    </div>
+  </section>
+
+  <section class="block" id="construction">
+    <div class="wrap">
+      <h2>How the items were built and validated</h2>
+
+      <h3>Queries: from 1.1 million to 104</h3>
+      <p>Queries come from two kinds of real interaction: humans asking LLMs (ShareGPT, LMSYS-Chat-1M; first user turn only) and humans asking other humans for advice (Reddit's Am I The Asshole via the Scruples dataset, and the Dear Abby archive). Four filtering stages reduce the raw pool to 26 queries per source. Reddit posts additionally needed at least 30 reactions and a community agreement ratio below 70%, so the scenarios are ones people genuinely disagree about.</p>
+      <div class="tablewrap"><table class="data" id="funnel"></table></div>
+      <p class="tnote">Appendix D.1. Stage 2 uses GPT-4o-mini to drop harmful, capability-testing, factual or value-irrelevant queries; stage 3 keeps the queries that can elicit the most value-diverse responses (top 150 for Reddit and Dear Abby, at least 7 relevant values for ShareGPT and 10 for LMSYS); stage 4 is a manual review with the same criteria.</p>
+
+      <h3>Responses: diversity beats value targeting</h3>
+      <p>The first attempt asked GPT-4o to write a response embodying a specific value. Across 80 such items only 9 (11%) correlated with the intended value once humans rated them, although 59% correlated with <em>some</em> value. Asking instead for five distinct, realistic and somewhat polarising perspectives produced responses of which about 70% carried a meaningful correlation, so that prompt is used for the benchmark and the tags are measured afterwards.</p>
+      <div class="pairs">
+        <div class="pair">
+          <div><span class="lab">Value-targeted (Power), rejected approach</span>“Establish connections with influential circles, and gain recognition in communities to elevate your social standing and network.”</div>
+          <div><span class="lab">Diversity-focused, adopted approach</span>“Reach out to existing connections - family, old friends, or colleagues. Sometimes rekindling established relationships is more fulfilling than seeking new ones.” <span class="tnote">Query: “What can I do, if I feel lonely.” Measured tags: Achievement +0.49, Power +0.37, Tradition −0.40.</span></div>
+        </div>
+      </div>
+      <details><summary>Generation prompts</summary>
+        <p class="aside-lab">Approach A · value-targeted (rejected)</p><pre class="sysprompt" id="genA"></pre>
+        <p class="aside-lab">Approach B · diversity-focused (used)</p><pre class="sysprompt" id="genB"></pre>
+      </details>
+
+      <h3>Annotation and validation</h3>
+      <div class="two">
+        <div>
+          <p>Participants read a query and one response and answer <em>"How similar is this response to your own thoughts?"</em> on the PVQ-21 scale (<em>not like me at all</em> … <em>very much like me</em>). PVQ-21 and BFI-10 are placed at the end of the survey to avoid priming. The tag for each value is the Spearman correlation between the response ratings and the raters' own value scores; 46 raters per pair detect ρ ≥ 0.3 at p &lt; 0.05 with power 0.8.</p>
+          <p>Raters needed a 98% Prolific approval rate and were balanced across age groups and gender. Responses were dropped for failing more than two attention checks, finishing in under 6 minutes (expected 20), straight-lining PVQ-21 or BFI-10, or low intercorrelation within PVQ-21 or BFI-10 (about 5% of responses).</p>
+        </div>
+        <div>
+          <p class="aside-lab">Annotator demographics</p>
+          <div class="tablewrap"><table class="data" id="annot"></table></div>
+        </div>
+      </div>
+
+      <h3>Coverage</h3>
+      <div class="evidence">
+        <div>
+          <p>Topic coverage was measured against the 30-category UltraChat taxonomy with GPT-o3-mini (a query can belong to several categories). Value-laden categories dominate, as intended, while purely technical topics are rare.</p>
+          <details><summary>Topic coverage of the 104 queries</summary><div class="tablewrap narrow"><table class="data" id="coverage"></table></div></details>
+        </div>
+        <div>
+          <p>Across the ten value dimensions the benchmark is more evenly covered than existing value datasets: lower standard deviation of the per-value share and a much lower imbalance ratio between the most and least represented value.</p>
+          <div class="tablewrap"><table class="data" id="vdist"></table></div>
+          <p class="tnote">Table 5. Std = standard deviation of the share across dimensions; IR = share of the most represented dimension divided by the least represented one.</p>
+        </div>
+      </div>
+
+      <h3>Cross-loadings follow the Schwartz circle</h3>
+      <p>Many responses correlate with more than one value, as PVQ-21 items themselves do (2.62 dimensions on average in the collected data). When a response correlates with two values in the same direction, those values are on average 1.59 steps apart on Schwartz's circular structure; when the correlations have opposite signs they are 3.54 steps apart. The cross-loadings therefore reproduce the theory's compatibilities and conflicts rather than noise.</p>
+      <div class="tablewrap narrow"><table class="data" id="distance"></table></div>
+
+      <h3>Reliability</h3>
+      <div class="evidence">
+        <div>
+          <p>Cronbach's α, computed per value over the responses of all evaluated models, ranges from 0.76 to 0.96, above the conventional 0.70 threshold. Validity is criterion-related by construction: an item enters a value's scale only if it correlates at least 0.3 with participants' PVQ-21 score for that value.</p>
+          <p>The Big Five tags were collected with the same procedure from the BFI-10 to show that the correlation-based recipe extends beyond values.</p>
+        </div>
+        <div class="tablewrap narrow"><table class="data" id="cronbach"></table></div>
+      </div>
+
+      <h3>Why not reuse existing value labels?</h3>
+      <p>Twenty items each from ValueNet and FULCRA were rated by 40 participants alongside their PVQ scores. Nine ValueNet items correlated meaningfully with some value (point-biserial, p &lt; 0.05, r &gt; 0.3), but only one matched ValueNet's own tag; eleven FULCRA items correlated meaningfully and two matched. One ValueNet item tagged Universalism ("I bought her gifts from Amazon Prime") correlated <em>negatively</em> with Universalism. Perceived-value labels, whether human or LLM, do not reliably identify the people who would say the text.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="https://github.com/holi-lab">Holi Lab</a>, Graduate School of Data Science, Seoul National University. <a href="index.html">Back to overview</a>.</p>
+    <p>Query text is drawn from ShareGPT (Apache 2.0), Scruples and Dear Abby (MIT) and LMSYS-Chat-1M (LMSYS license). Responses were generated by GPT-4o. Page content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+  </div>
+</footer>
+
+<div class="tip" id="tip" hidden></div>
+<script src="static/js/paper-data.js"></script>
+<script src="static/js/site.js"></script>
+<script>
+(function () {
+  var ITEMS, RATINGS, MODELS, idxOf = {}, apiModels = [];
+  var state = { src: VP.param('src') || '', dim: VP.param('dim') || '', dir: VP.param('dir') || 'any', q: VP.param('q') || '', sort: VP.param('sort') || 'id', open: {} };
+  var list = document.getElementById('qlist'), count = document.getElementById('count');
+  var FAM = {}; VP.PVQ.forEach(function (d) { FAM[d] = 'pvq'; }); VP.HI.forEach(function (d) { FAM[d] = 'hi'; }); VP.BFI.forEach(function (d) { FAM[d] = 'bfi'; });
+  var EXCL = {};
+
+  function sig(r) { return Math.abs(r[0]) >= 0.3 && r[1] < 0.05; }
+  function respMatch(resp) {
+    if (!state.dim) return true;
+    var r = resp[FAM[state.dim]][state.dim];
+    if (!sig(r)) return false;
+    if (state.dir === 'pos') return r[0] > 0; if (state.dir === 'neg') return r[0] < 0; return true;
+  }
+  function tagsOf(resp) { return VP.sigTags(resp); }
+  function strength(item) {
+    var best = 0;
+    item.resp.forEach(function (resp) {
+      if (state.dim) { var r = resp[FAM[state.dim]][state.dim]; if (respMatch(resp)) best = Math.max(best, Math.abs(r[0])); }
+      else tagsOf(resp).forEach(function (t) { best = Math.max(best, Math.abs(t.r)); });
+    });
+    return best;
+  }
+  function ntags(item) { var n = 0; item.resp.forEach(function (resp) { n += state.dim ? (respMatch(resp) ? 1 : 0) : tagsOf(resp).length; }); return n; }
+  function textOf(item) { return (item.title + ' ' + item.text + ' ' + item.resp.map(function (r) { return r.text; }).join(' ')).toLowerCase(); }
+
+  function filtered() {
+    var q = state.q.trim().toLowerCase();
+    var out = ITEMS.items.filter(function (it) {
+      if (state.src && it.src !== state.src) return false;
+      if (q && textOf(it).indexOf(q) < 0) return false;
+      if (state.dim && !it.resp.some(respMatch)) return false;
+      return true;
+    });
+    if (state.sort === 'strength') out.sort(function (a, b) { return strength(b) - strength(a); });
+    else if (state.sort === 'ntags') out.sort(function (a, b) { return ntags(b) - ntags(a); });
+    return out;
+  }
+  function snippet(s, n) { s = s.replace(/\s+/g, ' ').trim(); return s.length > n ? s.slice(0, n - 1) + '…' : s; }
+
+  function renderList() {
+    VP.clear(list);
+    var items = filtered();
+    var nResp = 0; items.forEach(function (it) { nResp += it.resp.filter(respMatch).length; });
+    count.textContent = items.length + ' of 104 queries' + (state.dim ? ' · ' + nResp + ' tagged responses' : '');
+    if (!items.length) { list.appendChild(VP.h('p', { class: 'tnote', style: { padding: '14px 16px' }, text: 'No queries match these filters.' })); return; }
+    items.forEach(function (it) {
+      var q = VP.h('div', { class: 'q', id: 'q' + it.id });
+      var meta = state.dim ? (it.resp.filter(respMatch).length + ' of 5 tagged ' + VP.name(state.dim)) : (ntags(it) + ' tags');
+      var head = VP.h('div', { class: 'q-head', role: 'button', tabindex: 0, 'aria-expanded': state.open[it.id] ? 'true' : 'false' }, [
+        VP.h('span', { class: 'idx', text: '#' + it.id }),
+        VP.h('span', { class: 'src', text: VP.SRC[it.src] }),
+        VP.h('span', { class: it.title ? 'qt' : 'qs', text: it.title ? snippet(it.title, 110) : snippet(it.text, 110) }),
+        VP.h('span', { class: 'qm', text: meta })
+      ]);
+      function toggle() { state.open[it.id] = !state.open[it.id]; head.setAttribute('aria-expanded', state.open[it.id] ? 'true' : 'false'); if (state.open[it.id]) { if (!body.hasChildNodes()) fillBody(body, it); body.hidden = false; } else body.hidden = true; }
+      head.addEventListener('click', toggle);
+      head.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); } });
+      var body = VP.h('div', { class: 'q-body', hidden: true });
+      q.appendChild(head); q.appendChild(body);
+      if (state.open[it.id]) { fillBody(body, it); body.hidden = false; }
+      list.appendChild(q);
+    });
+  }
+
+  function fillBody(body, it) {
+    var qd = VP.h('div', { class: 'query' });
+    if (it.title) qd.appendChild(VP.h('b', { text: it.title + '\n' }));
+    qd.appendChild(document.createTextNode(it.text));
+    body.appendChild(qd);
+    it.resp.forEach(function (resp) {
+      var on = state.dim && respMatch(resp);
+      var box = VP.h('div', { class: 'resp' + (on ? ' on' : ''), id: 'r' + it.id + '-' + resp.oid });
+      box.appendChild(VP.h('div', null, [VP.h('span', { class: 'rn', text: 'R' + resp.oid }), VP.h('span', { class: 'rt', text: resp.text })]));
+      var tags = VP.h('div', { class: 'tags' });
+      var tg = tagsOf(resp);
+      if (!tg.length) tags.appendChild(VP.h('span', { class: 'none', text: 'no tag at |ρ| ≥ 0.3' }));
+      tg.forEach(function (t) {
+        var ex = EXCL[it.id + ':' + resp.oid + ':' + t.d];
+        var chip = VP.h('span', { class: 't ' + (t.r < 0 ? 'neg' : 'pos') + t.cls + (t.d === state.dim ? ' on' : ''), text: VP.name(t.d) + ' ' + VP.fmtS(t.r, 2) + (ex ? ' ‡' : ''), 'data-tip': (t.fam === 'bfi' ? 'Big Five trait' : 'Schwartz value') + (ex ? ' · excluded from model scoring in score.py' : '') });
+        tags.appendChild(chip);
+      });
+      box.appendChild(tags);
+      var links = VP.h('div', { class: 'rlinks' });
+      var corrBtn = VP.h('button', { class: 'linkbtn', type: 'button', 'aria-expanded': 'false', text: 'All 19 correlations' });
+      var rateBtn = VP.h('button', { class: 'linkbtn', type: 'button', 'aria-expanded': 'false', text: 'How 33 models rated this response' });
+      links.appendChild(corrBtn); links.appendChild(rateBtn);
+      box.appendChild(links);
+      var corrPanel = VP.h('div', { class: 'subpanel', hidden: true }), ratePanel = VP.h('div', { class: 'subpanel', hidden: true });
+      box.appendChild(corrPanel); box.appendChild(ratePanel);
+      corrBtn.addEventListener('click', function () {
+        var open = corrPanel.hidden; corrPanel.hidden = !open; corrBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        if (open && !corrPanel.hasChildNodes()) {
+          var grid = VP.h('div', { class: 'corrgrid' });
+          [['Schwartz values (PVQ-21)', 'pvq', VP.PVQ], ['Higher-order values', 'hi', VP.HI], ['Big Five traits (BFI-10)', 'bfi', VP.BFI]].forEach(function (f) {
+            var col = VP.h('div'); col.appendChild(VP.h('h5', { text: f[0] })); col.appendChild(VP.corrList(resp[f[1]], f[2], { sort: true })); grid.appendChild(col);
+          });
+          corrPanel.appendChild(grid);
+          corrPanel.appendChild(VP.h('p', { class: 'tnote', text: 'Spearman ρ between participants\' similarity ratings for this response and their own questionnaire scores. Bold rows pass |ρ| ≥ 0.3, p < 0.05.' }));
+        }
+      });
+      rateBtn.addEventListener('click', function () {
+        var open = ratePanel.hidden; ratePanel.hidden = !open; rateBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        if (open && !ratePanel.hasChildNodes()) {
+          var idx = idxOf[it.id + ':' + resp.oid];
+          var pts = apiModels.map(function (m) { return { id: m.id, name: m.name, v: RATINGS.models[m.id][idx] }; });
+          var vals = pts.map(function (p) { return p.v; });
+          var svg = VP.s('svg', { role: 'img', 'aria-label': 'Ratings of this response by 33 models on the 1 to 6 scale' });
+          var ch = VP.h('div', { class: 'chart' }); ch.appendChild(svg); ratePanel.appendChild(ch);
+          VP.ratingStrip(svg, { points: pts, mean: VP.mean(vals), onClick: function (p) { location.href = 'models.html?model=' + encodeURIComponent(p.id); } });
+          var sorted = pts.slice().sort(function (a, b) { return b.v - a.v; });
+          ratePanel.appendChild(VP.h('p', { class: 'tnote', html: 'Mean over models <b>' + VP.mean(vals).toFixed(2) + '</b> · highest ' + VP.esc(sorted[0].name) + ' (' + sorted[0].v.toFixed(2) + ') · lowest ' + VP.esc(sorted[sorted.length - 1].name) + ' (' + sorted[sorted.length - 1].v.toFixed(2) + '). Each dot is a model\'s mean over the six prompt variants; hover for the name, click to open that model.' }));
+        }
+      });
+      body.appendChild(box);
+    });
+  }
+
+  function syncUrl() { VP.setParam({ src: state.src, dim: state.dim, dir: state.dir === 'any' ? '' : state.dir, q: state.q, sort: state.sort === 'id' ? '' : state.sort }); }
+
+  Promise.all([VP.get('static/data/items.json'), VP.get('static/data/ratings.json'), VP.get('static/data/models.json')]).then(function (res) {
+    ITEMS = res[0]; RATINGS = res[1]; MODELS = res[2];
+    RATINGS.items.forEach(function (k, i) { idxOf[k[0] + ':' + k[1]] = i; });
+    apiModels = MODELS.models.filter(function (m) { return m.kind === 'api'; });
+    (ITEMS.excluded || []).forEach(function (e) { EXCL[e[0] + ':' + e[1] + ':' + e[2]] = true; });
+    var dimSel = document.getElementById('dimSel');
+    [['Schwartz values', VP.PVQ], ['Big Five traits', VP.BFI], ['Higher-order values', VP.HI]].forEach(function (g) {
+      var og = VP.h('optgroup', { label: g[0] }); g[1].forEach(function (d) { og.appendChild(VP.h('option', { value: d, text: VP.name(d) })); }); dimSel.appendChild(og);
+    });
+    dimSel.value = state.dim;
+    document.getElementById('sortSel').value = state.sort;
+    document.getElementById('search').value = state.q;
+    document.querySelectorAll('#srcSeg button').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-src') === state.src ? 'true' : 'false'); b.addEventListener('click', function () { state.src = b.getAttribute('data-src'); document.querySelectorAll('#srcSeg button').forEach(function (x) { x.setAttribute('aria-pressed', 'false'); }); b.setAttribute('aria-pressed', 'true'); syncUrl(); renderList(); }); });
+    document.querySelectorAll('#dirSeg button').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-dir') === state.dir ? 'true' : 'false'); b.addEventListener('click', function () { state.dir = b.getAttribute('data-dir'); document.querySelectorAll('#dirSeg button').forEach(function (x) { x.setAttribute('aria-pressed', 'false'); }); b.setAttribute('aria-pressed', 'true'); syncUrl(); renderList(); }); });
+    dimSel.addEventListener('change', function () { state.dim = dimSel.value; syncUrl(); renderList(); });
+    document.getElementById('sortSel').addEventListener('change', function (e) { state.sort = e.target.value; syncUrl(); renderList(); });
+    var st; document.getElementById('search').addEventListener('input', function (e) { clearTimeout(st); st = setTimeout(function () { state.q = e.target.value; syncUrl(); renderList(); }, 150); });
+    var want = VP.param('item'); if (want) state.open[+want] = true;
+    renderList();
+    if (want) { var el = document.getElementById('q' + want); if (el) el.scrollIntoView({ block: 'start' }); }
+
+    // construction tables
+    document.getElementById('funnel').replaceWith(VP.table({ head: ['Source'].concat(PAPER.funnelStages), rows: PAPER.funnel.map(function (f) { return [f.label].concat(f.stages.map(function (n) { return n.toLocaleString('en-US'); })); }) }));
+    document.getElementById('genA').textContent = PAPER.prompts.genA;
+    document.getElementById('genB').textContent = PAPER.prompts.genB;
+    var an = PAPER.annotators, annotRows = [];
+    annotRows.push({ cls: 'group', cells: ['Gender', ''] }); an.gender.forEach(function (r) { annotRows.push([r[0], r[1].toFixed(2) + '%']); });
+    annotRows.push({ cls: 'group', cells: ['Age', ''] }); an.age.forEach(function (r) { annotRows.push([r[0], r[1].toFixed(2) + '%']); });
+    annotRows.push({ cls: 'group', cells: ['Ethnicity', ''] }); an.ethnicity.forEach(function (r) { annotRows.push([r[0], r[1].toFixed(2) + '%']); });
+    document.getElementById('annot').replaceWith(VP.table({ head: ['Group', 'Share'], rows: annotRows }));
+    document.getElementById('coverage').replaceWith(VP.table({ head: ['UltraChat category', 'Coverage'], rows: PAPER.coverage.map(function (r) { return [r[0], r[1].toFixed(1) + '%']; }) }));
+    document.getElementById('vdist').replaceWith(VP.table({ head: ['Dataset'].concat(VP.PVQ.map(function (d) { return VP.ABBR[d]; })).concat(['Std ↓', 'IR ↓']), rows: PAPER.valueDist.map(function (r, i) { return { cls: i === 0 ? '' : '', cells: [i === 0 ? '<b>' + r.name + '</b>' : r.name].concat(r.vals.map(function (v) { return v.toFixed(3); })).concat([i === 0 ? '<b>' + r.std.toFixed(3) + '</b>' : r.std.toFixed(3), i === 0 ? '<b>' + r.ir.toFixed(2) + '</b>' : r.ir.toFixed(2)]) }; }) }));
+    var D = PAPER.distance;
+    document.getElementById('distance').replaceWith(VP.table({ head: ['Theoretical distance', 'Same-direction pairs', '%', 'Opposite-direction pairs', '%'], rows: D.same.map(function (s, i) { var o = D.opposite[i]; return [String(s[0]) + (s[0] === 1 ? ' (adjacent)' : s[0] === 4 ? ' (opposite)' : s[0] === 5 ? ' (max)' : ''), s[1] === null ? '—' : String(s[1]), s[2] === null ? '—' : s[2].toFixed(2), String(o[1]), o[2].toFixed(2)]; }).concat([{ cls: 'sep', cells: ['<b>Total · mean distance</b>', '<b>' + D.sameTotal + '</b>', '<b>' + D.sameAvg.toFixed(2) + '</b>', '<b>' + D.oppTotal + '</b>', '<b>' + D.oppAvg.toFixed(2) + '</b>'] }]) }));
+    document.getElementById('cronbach').replaceWith(VP.table({ head: ['Value', "Cronbach's α"], rows: PAPER.cronbach.map(function (r) { return [VP.name(r[0]), r[1].toFixed(2)]; }) }));
+  }).catch(function (e) { list.innerHTML = '<p class="tnote" style="padding:14px 16px">Could not load benchmark data (' + VP.esc(e.message) + ').</p>'; });
+})();
+</script>
+</body>
+</html>
