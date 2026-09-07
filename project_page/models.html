@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Value Portrait · Model results explorer</title>
+  <meta name="description" content="Value orientations of 44 LLMs measured with Value Portrait: full results table, reasoning and scale effects, and item-level drill-down to the prompts and answers behind every score.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23171B26'/%3E%3Cpolygon points='16,5 26,11 24,23 16,27 8,23 6,11' fill='none' stroke='%238FA8EC' stroke-width='2'/%3E%3Cpolygon points='16,10 22,13 21,21 16,23 11,21 10,13' fill='%23EE8A76' opacity='.9'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="static/css/site.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <div class="brandwrap"><a class="brand" href="index.html">Value Portrait</a><span class="venue">ACL 2025 · Main Conference</span></div>
+    <nav class="topnav" aria-label="Page">
+      <a href="index.html#overview" class="optional">Overview</a>
+      <a href="benchmark.html">Benchmark</a>
+      <a href="models.html">Models</a>
+      <a href="bias.html">Bias</a>
+      <a href="steering.html">Steering</a>
+      <a href="index.html#bibtex" class="optional">BibTeX</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero small">
+    <div class="wrap">
+      <h1>Model results explorer</h1>
+      <p class="lede">Each model answered <em>"How similar is this response to your own thoughts?"</em> for every item under six prompt variants at temperature 0. A value's score is the mean rating over the items tagged with that value (ρ &gt; 0.3) minus the model's mean rating over all tagged items. Click a model to see its profile, then a value to see the items, ratings and prompt-by-prompt answers behind the number.</p>
+      <div class="kpis">
+        <div class="kpi"><div class="n">44</div><div class="k">LLMs · 33 via API with item-level data</div></div>
+        <div class="kpi"><div class="n">6</div><div class="k">prompt variants averaged</div></div>
+        <div class="kpi"><div class="n">1–6</div><div class="k">Likert scale, centred per model</div></div>
+        <div class="kpi"><div class="n">0.76–0.96</div><div class="k">Cronbach's α across values</div></div>
+        <div class="kpi"><div class="n">Feb–Apr 2025</div><div class="k">evaluation period</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block tight" id="table">
+    <div class="wrap">
+      <div class="panel">
+        <div class="panel-head">
+          <h2 class="panel-title">Full results</h2>
+          <div class="controls">
+            <div class="seg" role="group" aria-label="Dimension family" id="domSeg">
+              <button type="button" data-dom="pvq" aria-pressed="true">Schwartz values</button>
+              <button type="button" data-dom="hi" aria-pressed="false">Higher-order</button>
+              <button type="button" data-dom="bfi" aria-pressed="false">Big Five</button>
+            </div>
+            <button type="button" class="copy" id="resetSort" hidden>Group by family</button>
+          </div>
+        </div>
+        <div class="tablewrap" style="margin:0"><table class="data compact" id="heat"></table></div>
+        <div class="panel-foot"><span id="heatNote">Centred scores; ★ row maximum, † row minimum. Click a column header to sort, a row to open the model below.</span></div>
+      </div>
+      <p class="caption" id="heatCaption"></p>
+    </div>
+  </section>
+
+  <section class="block tight" id="detail">
+    <div class="wrap">
+      <div class="panel">
+        <div class="panel-head">
+          <div class="detail-head"><span class="mn" id="dName">—</span><span class="mf" id="dMeta"></span></div>
+          <div class="controls">
+            <label class="ctl">Compare with <select id="cmpSel"><option value="">none</option></select></label>
+            <label class="ctl">Show <select id="dDom"><option value="pvq">Schwartz values</option><option value="hi">Higher-order values</option><option value="bfi">Big Five traits</option></select></label>
+          </div>
+        </div>
+        <div class="chart"><svg id="bars" role="img" aria-label="Centred scores of the selected model"></svg></div>
+        <div class="panel-foot" id="dFoot"></div>
+      </div>
+      <p class="caption">Solid bars: selected model. Dashed outline: comparison model. Click a bar to list the items behind that score.</p>
+
+      <div class="panel" id="itemsPanel" style="margin-top:16px">
+        <div class="panel-head">
+          <h2 class="panel-title" id="itemsTitle">Items behind the score</h2>
+          <div class="controls">
+            <label class="ctl">Dimension <select id="dimSel"></select></label>
+            <label class="ctl">Sort <select id="itemSort"><option value="rating">rating, high to low</option><option value="rho">correlation, strong to weak</option><option value="id">query id</option></select></label>
+          </div>
+        </div>
+        <div class="panel-body" id="itemsSummary"></div>
+        <div class="tablewrap" style="margin:0"><table class="data" id="itemsTable"></table></div>
+        <div class="panel-foot"><span>Rating = mean of the six prompt variants (1 = not like me at all … 6 = very much like me). The six cells show each prompt's answer: v1–v3 are the three templates, r marks reversed option order. Cells with an outline hold a raw answer that was not a bare Likert phrase; hover to read it.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="reasoning">
+    <div class="wrap">
+      <h2>Reasoning models amplify Benevolence and Universalism</h2>
+      <p>o1-mini and o3-mini score higher on Benevolence than the average of the non-reasoning GPT models, and the pattern repeats in other families: claude-3.7-sonnet-thinking against claude-3.7-sonnet, gemini-2.0-flash-thinking against gemini-2.0-flash-001, and deepseek-r1 against deepseek-v3. Step-by-step reasoning appears to progressively reinforce pro-social orientations.</p>
+      <div class="tablewrap"><table class="data compact" id="reasonTable"></table></div>
+      <p class="tnote">Scores computed from the released outputs; the GPT average covers gpt-3.5-turbo, the three gpt-4o versions, gpt-4o-mini and chatgpt-4o-latest. Click a row to open the model above.</p>
+    </div>
+  </section>
+
+  <section class="block" id="scale">
+    <div class="wrap">
+      <h2>Larger models differentiate values more</h2>
+      <p>Within a family, larger models spread their scores across the ten values more widely, showing distinct preferences, while smaller models rate all items about the same. The variance column summarises this. The very smallest models (Qwen2.5-0.5B, DeepSeek-R1-Distill-Qwen-1.5B) are exceptions with high variance, suggesting unstable rather than differentiated answers.</p>
+      <div class="tablewrap"><table class="data compact" id="scaleTable"></table></div>
+      <p class="tnote">Llama-3.1 scores are computed from the released outputs; the Qwen2.5-Instruct, DeepSeek-R1-Distill-Qwen and Gemma3-it rows are Table 12 of the paper and have no item-level data on this page.</p>
+    </div>
+  </section>
+
+  <section class="block" id="notes">
+    <div class="wrap">
+      <h2>Other observations</h2>
+      <ul class="plain">
+        <li><b>Mistral Small changed direction between versions.</b> <a href="models.html?model=mistral-small">mistral-small-v24.09</a> is the outlier of the table with negative Benevolence (−0.22) and Self-Direction (−0.38), whereas <a href="models.html?model=mistral-small-24b-instruct-2501">v25.01</a> follows the common pattern (Benevolence 0.92, Self-Direction 0.60, Achievement −0.52).</li>
+        <li><b>ChatGPT-4o is more moderate than GPT-4o.</b> <a href="models.html?model=chatgpt-4o-latest">chatgpt-4o-latest</a> scores lower on Universalism (0.06) and Benevolence (0.40) than the dated <a href="models.html?model=gpt-4o-2024-11-20">gpt-4o</a> releases (0.26–0.47 and 0.53–0.79) and is less extreme on Power and Achievement, plausibly an effect of chat optimisation.</li>
+        <li><b>GPT-4o versions drift slightly.</b> Universalism, Benevolence, Self-Direction and Achievement all decline from the 2024-05-13 to the 2024-11-20 release, so the profile flattens with iterative tuning.</li>
+        <li><b>Small models answer uniformly.</b> <a href="models.html?model=claude-3-5-haiku-20241022">claude-3.5-haiku</a>, <a href="models.html?model=llama-3.1-8b-instruct">llama-3.1-8b</a> and <a href="models.html?model=mistral-tiny">mistral-tiny</a> have every value within ±0.2 of their mean.</li>
+      </ul>
+
+      <h3>Prompts</h3>
+      <p>Three templates adapted from prior questionnaire studies of LLMs, each also administered with the answer options in reverse order, giving six ratings per item. Reddit and Dear Abby items include the post title as a separate field.</p>
+      <div id="promptList"></div>
+
+      <h3>Big Five as reported in the paper</h3>
+      <p>Table 9 of the paper reports Big Five scores for 27 models as mean ratings on the 1–6 scale. The interactive Big Five view above uses the released scoring pipeline (positively tagged items, centred), so the two are not on the same scale.</p>
+      <div class="tablewrap narrow"><table class="data" id="bfiPaper"></table></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="https://github.com/holi-lab">Holi Lab</a>, Graduate School of Data Science, Seoul National University. <a href="index.html">Back to overview</a>.</p>
+    <p>All model outputs, averaged ratings and scores are in the <a href="https://github.com/holi-lab/ValuePortrait/tree/main/lm_evaluation">lm_evaluation</a> directory of the repository. Page content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+  </div>
+</footer>
+
+<div class="tip" id="tip" hidden></div>
+<script src="static/js/paper-data.js"></script>
+<script src="static/js/site.js"></script>
+<script>
+(function () {
+  var M, ITEMS, RATINGS, idxOf = {}, byId = {}, EXCL = {};
+  var DIMS = { pvq: VP.PVQ, hi: VP.HI, bfi: VP.BFI };
+  var DOMLABEL = { pvq: 'Schwartz values', hi: 'higher-order values', bfi: 'Big Five traits' };
+  var state = { dom: 'pvq', sort: null, dir: -1, model: null, cmp: null, ddom: 'pvq', dim: 'Benevolence', isort: 'rating', detail: null };
+  var heat = document.getElementById('heat');
+
+  function score(m, dom, d) { var s = m.scores[dom]; return s && s[d] ? s[d].c : null; }
+  function variance(m) { return m.kind === 'paper' ? m.var : VP.variance(VP.PVQ.map(function (d) { return score(m, 'pvq', d); })); }
+  function label(m) { return VP.esc(m.name) + (m.kind === 'paper' ? ' <span class="t" data-tip="Scores from Table 12 of the paper; no item-level data">T12</span>' : '') + (m.reasoning ? ' <span class="t" data-tip="Reasoning model">R</span>' : ''); }
+
+  function renderHeat() {
+    var dims = DIMS[state.dom];
+    var models = M.models.filter(function (m) { return m.scores[state.dom]; });
+    var rows = [];
+    if (state.sort === null) {
+      VP.FAMILIES.forEach(function (f) { var ms = models.filter(function (m) { return m.family === f; }); if (!ms.length) return; rows.push({ group: f }); ms.forEach(function (m) { rows.push(rowOf(m, dims)); }); });
+    } else {
+      var key = state.sort;
+      models.slice().sort(function (a, b) {
+        var va = key === 'xvar' ? variance(a) : score(a, state.dom, dims[key]), vb = key === 'xvar' ? variance(b) : score(b, state.dom, dims[key]);
+        if (va === null) return 1; if (vb === null) return -1; return (vb - va) * (state.dir === -1 ? 1 : -1);
+      }).forEach(function (m) { rows.push(rowOf(m, dims)); });
+    }
+    var maxAbs = state.dom === 'bfi' ? 0.6 : 1.0;
+    VP.heat(heat, {
+      corner: 'Model', cols: dims.map(function (d) { return { label: VP.ABBR[d], title: VP.name(d) }; }), rows: rows, max: maxAbs, signed: true, marks: true,
+      extra: state.dom === 'pvq' ? [{ key: 'var', label: 'Var', title: 'Variance across the ten values' }] : [],
+      sortCol: state.sort, onSort: function (j) { if (state.sort === j) state.dir = -state.dir; else { state.sort = j; state.dir = -1; } document.getElementById('resetSort').hidden = false; renderHeat(); },
+      onRow: function (r) { selectModel(byId[r.id]); document.getElementById('detail').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+    });
+    document.getElementById('heatCaption').innerHTML = state.dom === 'pvq'
+      ? 'Table 8 and Table 12 of the paper. Columns: Uni Universalism, Ben Benevolence, Con Conformity, Tra Tradition, Sec Security, Pow Power, Ach Achievement, Hed Hedonism, Sti Stimulation, Sel Self-Direction. Var is the variance of a model\'s ten scores. R marks reasoning models.'
+      : state.dom === 'hi' ? 'Higher-order Schwartz values, scored with the same pipeline from items tagged with the higher-order correlation (ST Self-Transcendence, CO Conservation, SE Self-Enhancement, OC Openness to Change). Available for the 33 API-evaluated models.'
+      : 'Big Five traits scored with the released pipeline (items with ρ &gt; 0.3 for the trait, centred on the model\'s mean over all trait-tagged items). Available for the 33 API-evaluated models; the paper\'s Table 9 is reproduced at the bottom of this page.';
+  }
+  function rowOf(m, dims) {
+    var cells = dims.map(function (d) { return score(m, state.dom, d); });
+    return { id: m.id, label: label(m), cells: cells, sel: state.model && state.model.id === m.id, extra: state.dom === 'pvq' ? [VP.fmt(variance(m), 3)] : [] };
+  }
+
+  // ---- detail
+  function selectModel(m) {
+    state.model = m;
+    VP.setParam({ model: m.id });
+    if (!m.scores[state.ddom]) { state.ddom = 'pvq'; document.getElementById('dDom').value = 'pvq'; }
+    renderHeat(); renderDetail();
+    if (m.kind === 'api') VP.get('static/data/models/' + m.id.replace(':', '_') + '.json').then(function (d) { if (state.model === m) { state.detail = d; renderItems(); } });
+    else { state.detail = null; renderItems(); }
+  }
+  function renderDetail() {
+    var m = state.model, dims = DIMS[state.ddom];
+    document.getElementById('dName').textContent = m.name;
+    document.getElementById('dMeta').textContent = m.family + (m.size ? ' · ' + m.size : '') + (m.reasoning ? ' · reasoning model' : '') + (m.kind === 'paper' ? ' · scores from Table 12, no item-level data' : ' · evaluated via API with six prompts');
+    var cmp = state.cmp && byId[state.cmp];
+    var rows = dims.map(function (d) {
+      var v = score(m, state.ddom, d), g = cmp ? score(cmp, state.ddom, d) : null;
+      var s = m.scores[state.ddom] && m.scores[state.ddom][d];
+      return { key: d, label: VP.name(d), short: VP.ABBR[d], value: v, ghost: g, color: state.ddom === 'bfi' ? null : VP.dimColor(d), sel: d === state.dim && m.kind === 'api',
+        tip: '<b>' + VP.esc(VP.name(d)) + '</b> ' + VP.fmtS(v, 2) + (s && s.n ? '<br>' + s.n + ' items · mean rating ' + s.m.toFixed(2) : '') + (cmp ? '<br>' + VP.esc(cmp.name) + ': ' + VP.fmtS(g, 2) : '') };
+    });
+    var legend = [{ label: m.name, color: state.ddom === 'bfi' ? 'var(--pos)' : 'var(--line-weak)' }]; if (cmp) legend.push({ label: cmp.name, ghost: true });
+    VP.bars(document.getElementById('bars'), { rows: rows, max: Math.max(0.6, Math.ceil(Math.max.apply(null, rows.map(function (r) { return Math.max(Math.abs(r.value || 0), Math.abs(r.ghost || 0)); })) * 4) / 4), legend: cmp ? legend : null,
+      onClick: function (r) { if (m.kind !== 'api') return; state.dim = r.key; document.getElementById('dimSel').value = r.key; renderDetail(); renderItems(); document.getElementById('itemsPanel').scrollIntoView({ behavior: 'smooth', block: 'start' }); } });
+    var foot = document.getElementById('dFoot'); VP.clear(foot);
+    if (m.kind === 'api') {
+      var vals = dims.map(function (d) { return { d: d, v: score(m, state.ddom, d) }; }).sort(function (a, b) { return b.v - a.v; });
+      foot.appendChild(VP.h('span', { class: 'stat', html: '<span class="k">highest&nbsp;</span>' + VP.esc(VP.name(vals[0].d)) + ' ' + VP.fmtS(vals[0].v, 2) }));
+      foot.appendChild(VP.h('span', { class: 'stat', html: '<span class="k">lowest&nbsp;</span>' + VP.esc(VP.name(vals[vals.length - 1].d)) + ' ' + VP.fmtS(vals[vals.length - 1].v, 2) }));
+      foot.appendChild(VP.h('span', { class: 'stat', html: '<span class="k">variance&nbsp;</span>' + VP.fmt(VP.variance(vals.map(function (x) { return x.v; })), 3) }));
+      foot.appendChild(VP.h('a', { href: 'index.html?model=' + encodeURIComponent(m.id) + '#profiles', class: 'more', text: 'See against all 44 models' }));
+    } else foot.appendChild(VP.h('span', { text: 'Reported in the paper\'s scaling analysis (Table 12); variance across values ' + VP.fmt(m.var, 3) + '.' }));
+    // dimension select for items
+    var ds = document.getElementById('dimSel'); VP.clear(ds);
+    dims.forEach(function (d) { ds.appendChild(VP.h('option', { value: d, text: VP.name(d) })); });
+    if (dims.indexOf(state.dim) < 0) state.dim = dims[0];
+    ds.value = state.dim;
+  }
+
+  function itemsFor(m, dom, d) {
+    var out = [];
+    ITEMS.items.forEach(function (it) { it.resp.forEach(function (resp) {
+      var r = resp[dom][d]; if (!(r[0] > 0.3 && r[1] < 0.05)) return;
+      if (EXCL[it.id + ':' + resp.oid + ':' + d]) return;
+      var idx = idxOf[it.id + ':' + resp.oid];
+      out.push({ it: it, resp: resp, idx: idx, rho: r[0], rating: RATINGS.models[m.id][idx] });
+    }); });
+    return out;
+  }
+  function baselineFor(m, dom) {
+    var vals = [];
+    ITEMS.items.forEach(function (it) { it.resp.forEach(function (resp) {
+      var any = DIMS[dom].some(function (d) { var r = resp[dom][d]; return r[0] > 0.3 && r[1] < 0.05 && !EXCL[it.id + ':' + resp.oid + ':' + d]; });
+      if (any) vals.push(RATINGS.models[m.id][idxOf[it.id + ':' + resp.oid]]);
+    }); });
+    return { mean: VP.mean(vals), n: vals.length };
+  }
+  function pstrip(det, idx) {
+    var wrap = VP.h('span', { class: 'pstrip' });
+    var labels = ['v1', 'v1r', 'v2', 'v2r', 'v3', 'v3r'];
+    for (var k = 0; k < 6; k++) {
+      var v = det ? det.scores[idx][k] : null;
+      var raw = det && det.raw[idx + ':' + k];
+      var cell = VP.h('span', { class: (v === null || v === undefined ? 'na' : '') + (raw ? ' raw' : ''), text: v === null || v === undefined ? '·' : String(v), style: v === null || v === undefined ? '' : 'background: color-mix(in srgb, var(--pos) ' + Math.round((v - 1) / 5 * 70) + '%, var(--surface-2))' });
+      cell.setAttribute('data-tip', '<b>' + labels[k] + '</b>' + (k % 2 ? ' (reversed options)' : '') + ': ' + (v === null || v === undefined ? 'no valid answer' : VP.LIKERT[v - 1] + ' (' + v + ')') + (raw ? '<br><i>raw:</i> ' + VP.esc(raw.slice(0, 320)) + (raw.length > 320 ? '…' : '') : ''));
+      wrap.appendChild(cell);
+    }
+    return wrap;
+  }
+  function renderItems() {
+    var m = state.model, tbl = document.getElementById('itemsTable'), sum = document.getElementById('itemsSummary');
+    VP.clear(tbl); VP.clear(sum);
+    document.getElementById('itemsTitle').textContent = 'Items behind ' + m.name + ' · ' + VP.name(state.dim);
+    if (m.kind !== 'api') { sum.appendChild(VP.h('p', { class: 'tnote', style: { margin: 0 }, text: 'This model comes from the paper\'s scaling table; its item-level outputs are not part of the released data.' })); return; }
+    var rows = itemsFor(m, state.ddom, state.dim), base = baselineFor(m, state.ddom);
+    var mean = VP.mean(rows.map(function (r) { return r.rating; }));
+    var stored = score(m, state.ddom, state.dim);
+    sum.appendChild(VP.h('p', { style: { margin: '0 0 4px' }, html: '<b>' + rows.length + '</b> items tagged ' + VP.esc(VP.name(state.dim)) + ' (ρ &gt; 0.3, p &lt; 0.05) · mean rating <b>' + mean.toFixed(3) + '</b> − baseline <b>' + base.mean.toFixed(3) + '</b> (mean over all ' + base.n + ' ' + DOMLABEL[state.ddom] + ' items) = centred score <b>' + VP.fmtS(mean - base.mean, 2) + '</b>' + (stored !== null ? ' <span class="tnote">(released score file: ' + VP.fmtS(stored, 2) + ')</span>' : '') }));
+    if (state.isort === 'rating') rows.sort(function (a, b) { return b.rating - a.rating || b.rho - a.rho; });
+    else if (state.isort === 'rho') rows.sort(function (a, b) { return b.rho - a.rho; });
+    else rows.sort(function (a, b) { return a.it.id - b.it.id || a.resp.oid - b.resp.oid; });
+    var thead = VP.h('thead', null, VP.h('tr', null, [VP.h('th', { class: 'l', text: 'Item' }), VP.h('th', { class: 'l', text: 'Query' }), VP.h('th', { class: 'l', text: 'Response' }), VP.h('th', { text: 'ρ' }), VP.h('th', { text: 'Rating' }), VP.h('th', { class: 'l', text: 'Six prompts' })]));
+    tbl.appendChild(thead);
+    var tb = VP.h('tbody');
+    rows.forEach(function (r) {
+      var tr = VP.h('tr', { class: 'itemrow' });
+      tr.appendChild(VP.h('td', { class: 'l' }, [VP.h('a', { href: 'benchmark.html?item=' + r.it.id, text: '#' + r.it.id + ' R' + r.resp.oid, 'data-tip': 'Open in the benchmark explorer' }), VP.h('br'), VP.h('span', { class: 'src', text: VP.SRC[r.it.src] })]));
+      var qtd = VP.h('td', { class: 'l qq' });
+      var qs = (r.it.title || r.it.text).replace(/\s+/g, ' '); qs = qs.length > 90 ? qs.slice(0, 89) + '…' : qs;
+      var qx = VP.h('span', { class: 'qx', text: qs, role: 'button', tabindex: 0 });
+      var full = VP.h('div', { class: 'full', hidden: true, text: (r.it.title ? r.it.title + '\n' : '') + r.it.text });
+      qx.addEventListener('click', function () { full.hidden = !full.hidden; });
+      qtd.appendChild(qx); qtd.appendChild(full); tr.appendChild(qtd);
+      tr.appendChild(VP.h('td', { class: 'l rt', text: r.resp.text }));
+      tr.appendChild(VP.h('td', { class: 'num', text: VP.fmtS(r.rho, 2) }));
+      tr.appendChild(VP.h('td', { class: 'num', html: '<b>' + r.rating.toFixed(2) + '</b>' }));
+      tr.appendChild(VP.h('td', { class: 'l' }, pstrip(state.detail, r.idx)));
+      tb.appendChild(tr);
+    });
+    tbl.appendChild(tb);
+  }
+
+  // ---- static sections
+  function heatRows(list, dom) { return list.map(function (e) { return { id: e.m ? e.m.id : null, label: e.label, cells: e.cells, extra: e.extra || [] }; }); }
+  function renderReasoning() {
+    var gpt = ['gpt-3.5-turbo', 'gpt-4o-2024-05-13', 'gpt-4o-2024-08-06', 'gpt-4o-2024-11-20', 'gpt-4o-mini-2024-07-18', 'chatgpt-4o-latest'].map(function (id) { return byId[id]; });
+    var avg = VP.PVQ.map(function (d) { return VP.mean(gpt.map(function (m) { return score(m, 'pvq', d); })); });
+    var list = [{ group: 'OpenAI' }, { label: 'GPT average without reasoning', cells: avg, cls: 'sub' }];
+    [['o1-mini-2024-09-12'], ['o3-mini-2025-01-31'], { group: 'Anthropic' }, ['claude-3.7-sonnet'], ['claude-3.7-sonnet:thinking'], { group: 'Google' }, ['gemini-2.0-flash-001'], ['gemini-2.0-flash-thinking-exp-01-21'], { group: 'DeepSeek' }, ['deepseek-chat'], ['deepseek-r1'], { group: 'Qwen' }, ['qwen-plus'], ['qwq-32b']].forEach(function (x) {
+      if (x.group) { list.push(x); return; }
+      var m = byId[x[0]]; list.push({ id: m.id, label: label(m), cells: VP.PVQ.map(function (d) { return score(m, 'pvq', d); }) });
+    });
+    VP.heat(document.getElementById('reasonTable'), { corner: 'Model', cols: VP.PVQ.map(function (d) { return { label: VP.ABBR[d], title: VP.name(d) }; }), rows: list, max: 1, signed: true, marks: true, onRow: function (r) { if (r.id) { selectModel(byId[r.id]); document.getElementById('detail').scrollIntoView({ behavior: 'smooth' }); } } });
+  }
+  function renderScale() {
+    var list = [];
+    [['Llama-3.1-Instruct', ['llama-3.1-8b-instruct', 'llama-3.1-70b-instruct', 'llama-3.1-405b-instruct']], ['Qwen2.5-Instruct', null], ['DeepSeek-R1-Distill-Qwen', null], ['Gemma3-it', null]].forEach(function (f) {
+      list.push({ group: f[0] });
+      var ms = f[1] ? f[1].map(function (id) { return byId[id]; }) : M.models.filter(function (m) { return m.family === f[0]; });
+      ms.forEach(function (m) { list.push({ id: m.id, label: (m.size ? VP.esc(m.size) : VP.esc(m.name.replace('llama-3.1-', '').replace('-instruct', '').toUpperCase())), cells: VP.PVQ.map(function (d) { return score(m, 'pvq', d); }), extra: ['<b>' + VP.fmt(variance(m), 3) + '</b>'] }); });
+    });
+    VP.heat(document.getElementById('scaleTable'), { corner: 'Size', cols: VP.PVQ.map(function (d) { return { label: VP.ABBR[d], title: VP.name(d) }; }), rows: list, max: 1, signed: true, marks: true, extra: [{ key: 'var', label: 'Var' }], onRow: function (r) { if (r.id) { selectModel(byId[r.id]); document.getElementById('detail').scrollIntoView({ behavior: 'smooth' }); } } });
+  }
+  function renderStatic() {
+    var pl = document.getElementById('promptList');
+    PAPER.prompts.eval.forEach(function (p) { var d = VP.h('details'); d.appendChild(VP.h('summary', { text: p.name })); d.appendChild(VP.h('pre', { class: 'sysprompt', text: p.text })); pl.appendChild(d); });
+    var t = VP.table({ head: ['Model', 'Openness', 'Conscientiousness', 'Extraversion', 'Agreeableness', 'Neuroticism'], rows: PAPER.bfiPaper.map(function (r) { var m = byId[r[0]]; var vals = r.slice(1); var mx = Math.max.apply(null, vals), mn = Math.min.apply(null, vals); return [m ? m.name : r[0]].concat(vals.map(function (v) { return { v: v.toFixed(2), cls: v === mx ? 'mark max' : v === mn ? 'mark min' : '' }; })); }) });
+    document.getElementById('bfiPaper').replaceWith(t);
+  }
+
+  Promise.all([VP.get('static/data/models.json'), VP.get('static/data/items.json'), VP.get('static/data/ratings.json')]).then(function (res) {
+    M = res[0]; ITEMS = res[1]; RATINGS = res[2];
+    M.models.forEach(function (m) { byId[m.id] = m; });
+    RATINGS.items.forEach(function (k, i) { idxOf[k[0] + ':' + k[1]] = i; });
+    (ITEMS.excluded || []).forEach(function (e) { EXCL[e[0] + ':' + e[1] + ':' + e[2]] = true; });
+    var cmp = document.getElementById('cmpSel');
+    VP.FAMILIES.forEach(function (f) { var ms = M.models.filter(function (m) { return m.family === f; }); if (!ms.length) return; var og = VP.h('optgroup', { label: f }); ms.forEach(function (m) { og.appendChild(VP.h('option', { value: m.id, text: m.name })); }); cmp.appendChild(og); });
+    cmp.addEventListener('change', function () { state.cmp = cmp.value || null; renderDetail(); });
+    document.getElementById('dDom').addEventListener('change', function (e) { state.ddom = e.target.value; if (!state.model.scores[state.ddom]) { state.ddom = 'pvq'; e.target.value = 'pvq'; } state.dim = DIMS[state.ddom][0]; renderDetail(); renderItems(); });
+    document.getElementById('dimSel').addEventListener('change', function (e) { state.dim = e.target.value; renderDetail(); renderItems(); });
+    document.getElementById('itemSort').addEventListener('change', function (e) { state.isort = e.target.value; renderItems(); });
+    document.querySelectorAll('#domSeg button').forEach(function (b) { b.addEventListener('click', function () { document.querySelectorAll('#domSeg button').forEach(function (x) { x.setAttribute('aria-pressed', 'false'); }); b.setAttribute('aria-pressed', 'true'); state.dom = b.getAttribute('data-dom'); state.sort = null; document.getElementById('resetSort').hidden = true; renderHeat(); }); });
+    document.getElementById('resetSort').addEventListener('click', function () { state.sort = null; document.getElementById('resetSort').hidden = true; renderHeat(); });
+    var want = VP.param('model'), wantDim = VP.param('dim');
+    if (wantDim && (VP.PVQ.indexOf(wantDim) >= 0 || VP.BFI.indexOf(wantDim) >= 0 || VP.HI.indexOf(wantDim) >= 0)) { state.dim = wantDim; state.ddom = VP.PVQ.indexOf(wantDim) >= 0 ? 'pvq' : VP.BFI.indexOf(wantDim) >= 0 ? 'bfi' : 'hi'; document.getElementById('dDom').value = state.ddom; }
+    renderReasoning(); renderScale(); renderStatic();
+    selectModel(byId[want] || byId['gpt-4o-2024-11-20']);
+    if (want) document.getElementById('detail').scrollIntoView({ block: 'start' });
+    var was = VP.compact(); window.addEventListener('resize', function () { if (VP.compact() !== was) { was = VP.compact(); renderDetail(); } });
+  }).catch(function (e) { heat.innerHTML = '<tr><td class="l">Could not load model data (' + VP.esc(e.message) + ').</td></tr>'; });
+})();
+</script>
+</body>
+</html>

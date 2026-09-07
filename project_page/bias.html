@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Value Portrait · Demographic bias explorer</title>
+  <meta name="description" content="How persona-prompted GPT-4o's value profiles for gender, age, political orientation, education, race, religion and income compare with 37,498 European Social Survey respondents.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23171B26'/%3E%3Cpolygon points='16,5 26,11 24,23 16,27 8,23 6,11' fill='none' stroke='%238FA8EC' stroke-width='2'/%3E%3Cpolygon points='16,10 22,13 21,21 16,23 11,21 10,13' fill='%23EE8A76' opacity='.9'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="static/css/site.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <div class="brandwrap"><a class="brand" href="index.html">Value Portrait</a><span class="venue">ACL 2025 · Main Conference</span></div>
+    <nav class="topnav" aria-label="Page">
+      <a href="index.html#overview" class="optional">Overview</a>
+      <a href="benchmark.html">Benchmark</a>
+      <a href="models.html">Models</a>
+      <a href="bias.html">Bias</a>
+      <a href="steering.html">Steering</a>
+      <a href="index.html#bibtex" class="optional">BibTeX</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero small">
+    <div class="wrap">
+      <h1>Demographic bias explorer</h1>
+      <p class="lede">GPT-4o is given a one-line demographic persona as its system prompt, evaluated on Value Portrait, and compared with the value profile of the matching demographic group in round 11 of the European Social Survey. Human bars are a group's mean minus the mean of all respondents; GPT-4o bars are the persona-prompted score minus vanilla GPT-4o. If personas were faithful, the two panels would look alike.</p>
+      <div class="kpis">
+        <div class="kpi"><div class="n">37,498</div><div class="k">ESS respondents with PVQ scores</div></div>
+        <div class="kpi"><div class="n">7</div><div class="k">demographic axes · 25 personas</div></div>
+        <div class="kpi"><div class="n">4</div><div class="k">axes with a human reference</div></div>
+        <div class="kpi"><div class="n">GPT-4o</div><div class="k">persona steering (Cheng et al.)</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block tight" id="explorer">
+    <div class="wrap">
+      <div class="panel">
+        <div class="panel-head">
+          <h2 class="panel-title" id="pTitle">Human data vs GPT-4o personas</h2>
+          <div class="controls"><div class="seg" role="group" aria-label="Demographic" id="demoSeg"></div></div>
+        </div>
+        <div class="panel-body">
+          <div class="colkey" id="legend"></div>
+          <div class="evidence" id="charts" style="margin-top:8px">
+            <div class="chart"><svg id="humanSvg" role="img" aria-label="Human value profile differences by group"></svg></div>
+            <div class="chart"><svg id="gptSvg" role="img" aria-label="GPT-4o persona value shifts by group"></svg></div>
+          </div>
+          <p id="finding" style="margin:10px 0 0"></p>
+        </div>
+      </div>
+      <p class="caption" id="cap"></p>
+
+      <div style="margin-top:16px">
+        <p class="aside-lab">Schwartz values (Tables 13–16, 18)</p>
+        <div class="tablewrap"><table class="data" id="valTable"></table></div>
+      </div>
+      <div style="margin-top:16px">
+        <p class="aside-lab">Big Five traits of the GPT-4o personas (Table 19)</p>
+        <div class="tablewrap narrow"><table class="data" id="bfiTable"></table></div>
+        <p class="tnote">Persona minus vanilla GPT-4o; the ESS has no Big Five reference.</p>
+      </div>
+
+      <figure id="fig" hidden>
+        <div class="frame"><img id="figImg" src="" alt="" loading="lazy"></div>
+        <figcaption id="figCap"></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="block" id="method">
+    <div class="wrap">
+      <h2>Setup</h2>
+      <div class="two">
+        <div>
+          <p>Personas follow the persona steering prompt format of Cheng et al.: a short system message stating one demographic attribute. Everything else, the items, the question and the six prompt variants, is identical to the main evaluation, so any change in the value profile is attributable to the persona.</p>
+          <p>For the human reference, each ESS respondent's ten value scores are computed from PVQ-21 with the same centring used for models. A demographic group's profile is its mean minus the mean of all respondents. Race, religion and income are not comparable across the ESS coding and the personas used here, so those axes report the persona effects alone.</p>
+        </div>
+        <div>
+          <p class="aside-lab">System prompts, one per persona</p>
+          <div id="prompts"></div>
+        </div>
+      </div>
+      <h3>Why it matters</h3>
+      <p>Persona prompting is widely used to generate synthetic survey data and to simulate user populations. The comparison shows that GPT-4o's picture of a demographic group is partly caricature: it widens gender and political gaps far beyond the human data and does not carry the monotonic age and education trends that humans show. Value Portrait, because it is anchored in human value scores, makes such comparisons possible for any construct with a population reference.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="https://github.com/holi-lab">Holi Lab</a>, Graduate School of Data Science, Seoul National University. <a href="index.html">Back to overview</a>.</p>
+    <p>Human reference: European Social Survey, round 11. Page content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+  </div>
+</footer>
+
+<div class="tip" id="tip" hidden></div>
+<script src="static/js/paper-data.js"></script>
+<script src="static/js/site.js"></script>
+<script>
+(function () {
+  var B = PAPER.bias, keys = Object.keys(B);
+  var state = { key: (VP.param('axis') && B[VP.param('axis')]) ? VP.param('axis') : 'gender' };
+  var seg = document.getElementById('demoSeg');
+  keys.forEach(function (k) { var b = VP.h('button', { type: 'button', text: B[k].label, 'aria-pressed': k === state.key ? 'true' : 'false' }); b.addEventListener('click', function () { state.key = k; seg.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', 'false'); }); b.setAttribute('aria-pressed', 'true'); VP.setParam({ axis: k }); render(); }); seg.appendChild(b); });
+  var CAT = ['var(--c1)', 'var(--c2)', 'var(--c3)', 'var(--c4)', 'var(--c5)'];
+  function colors(d) {
+    var n = d.groups.length;
+    if (d.ordinal) return d.groups.map(function (_, i) { return 'color-mix(in srgb, var(--c1) ' + Math.round(40 + 60 * i / Math.max(1, n - 1)) + '%, var(--bg))'; });
+    return d.groups.map(function (_, i) { return CAT[i]; });
+  }
+  var rows = VP.PVQ.map(function (d) { return { label: VP.name(d), short: VP.ABBR[d] }; });
+  function render() {
+    var d = B[state.key], cols = colors(d), groups = d.groups.map(function (g, i) { return { label: g, color: cols[i] }; });
+    document.getElementById('pTitle').textContent = d.human ? 'Human data vs GPT-4o personas · ' + d.label : 'GPT-4o personas · ' + d.label + ' (no human reference)';
+    var lg = document.getElementById('legend'); VP.clear(lg);
+    groups.forEach(function (g) { lg.appendChild(VP.h('span', { text: g.label, style: '--k:' + g.color })); });
+    var human = document.getElementById('humanSvg'), gpt = document.getElementById('gptSvg');
+    var maxAbs = 0.8; [d.human || [], d.gpt].forEach(function (mat) { mat.forEach(function (r) { r.forEach(function (v) { maxAbs = Math.max(maxAbs, Math.abs(v)); }); }); });
+    maxAbs = Math.ceil(maxAbs * 4) / 4;
+    var ticks = [-1, -0.5, 0, 0.5, 1].filter(function (t) { return Math.abs(t) <= maxAbs; });
+    if (d.human) {
+      human.parentNode.hidden = false;
+      VP.groupBars(human, { title: 'Human (ESS round 11)', rows: rows, groups: groups, data: VP.PVQ.map(function (_, i) { return d.human.map(function (g) { return g[i]; }); }), max: maxAbs, ticks: ticks });
+    } else human.parentNode.hidden = true;
+    VP.groupBars(gpt, { title: 'GPT-4o personas', rows: rows, groups: groups, data: VP.PVQ.map(function (_, i) { return d.gpt.map(function (g) { return g[i]; }); }), max: maxAbs, ticks: ticks });
+    document.getElementById('finding').textContent = d.finding;
+    document.getElementById('cap').textContent = 'Difference in centred value score. Human: group mean minus the mean of all ESS respondents. GPT-4o: persona-prompted score minus vanilla GPT-4o on Value Portrait. Hover a bar for the exact value.';
+    // tables
+    var head = [d.label].concat(VP.PVQ.map(function (x) { return VP.ABBR[x]; }));
+    var trows = [];
+    if (d.human) { trows.push({ cls: 'group', cells: ['Human data'].concat(VP.PVQ.map(function () { return ''; })) }); d.groups.forEach(function (g, i) { trows.push([g].concat(d.human[i])); }); }
+    trows.push({ cls: 'group', cells: ['GPT-4o'].concat(VP.PVQ.map(function () { return ''; })) }); d.groups.forEach(function (g, i) { trows.push([g].concat(d.gpt[i])); });
+    if (state.key === 'gender') {
+      trows.push({ cls: 'sep', cells: ['<b>Male − Female, human</b>'].concat(d.human[0].map(function (v, i) { return Math.round((v - d.human[1][i]) * 100) / 100; })) });
+      trows.push(['<b>Male − Female, GPT-4o</b>'].concat(d.gpt[0].map(function (v, i) { return Math.round((v - d.gpt[1][i]) * 100) / 100; })));
+    }
+    var vt = VP.table({ head: head, rows: trows, signed: true }); vt.id = 'valTable';
+    document.getElementById('valTable').replaceWith(vt);
+    var bt = VP.table({ head: [d.label, 'Openness', 'Conscientiousness', 'Extraversion', 'Agreeableness', 'Neuroticism'], rows: d.groups.map(function (g, i) { return [g].concat(d.bfi[i]); }), signed: true }); bt.id = 'bfiTable';
+    document.getElementById('bfiTable').replaceWith(bt);
+    var fig = document.getElementById('fig');
+    if (d.figure) { fig.hidden = false; var img = document.getElementById('figImg'); img.src = d.figure; img.alt = 'Radar charts of value orientations by ' + d.label.toLowerCase() + ' in human data and persona-prompted GPT-4o'; document.getElementById('figCap').innerHTML = '<b>Radar view from the paper.</b> Left: ESS groups; right: GPT-4o personas. Dotted circle = zero.'; }
+    else fig.hidden = true;
+  }
+  var pp = document.getElementById('prompts');
+  PAPER.personaPrompts.forEach(function (p) { pp.appendChild(VP.h('pre', { class: 'sysprompt', html: '<span class="role">system (' + VP.esc(p[0]) + '):</span> ' + VP.esc(p[1]) })); });
+  render();
+  var was = VP.compact(); window.addEventListener('resize', function () { if (VP.compact() !== was) { was = VP.compact(); render(); } });
+})();
+</script>
+</body>
+</html>

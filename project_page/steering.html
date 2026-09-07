@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Value Portrait · Value steering</title>
+  <meta name="description" content="Steering GPT-4o toward each of the ten Schwartz values by prompting: the full 10 × 10 matrix of value shifts, checked against the compatibilities and conflicts of Schwartz's circular structure.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23171B26'/%3E%3Cpolygon points='16,5 26,11 24,23 16,27 8,23 6,11' fill='none' stroke='%238FA8EC' stroke-width='2'/%3E%3Cpolygon points='16,10 22,13 21,21 16,23 11,21 10,13' fill='%23EE8A76' opacity='.9'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="static/css/site.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <div class="brandwrap"><a class="brand" href="index.html">Value Portrait</a><span class="venue">ACL 2025 · Main Conference</span></div>
+    <nav class="topnav" aria-label="Page">
+      <a href="index.html#overview" class="optional">Overview</a>
+      <a href="benchmark.html">Benchmark</a>
+      <a href="models.html">Models</a>
+      <a href="bias.html">Bias</a>
+      <a href="steering.html">Steering</a>
+      <a href="index.html#bibtex" class="optional">BibTeX</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero small">
+    <div class="wrap">
+      <h1>Value steering</h1>
+      <p class="lede">Can a value be dialled up by telling the model it holds that value? GPT-4o is given a system prompt naming one Schwartz value and its definition, then evaluated on Value Portrait. Each cell below is the change in a measured value relative to unsteered GPT-4o; the diagonal is how far the targeted value itself moved.</p>
+      <div class="kpis">
+        <div class="kpi"><div class="n">10</div><div class="k">steering targets</div></div>
+        <div class="kpi"><div class="n">8 / 10</div><div class="k">targets where the target value rose by ≥ 0.3</div></div>
+        <div class="kpi"><div class="n">+1.08</div><div class="k">Security shift when steering toward Benevolence</div></div>
+        <div class="kpi"><div class="n">−1.10</div><div class="k">Universalism shift when steering toward Power</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block tight" id="matrix">
+    <div class="wrap">
+      <div class="panel">
+        <div class="panel-head">
+          <h2 class="panel-title">Steering matrix: change in each value when GPT-4o is steered toward the row value</h2>
+        </div>
+        <div class="tablewrap" style="margin:0"><table class="data compact" id="heat"></table></div>
+        <div class="panel-foot"><span>Rows: steering target. Columns: measured value. ★ row maximum, † row minimum. Click a row to inspect it.</span></div>
+      </div>
+      <p class="caption">Table 17 of the paper. In 8 of 10 rows the targeted value rises by at least 0.3; the exceptions are Benevolence (+0.11) and Achievement (+0.19).</p>
+
+      <div class="panel" style="margin-top:16px">
+        <div class="panel-head">
+          <h2 class="panel-title" id="rowTitle">Steering toward Universalism</h2>
+          <div class="controls"><label class="ctl">Target <select id="target"></select></label></div>
+        </div>
+        <div class="chart"><svg id="bars" role="img" aria-label="Value shifts for the selected steering target"></svg></div>
+        <div class="panel-body">
+          <div class="evidence">
+            <div>
+              <p class="aside-lab">Schwartz-circle expectations for this target</p>
+              <div class="tablewrap" style="margin:0"><table class="data" id="expect"></table></div>
+              <p class="tnote" id="expectNote"></p>
+            </div>
+            <div>
+              <p class="aside-lab">System prompt used</p>
+              <pre class="sysprompt" id="prompt"></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="findings">
+    <div class="wrap">
+      <h2>What steering shows</h2>
+      <ul class="plain">
+        <li><b>Most values steer as intended.</b> Universalism (+0.66), Hedonism (+0.77), Power (+0.55), Tradition (+0.70), Security (+0.56) and Self-Direction (+0.48) all rise when targeted, and for Universalism, Power, Hedonism and Self-Direction the targeted value is the largest change in its row.</li>
+        <li><b>The Schwartz circle is respected.</b> Steering toward Power lowers Universalism (−1.10) and raises Achievement (+0.49); Hedonism steering lowers Tradition and Conformity and raises Stimulation; Security steering lowers Stimulation (−0.67). Values that are adjacent on the circle move together and opposing values move apart, as the theory predicts.</li>
+        <li><b>Benevolence is not understood as its own value.</b> Steering toward Benevolence raises Security by 1.08 and Self-Direction by 0.44 but Benevolence itself by only 0.11. GPT-4o's picture of "caring for one's in-group" seems to be dominated by safety and stability rather than by the Benevolence items people who hold that value endorse.</li>
+        <li><b>Achievement steering leaks into Self-Direction.</b> The Achievement prompt moves Self-Direction (+0.63) more than Achievement (+0.19) and lowers Universalism (−0.67).</li>
+      </ul>
+      <p>Together with the demographic analysis, this suggests that prompting can control some value dimensions reliably while others interact in ways a developer would not anticipate from the prompt alone, which is what a benchmark anchored in human value holders is designed to reveal.</p>
+      <h3>Value definitions given to the model</h3>
+      <div class="tablewrap narrow"><table class="data" id="defs"></table></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="https://github.com/holi-lab">Holi Lab</a>, Graduate School of Data Science, Seoul National University. <a href="index.html">Back to overview</a>.</p>
+    <p>Page content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+  </div>
+</footer>
+
+<div class="tip" id="tip" hidden></div>
+<script src="static/js/paper-data.js"></script>
+<script src="static/js/site.js"></script>
+<script>
+(function () {
+  var S = PAPER.steering, P = PAPER.steeringPairs;
+  var state = { i: Math.max(0, VP.PVQ.indexOf(VP.param('target') || 'Universalism')) };
+  var sel = document.getElementById('target');
+  VP.PVQ.forEach(function (d) { sel.appendChild(VP.h('option', { value: d, text: VP.name(d) })); });
+  sel.value = VP.PVQ[state.i];
+  sel.addEventListener('change', function () { state.i = VP.PVQ.indexOf(sel.value); VP.setParam({ target: sel.value }); render(); });
+  function renderHeat() {
+    VP.heat(document.getElementById('heat'), {
+      corner: 'Steer toward ↓ · measured →', cols: VP.PVQ.map(function (d) { return { label: VP.ABBR[d], title: VP.name(d) }; }),
+      rows: VP.PVQ.map(function (d, i) { return { id: i, label: (i === state.i ? '<b>' : '') + VP.name(d) + (i === state.i ? '</b>' : ''), cells: S[i], sel: i === state.i }; }),
+      max: 1.1, signed: true, marks: true, onRow: function (r) { state.i = r.id; sel.value = VP.PVQ[r.id]; VP.setParam({ target: VP.PVQ[r.id] }); render(); }
+    });
+    // emphasise the diagonal
+    var trs = document.querySelectorAll('#heat tbody tr');
+    trs.forEach(function (tr, i) { var td = tr.children[i + 1]; if (td) { td.style.fontWeight = '700'; td.style.outline = '2px solid var(--ink)'; td.style.outlineOffset = '-2px'; } });
+  }
+  function render() {
+    renderHeat();
+    var t = VP.PVQ[state.i], row = S[state.i];
+    document.getElementById('rowTitle').textContent = 'Steering toward ' + VP.name(t);
+    VP.bars(document.getElementById('bars'), { rows: VP.PVQ.map(function (d, j) { return { key: d, label: VP.name(d), short: VP.ABBR[d], value: row[j], color: j === state.i ? 'var(--ink)' : (row[j] < 0 ? 'var(--neg)' : 'var(--pos)'), sel: j === state.i, tip: '<b>' + VP.esc(VP.name(d)) + '</b> ' + VP.fmtS(row[j], 2) + (j === state.i ? ' (target)' : '') }; }), max: 1.25, ticks: [-1, -0.5, 0, 0.5, 1], swatch: false });
+    var exp = [];
+    P.positive.forEach(function (p) { if (p[0] === t) exp.push({ v: p[1], sign: 1 }); if (p[1] === t) exp.push({ v: p[0], sign: 1 }); });
+    P.negative.forEach(function (p) { if (p[0] === t) exp.push({ v: p[1], sign: -1 }); if (p[1] === t) exp.push({ v: p[0], sign: -1 }); });
+    var tbl = document.getElementById('expect');
+    var rows = exp.map(function (e) { var obs = row[VP.PVQ.indexOf(e.v)]; var ok = (obs > 0) === (e.sign > 0); return [VP.name(e.v), e.sign > 0 ? 'compatible · expect ↑' : 'conflicting · expect ↓', { v: obs, cls: '' }, ok ? '✓' : '✗']; });
+    var nt = VP.table({ head: ['Value', 'Relation to ' + VP.name(t), 'Observed', 'Match'], rows: rows.length ? rows : [['—', 'No pair for this target in the paper\'s check', '', '']], signed: true, left: [1, 3] });
+    tbl.replaceWith(nt); nt.id = 'expect';
+    document.getElementById('expectNote').textContent = rows.length ? 'Pairs the paper checks against Schwartz\'s circular structure (Appendix H.1). Compatible values are expected to rise with the target, conflicting values to fall.' : 'The paper\'s circle check covers the pairs Power–Universalism, Hedonism–Tradition, Hedonism–Conformity, Security–Stimulation, Benevolence–Achievement (conflicting) and Power–Achievement, Hedonism–Stimulation, Conformity–Security, Conformity–Tradition, Security–Tradition, Stimulation–Self-Direction (compatible).';
+    document.getElementById('prompt').innerHTML = '<span class="role">system:</span> **Your Profile**: You value <mark>' + VP.esc(VP.name(t)) + '</mark>.\n\nValue Definition:\n- ' + VP.esc(VP.name(t)) + ': values <mark>' + VP.esc(PAPER.definitions[t]) + '</mark>';
+  }
+  document.getElementById('defs').replaceWith(VP.table({ head: ['Value', 'Definition'], rows: VP.PVQ.map(function (d) { return [VP.name(d), '<span class="wrap">values ' + VP.esc(PAPER.definitions[d]) + '</span>']; }), left: [1] }));
+  document.querySelectorAll('#findings table.data td').forEach(function (td) { td.classList.add('wrap'); });
+  render();
+  var was = VP.compact(); window.addEventListener('resize', function () { if (VP.compact() !== was) { was = VP.compact(); render(); } });
+})();
+</script>
+</body>
+</html>

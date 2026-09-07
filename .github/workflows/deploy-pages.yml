@@ -1,0 +1,34 @@
+name: Deploy project page to GitHub Pages
+
+# The site source lives in project_page/ on main. Every push that touches it is
+# published to the gh-pages branch, which GitHub Pages serves at
+# https://holi-lab.github.io/ValuePortrait/
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'project_page/**'
+      - '.github/workflows/deploy-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Publish project_page to the gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./project_page
+          publish_branch: gh-pages
+          commit_message: "deploy: project page from ${{ github.sha }}"

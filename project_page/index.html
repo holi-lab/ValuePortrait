@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Value Portrait: Assessing Language Models' Values through Psychometrically and Ecologically Valid Items</title>
+
+  <meta name="description" content="ACL 2025. Value Portrait is a psychometrically validated benchmark of 520 real query–response pairs for measuring the value orientations of LLMs. Explore all items, 44 model profiles, demographic bias and value steering results.">
+  <meta name="keywords" content="Value Portrait, Schwartz values, Big Five, PVQ, BFI, LLM values, psychometrics, benchmark, persona bias, value steering, ACL 2025">
+  <meta name="author" content="Jongwook Han, Dongmin Choi, Woojung Song, Eun-Ju Lee, Yohan Jo">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Holi Lab, Seoul National University">
+  <meta property="og:title" content="Value Portrait: Assessing Language Models' Values through Psychometrically and Ecologically Valid Items">
+  <meta property="og:description" content="A psychometrically validated benchmark of real user–LLM interactions for measuring LLM value orientations. ACL 2025.">
+  <meta property="og:url" content="https://holi-lab.github.io/ValuePortrait/">
+  <meta property="og:image" content="https://holi-lab.github.io/ValuePortrait/static/images/pipeline.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Value Portrait: Assessing Language Models' Values">
+  <meta name="twitter:description" content="A psychometrically validated benchmark of real user–LLM interactions for measuring LLM value orientations. ACL 2025.">
+  <meta name="twitter:image" content="https://holi-lab.github.io/ValuePortrait/static/images/pipeline.png">
+
+  <meta name="citation_title" content="Value Portrait: Assessing Language Models' Values through Psychometrically and Ecologically Valid Items">
+  <meta name="citation_author" content="Han, Jongwook">
+  <meta name="citation_author" content="Choi, Dongmin">
+  <meta name="citation_author" content="Song, Woojung">
+  <meta name="citation_author" content="Lee, Eun-Ju">
+  <meta name="citation_author" content="Jo, Yohan">
+  <meta name="citation_publication_date" content="2025">
+  <meta name="citation_conference_title" content="Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)">
+  <meta name="citation_arxiv_id" content="2505.01015">
+  <meta name="citation_doi" content="10.18653/v1/2025.acl-long.838">
+  <meta name="citation_pdf_url" content="https://aclanthology.org/2025.acl-long.838.pdf">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23171B26'/%3E%3Cpolygon points='16,5 26,11 24,23 16,27 8,23 6,11' fill='none' stroke='%238FA8EC' stroke-width='2'/%3E%3Cpolygon points='16,10 22,13 21,21 16,23 11,21 10,13' fill='%23EE8A76' opacity='.9'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="static/css/site.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <div class="brandwrap"><a class="brand" href="index.html">Value Portrait</a><span class="venue">ACL 2025 · Main Conference</span></div>
+    <nav class="topnav" aria-label="Page">
+      <a href="index.html#overview" class="optional">Overview</a>
+      <a href="benchmark.html">Benchmark</a>
+      <a href="models.html">Models</a>
+      <a href="bias.html">Bias</a>
+      <a href="steering.html">Steering</a>
+      <a href="index.html#bibtex" class="optional">BibTeX</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <h1>Value Portrait: Assessing Language Models' Values through Psychometrically and Ecologically Valid Items</h1>
+      <p class="authors">
+        <a href="https://jongwook-han.github.io/">Jongwook Han</a><sup>1*</sup>,
+        <a href="https://scholar.google.com/citations?user=9AlW_GAAAAAJ&amp;hl=en">Dongmin Choi</a><sup>1*</sup>,
+        <a href="https://github.com/opusdeisong">Woojung Song</a><sup>2*</sup>,
+        <a href="https://scholar.google.com/citations?user=LPVWCwsAAAAJ&amp;hl=en&amp;oi=ao">Eun-Ju Lee</a><sup>3</sup>,
+        <a href="https://yohanjo.github.io/">Yohan Jo</a><sup>1†</sup>
+      </p>
+      <p class="affils">
+        <sup>1</sup>Graduate School of Data Science, Seoul National University<br>
+        <sup>2</sup>Department of Information System, Hanyang University<br>
+        <sup>3</sup>Department of Communication, Interdisciplinary Program in Artificial Intelligence, Seoul National University
+      </p>
+      <p class="marks">* Equal contribution &nbsp;·&nbsp; † Corresponding author</p>
+      <div class="links">
+        <a class="btn" href="https://aclanthology.org/2025.acl-long.838.pdf">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6"/><path d="M8 13h8M8 17h8"/></svg>
+          Paper
+        </a>
+        <a class="btn" href="https://aclanthology.org/2025.acl-long.838/">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5a2 2 0 0 1 2-2h12v16H6a2 2 0 0 0-2 2z"/><path d="M4 19a2 2 0 0 0 2 2h12"/></svg>
+          ACL Anthology
+        </a>
+        <a class="btn" href="https://arxiv.org/abs/2505.01015">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16M12 4v16"/></svg>
+          arXiv
+        </a>
+        <a class="btn" href="https://github.com/holi-lab/ValuePortrait">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4l-5 8 5 8M16 4l5 8-5 8"/></svg>
+          Code &amp; Data
+        </a>
+        <a class="btn" href="#bibtex">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h10v16H7z"/><path d="M10 9h4M10 13h4"/></svg>
+          BibTeX
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="overview">
+    <div class="wrap">
+      <h2>TL;DR</h2>
+      <p class="tldr">Value Portrait is a benchmark for LLM values built from real user queries and validated psychometrically: an item counts as measuring a value only if the people who hold that value actually endorse it.</p>
+      <p>681 participants rated 520 query–response pairs by similarity to their own thoughts, and each pair is tagged with the correlation between those ratings and the raters' own PVQ-21 value scores (and BFI-10 traits). Existing benchmarks label the values annotators <em>perceive</em> in a text instead, and only 5–10% of those labels survived this test. Four questions, four answers:</p>
+      <ol class="plain flow">
+        <li><a href="benchmark.html"><b>Benchmark.</b> What is in it?</a> 104 real queries × 5 responses with 836 human-validated value and trait tags. Every item, correlation and model rating is browsable.</li>
+        <li><a href="models.html"><b>Models.</b> What do 44 LLMs value?</a> Benevolence, Security and Self-Direction over Tradition, Power and Achievement. Reasoning models push this further; larger models differentiate more.</li>
+        <li><a href="bias.html"><b>Bias.</b> Do demographic personas match real groups?</a> No. GPT-4o exaggerates gender and political gaps and misses the age and education trends of 37,498 European Social Survey respondents.</li>
+        <li><a href="steering.html"><b>Steering.</b> Can prompting steer values?</a> Mostly, and along the Schwartz circle, except Benevolence, which moves Security (+1.08) instead of itself (+0.11).</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="block tight" id="profiles">
+    <div class="wrap">
+      <p>Pick a model: each row is one Schwartz value, each dot is one of the 44 models, and the tick is the mean over models. Scores are centred, so a positive score means the model rates that value's items above its own average.</p>
+      <div class="panel" id="stripPanel">
+        <div class="panel-head">
+          <h2 class="panel-title">Value profiles of 44 LLMs on Value Portrait</h2>
+          <div class="controls">
+            <label class="ctl">Model <select id="modelSel"></select></label>
+            <div class="seg" role="group" aria-label="Highlight">
+              <button type="button" data-hi="model" aria-pressed="true">Selected model</button>
+              <button type="button" data-hi="family" aria-pressed="false">Same family</button>
+              <button type="button" data-hi="reasoning" aria-pressed="false">Reasoning models</button>
+            </div>
+          </div>
+        </div>
+        <div class="chart"><svg id="strip" role="img" aria-label="Centred value scores of 44 language models on the ten Schwartz values"></svg></div>
+        <div class="panel-foot">
+          <span class="stat"><span class="k">highest&nbsp;</span><span id="stTop">—</span></span>
+          <span class="stat"><span class="k">lowest&nbsp;</span><span id="stBot">—</span></span>
+          <span class="stat"><span class="k">variance across values&nbsp;</span><span id="stVar">—</span></span>
+          <a id="stLink" href="models.html" class="more">Open in model explorer</a>
+        </div>
+      </div>
+      <p class="caption">Rows follow the paper's column order. Colours mark Schwartz's higher-order groups: <span style="color:var(--c1);font-weight:600">Self-Transcendence</span>, <span style="color:var(--c3);font-weight:600">Conservation</span>, <span style="color:var(--c2);font-weight:600">Self-Enhancement</span>, <span style="color:var(--c4);font-weight:600">Openness to Change</span>. 33 models were evaluated through APIs with six prompts (Table 8); the Qwen2.5-Instruct, DeepSeek-R1-Distill-Qwen and Gemma3 families come from the scaling analysis (Table 12). Hover a dot for the model, click it to select.</p>
+    </div>
+  </section>
+
+  <section class="block" id="method">
+    <div class="wrap">
+      <h2>How Value Portrait is built</h2>
+      <p>Existing value benchmarks label a text with the values annotators (or an LLM) <em>perceive</em> in it. When we asked participants how similar sampled ValueNet and FULCRA texts were to their own thoughts and correlated the answers with their PVQ scores, only 5% and 10% of the original labels held up. Value Portrait instead tags an item with the values of the people who actually endorse it.</p>
+      <figure>
+        <div class="frame"><img src="static/images/pipeline.png" alt="Pipeline: queries from ShareGPT, Reddit, LMSYS and Dear Abby; five responses per query generated by GPT-4o; crowd workers rate similarity to their own thoughts and complete PVQ-21 and BFI-10; correlations become the item tags." loading="lazy"></div>
+        <figcaption><b>Figure 1. Dataset construction.</b> (A) Queries are taken from real human–LLM conversations (ShareGPT, LMSYS-Chat-1M) and human–human advice seeking (Reddit AITA, Dear Abby). (B) GPT-4o writes five deliberately diverse responses per query. (C) Crowd workers rate each response for similarity to their own thoughts and complete PVQ-21 and BFI-10; the Spearman correlation between the two becomes the response's tag for each value or trait.</figcaption>
+      </figure>
+      <div class="steps">
+        <div class="step"><div class="sn">A · Query construction</div><div class="st">1.1M raw queries → 104</div>Rule-based filtering, GPT-4o-mini relevance and value-diversity filtering, then manual review; 26 queries from each of the four sources.</div>
+        <div class="step"><div class="sn">B · Response generation</div><div class="st">5 perspectives per query</div>Asking GPT-4o to target a specific value aligned with that value only 11% of the time, so responses are generated for diversity instead and the tags are measured afterwards.</div>
+        <div class="step"><div class="sn">C · Value annotation</div><div class="st">46 raters per pair</div>Sample size chosen to detect ρ ≥ 0.3 at p &lt; 0.05 with power 0.8. 836 item–dimension correlations pass this threshold (549 for values, 287 for traits).</div>
+      </div>
+      <div class="kpis">
+        <div class="kpi"><div class="n">104</div><div class="k">queries from 4 sources</div></div>
+        <div class="kpi"><div class="n">520</div><div class="k">query–response pairs</div></div>
+        <div class="kpi"><div class="n">681</div><div class="k">Prolific participants</div></div>
+        <div class="kpi"><div class="n">15</div><div class="k">dimensions per pair (10 values + 5 traits)</div></div>
+        <div class="kpi"><div class="n">836</div><div class="k">tags with |ρ| ≥ 0.3, p &lt; 0.05</div></div>
+      </div>
+      <p><a class="more" href="benchmark.html">Browse the benchmark and its construction details</a></p>
+
+      <h3>Evaluation framework</h3>
+      <div class="two">
+        <div>
+          <p>For each value, the items whose correlation with that value is at least 0.3 (p &lt; 0.05) are kept. Every item is shown to the model with the same question participants answered, <em>"How similar is this response to your own thoughts?"</em>, on the six-point scale from <em>not like me at all</em> to <em>very much like me</em>. Because models are prompt-sensitive, three prompt templates adapted from prior work are used, each also in reversed option order, and the six ratings are averaged.</p>
+          <p>A model's score on a value is the mean rating over that value's items minus the mean rating over all items, following Schwartz's centring for human data. This removes differences in how models use the response scale and leaves relative value priorities.</p>
+          <p>Internal consistency across models is high: Cronbach's α ranges from 0.76 (Tradition) to 0.96 (Power). Validity is criterion-based, since every item is anchored to participants' PVQ-21 scores.</p>
+        </div>
+        <figure style="margin:0">
+          <div class="frame"><img src="static/images/framework.png" alt="Evaluation framework: filter items with at least one correlation above 0.3, collect Likert responses from the LLM, aggregate and normalise per dimension into a radar profile." loading="lazy"></div>
+          <figcaption><b>Figure 2. Evaluation framework.</b> Filter items, collect the model's six-point ratings, then aggregate and centre per dimension.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="results">
+    <div class="wrap">
+      <h2>What 44 LLMs value</h2>
+      <p class="finding">Models share a profile: high Benevolence, Security and Self-Direction, low Tradition, Power and Achievement. Reasoning amplifies it; scale sharpens it.</p>
+      <figure>
+        <div class="frame"><img src="static/images/evaluation.png" alt="Three radar charts: value orientation patterns of five models, reasoning models versus the GPT average, and Llama 3.1 models of three sizes." loading="lazy"></div>
+        <figcaption><b>Figure 3. Value orientations across LLMs</b> (dotted circle = zero). Left: five models from different families share the same shape. Middle: o1-mini and o3-mini against the average of non-reasoning GPT models. Right: Llama-3.1 at 8B, 70B and 405B.</figcaption>
+      </figure>
+      <ul class="plain">
+        <li><b>Common pattern.</b> With few exceptions, models rate Benevolence, Security and Self-Direction items above their own average and Power, Achievement and Tradition items below it, consistent with instruction tuning and safety alignment that reward socially desirable answers.</li>
+        <li><b>Reasoning models.</b> o1-mini and o3-mini show markedly higher Benevolence than other GPT models, and the same holds for claude-3.7-sonnet-thinking (0.95 vs 0.65) and gemini-2.0-flash-thinking (0.81 vs 0.65) against their non-reasoning counterparts.</li>
+        <li><b>Model size.</b> Larger models in a family spread their scores across values more widely; small models answer almost uniformly. Across Qwen2.5, DeepSeek-R1-Distill-Qwen and Gemma3, the variance across the ten values grows with size (Qwen2.5: 0.002 at 1.5B to 0.249 at 14B).</li>
+      </ul>
+      <p><a class="more" href="models.html">Open the full results table and drill into any model's items</a></p>
+    </div>
+  </section>
+
+  <section class="block" id="bias">
+    <div class="wrap">
+      <h2>Demographic personas do not behave like the groups they imitate</h2>
+      <p class="finding">GPT-4o exaggerates gender and political differences and fails to reproduce the age and education trends in human data.</p>
+      <p>GPT-4o is prompted with demographic personas (gender, age, political orientation, education, race, religion, income), evaluated on Value Portrait, and compared with the value profiles of matching groups among 37,498 European Social Survey respondents. Human scores are group means relative to all respondents; GPT-4o scores are persona minus vanilla GPT-4o.</p>
+      <div class="evidence">
+        <div>
+          <div class="tablewrap">
+            <table class="data">
+              <thead><tr><th class="l">Male − Female</th><th>Conformity</th><th>Tradition</th><th>Self-Direction</th><th>Security</th><th>Stimulation</th></tr></thead>
+              <tbody>
+                <tr><td class="l">Human (ESS)</td><td class="num">+0.02</td><td class="num neg">−0.11</td><td class="num">+0.03</td><td class="num neg">−0.17</td><td class="num">+0.17</td></tr>
+                <tr><td class="l">GPT-4o personas</td><td class="num"><b>+0.51</b></td><td class="num"><b>+0.58</b></td><td class="num neg"><b>−0.37</b></td><td class="num neg">−0.01</td><td class="num neg">−0.20</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="tnote">Selected columns of Table 13. Political personas show the same amplification: human left–right gaps of 0.03 (Hedonism) and 0.07 (Stimulation) become 0.74 and 0.39.</p>
+        </div>
+        <figure style="margin:0">
+          <a href="bias.html"><div class="frame"><img src="static/images/bias_gender.png" alt="Radar charts of value orientations by gender in human data and in persona-prompted GPT-4o." loading="lazy"></div></a>
+          <figcaption><b>Gender.</b> Human men and women (left) barely differ; GPT-4o's male and female personas (right) split on Conformity, Tradition and Self-Direction.</figcaption>
+        </figure>
+      </div>
+      <p><a class="more" href="bias.html">Compare human and persona profiles on every demographic axis</a></p>
+    </div>
+  </section>
+
+  <section class="block" id="steering">
+    <div class="wrap">
+      <h2>Steering values by prompting</h2>
+      <p class="finding">A one-line profile prompt moves most target values in the intended direction and respects the Schwartz circle, but Benevolence is not understood as its own value.</p>
+      <p>Steering GPT-4o with <em>"You value X"</em> plus X's definition raises Universalism (+0.66), Power (+0.55), Hedonism (+0.77) and Self-Direction (+0.48), and moves neighbouring and opposing values as the theory predicts: steering toward Power lowers Universalism by 1.10 and raises Achievement by 0.49. Steering toward Benevolence, however, raises Security by 1.08 while Benevolence itself moves only 0.11.</p>
+      <p><a class="more" href="steering.html">See the full 10 × 10 steering matrix</a></p>
+    </div>
+  </section>
+
+  <section class="block" id="takeaways">
+    <div class="wrap">
+      <h2>Takeaways</h2>
+      <ul class="plain">
+        <li>Perceived-value annotation, whether by crowd workers or LLMs, disagrees with what value-holders actually endorse; correlation-based tags anchored in validated questionnaires are a more reliable basis for value benchmarks.</li>
+        <li>Instruction-tuned models converge on a socially desirable profile (Benevolence, Security, Self-Direction up; Power, Achievement, Tradition down), and reasoning-style models push it further.</li>
+        <li>Persona prompting produces caricatures rather than faithful group profiles, which matters for synthetic data generated with demographic personas.</li>
+        <li>The correlation-based recipe transfers to other constructs; the Big Five tags are included as a first example.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="block" id="bibtex">
+    <div class="wrap">
+      <div class="bibhead">
+        <h2 style="margin:0">BibTeX</h2>
+        <button type="button" class="copy" id="copyBib">Copy</button>
+      </div>
+<pre class="bib" id="bib">@inproceedings{han-etal-2025-value,
+    title = "Value Portrait: Assessing Language Models' Values through Psychometrically and Ecologically Valid Items",
+    author = "Han, Jongwook  and
+      Choi, Dongmin  and
+      Song, Woojung  and
+      Lee, Eun-Ju  and
+      Jo, Yohan",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.838/",
+    doi = "10.18653/v1/2025.acl-long.838",
+    pages = "17119--17159"
+}</pre>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="https://github.com/holi-lab">Holi Lab</a>, Graduate School of Data Science, Seoul National University.</p>
+    <p>Supported by the New Faculty Startup Fund and the Creative-Pioneering Researchers Program of Seoul National University, NRF grants RS-2024-00333484 and RS-2022-NR070855, and IITP grant RS-2021-II211343 (Artificial Intelligence Graduate School Program, Seoul National University) funded by the Korean government (MSIT).</p>
+    <p>Code and data are released under the MIT License. Page content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+  </div>
+</footer>
+
+<div class="tip" id="tip" hidden></div>
+<script src="static/js/paper-data.js"></script>
+<script src="static/js/site.js"></script>
+<script>
+(function () {
+  var svg = document.getElementById('strip'), sel = document.getElementById('modelSel');
+  var state = { model: null, hi: 'model', models: [] };
+  var rows = VP.PVQ.map(function (d) { return { key: d, label: VP.name(d), short: VP.ABBR[d], color: VP.dimColor(d) }; });
+
+  function render() {
+    var m = state.model, pts = state.models;
+    var means = {}; VP.PVQ.forEach(function (d) { means[d] = VP.mean(pts.map(function (p) { return p.vals[d]; })); });
+    VP.dotStrip(svg, {
+      rows: rows, points: pts, domain: [-1.15, 1.15], means: means, axisLabel: 'centred score',
+      state: function (p) { if (p === m) return 'sel'; if (state.hi === 'family' && p.family === m.family) return 'hi'; if (state.hi === 'reasoning' && p.reasoning) return 'hi'; return ''; },
+      onClick: function (p) { state.model = p; sel.value = p.id; render(); }
+    });
+    var vals = VP.PVQ.map(function (d) { return { d: d, v: m.vals[d] }; }).filter(function (x) { return x.v !== null; }).sort(function (a, b) { return b.v - a.v; });
+    document.getElementById('stTop').textContent = vals.slice(0, 3).map(function (x) { return VP.name(x.d) + ' ' + VP.fmtS(x.v, 2); }).join(', ');
+    document.getElementById('stBot').textContent = vals.slice(-3).reverse().map(function (x) { return VP.name(x.d) + ' ' + VP.fmtS(x.v, 2); }).join(', ');
+    document.getElementById('stVar').textContent = VP.fmt(VP.variance(vals.map(function (x) { return x.v; })), 3);
+    var link = document.getElementById('stLink');
+    link.href = 'models.html?model=' + encodeURIComponent(m.id);
+    link.textContent = (m.kind === 'api' ? 'Open ' : 'See ') + m.name + ' in the model explorer';
+  }
+
+  VP.get('static/data/models.json').then(function (data) {
+    state.models = data.models.map(function (m) {
+      var vals = {}; VP.PVQ.forEach(function (d) { vals[d] = m.scores.pvq[d] ? m.scores.pvq[d].c : null; });
+      return { id: m.id, name: m.name, family: m.family, reasoning: m.reasoning, kind: m.kind, vals: vals };
+    });
+    VP.FAMILIES.forEach(function (f) {
+      var ms = state.models.filter(function (m) { return m.family === f; }); if (!ms.length) return;
+      var og = VP.h('optgroup', { label: f });
+      ms.forEach(function (m) { og.appendChild(VP.h('option', { value: m.id, text: m.name })); });
+      sel.appendChild(og);
+    });
+    var want = VP.param('model');
+    state.model = state.models.find(function (m) { return m.id === want; }) || state.models.find(function (m) { return m.id === 'gpt-4o-2024-11-20'; }) || state.models[0];
+    sel.value = state.model.id;
+    sel.addEventListener('change', function () { state.model = state.models.find(function (m) { return m.id === sel.value; }); render(); });
+    document.querySelectorAll('#stripPanel .seg button').forEach(function (b) {
+      b.addEventListener('click', function () { document.querySelectorAll('#stripPanel .seg button').forEach(function (x) { x.setAttribute('aria-pressed', 'false'); }); b.setAttribute('aria-pressed', 'true'); state.hi = b.getAttribute('data-hi'); render(); });
+    });
+    render();
+    var was = VP.compact(); window.addEventListener('resize', function () { if (VP.compact() !== was) { was = VP.compact(); render(); } });
+  }).catch(function (e) { svg.parentNode.innerHTML = '<p class="tnote">Could not load model data (' + VP.esc(e.message) + ').</p>'; });
+})();
+</script>
+</body>
+</html>

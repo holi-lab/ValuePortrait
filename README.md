@@ -140,16 +140,30 @@ All raw outputs, averaged results, and scoring results for the 44 evaluated mode
 
 ---
 
+## 🌐 Project Page
+
+The interactive project page at [holi-lab.github.io/ValuePortrait](https://holi-lab.github.io/ValuePortrait/) lets you browse every benchmark item with its correlations and model ratings, drill from any of the 44 model profiles down to the items and prompt-level answers behind each score, and explore the demographic bias and value steering results.
+
+- Source: `project_page/` (static HTML, no build step). Pushes to `main` that touch it are published to the `gh-pages` branch by `.github/workflows/deploy-pages.yml`.
+- Data files under `project_page/static/data/` are generated from `data/` and `lm_evaluation/` with `python3 scripts/build_project_page_data.py`.
+
+---
+
 ## 🧾 Citation
 
 If you use this work, please cite:
 
 ```bibtex
-@article{han2025value,
-  title={Value Portrait: Assessing Language Models' Values through Psychometrically and Ecologically Valid Items},
-  author={Han, Jongwook and Choi, Dongmin and Song, Woojung and Lee, Eun-Ju and Jo, Yohan},
-  journal={arXiv preprint arXiv:2505.01015},
-  year={2025}
+@inproceedings{han-etal-2025-value,
+    title = "Value Portrait: Assessing Language Models' Values through Psychometrically and Ecologically Valid Items",
+    author = "Han, Jongwook and Choi, Dongmin and Song, Woojung and Lee, Eun-Ju and Jo, Yohan",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.838/",
+    doi = "10.18653/v1/2025.acl-long.838",
+    pages = "17119--17159"
 }
 ```
 
